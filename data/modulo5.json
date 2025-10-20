@@ -1,0 +1,436 @@
+{
+  "module": "Módulo 5",
+  "title": "Renta Fija",
+  "totalQuestions": 33,
+  "questions": [
+    {
+      "id": "m5-1",
+      "block": "Análisis de Crédito y Bonos",
+      "question": "¿Cuál de las siguientes afirmaciones sobre la relación entre el precio de un bono y su TIR es correcta?",
+      "options": [
+        "El precio del bono y su TIR están positivamente correlacionados",
+        "El precio del bono y su TIR no tienen ninguna relación",
+        "El precio del bono y su TIR están inversamente correlacionados",
+        "El precio del bono solo depende del cupón"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Existe una relación inversa entre el precio de un bono y su TIR (Tasa Interna de Retorno). Cuando la TIR aumenta, el precio del bono disminuye, y viceversa."
+    },
+    {
+      "id": "m5-2",
+      "block": "Análisis de Crédito y Bonos",
+      "question": "¿Qué mide la tasa de recuperación (recovery rate) en el contexto del riesgo de crédito?",
+      "options": [
+        "El porcentaje del valor nominal que se recupera tras un default",
+        "La probabilidad de que ocurra un default",
+        "El cupón que paga el bono",
+        "La duración del bono"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La tasa de recuperación (recovery rate) mide el porcentaje del valor nominal o principal que los inversores pueden recuperar después de que ocurre un evento de default o impago."
+    },
+    {
+      "id": "m5-3",
+      "block": "TIR y Valoración de Bonos",
+      "question": "Si un bono se negocia con descuento (por debajo de su valor nominal), ¿qué podemos afirmar sobre su TIR?",
+      "options": [
+        "La TIR es menor que el cupón del bono",
+        "La TIR es igual al cupón del bono",
+        "La TIR es mayor que el cupón del bono",
+        "No se puede determinar sin más información"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cuando un bono se negocia con descuento (precio inferior al nominal), su TIR es mayor que la tasa de cupón. Esto compensa al inversor por comprar el bono por debajo de su valor nominal."
+    },
+    {
+      "id": "m5-4",
+      "block": "TIR y Valoración de Bonos",
+      "question": "Si un bono se negocia con prima (por encima de su valor nominal), ¿qué podemos afirmar sobre su TIR?",
+      "options": [
+        "La TIR es mayor que el cupón del bono",
+        "La TIR es igual al cupón del bono",
+        "La TIR es menor que el cupón del bono",
+        "No se puede determinar sin más información"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cuando un bono se negocia con prima (precio superior al nominal), su TIR es menor que la tasa de cupón. El inversor paga más por el bono debido a que los cupones son atractivos comparados con las tasas de mercado."
+    },
+    {
+      "id": "m5-5",
+      "block": "Duración y Convexidad",
+      "question": "¿Qué mide la duración (duration) de un bono?",
+      "options": [
+        "El tiempo hasta el vencimiento del bono",
+        "La sensibilidad del precio del bono a cambios en los tipos de interés",
+        "El cupón anual del bono",
+        "La probabilidad de default"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La duración mide la sensibilidad del precio del bono ante cambios en los tipos de interés. Es el tiempo medio ponderado hasta recibir los flujos de caja del bono. A mayor duración, mayor sensibilidad a cambios en tipos."
+    },
+    {
+      "id": "m5-6",
+      "block": "Duración y Convexidad",
+      "question": "¿Cuál de los siguientes bonos tiene mayor duración?",
+      "options": [
+        "Bono cupón cero a 10 años",
+        "Bono con cupón del 5% a 10 años",
+        "Bono con cupón del 10% a 10 años",
+        "Todos tienen la misma duración"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El bono cupón cero tiene la mayor duración porque no paga cupones intermedios. Toda la rentabilidad se recibe al vencimiento, por lo que su duración es igual a su plazo (10 años). Los bonos con cupón tienen duraciones menores."
+    },
+    {
+      "id": "m5-7",
+      "block": "Duración y Convexidad",
+      "question": "¿Qué mide la convexidad de un bono?",
+      "options": [
+        "La curvatura de la relación precio-rendimiento",
+        "El tiempo hasta el vencimiento",
+        "El riesgo de crédito",
+        "La tasa de cupón"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La convexidad mide la curvatura de la relación entre el precio del bono y su rendimiento. Es importante porque la duración (que es lineal) no captura perfectamente los cambios de precio ante grandes movimientos en tipos de interés."
+    },
+    {
+      "id": "m5-8",
+      "block": "Duración y Convexidad",
+      "question": "¿Cómo afecta la convexidad positiva a un bono ante cambios en los tipos de interés?",
+      "options": [
+        "El precio sube más cuando bajan los tipos de lo que cae cuando suben",
+        "El precio cae más cuando bajan los tipos de lo que sube cuando suben",
+        "No tiene ningún efecto",
+        "Solo afecta a bonos con cupón"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La convexidad positiva significa que cuando los tipos de interés bajan, el precio del bono sube más de lo que caería si los tipos subieran en la misma magnitud. Esto es beneficioso para el inversor."
+    },
+    {
+      "id": "m5-9",
+      "block": "Ratings Crediticios",
+      "question": "¿Qué representa un rating crediticio de 'AAA'?",
+      "options": [
+        "Máxima calidad crediticia y mínimo riesgo de default",
+        "Calidad crediticia media",
+        "Alto riesgo de default",
+        "Bono en situación de default"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AAA es la calificación crediticia más alta otorgada por agencias como S&P, Moody's y Fitch. Indica la máxima calidad crediticia y el mínimo riesgo de impago."
+    },
+    {
+      "id": "m5-10",
+      "block": "Ratings Crediticios",
+      "question": "¿A partir de qué calificación se considera que un bono es 'investment grade'?",
+      "options": [
+        "A partir de BB+ hacia arriba",
+        "A partir de BBB- hacia arriba",
+        "Solo AAA",
+        "A partir de B hacia arriba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los bonos se consideran 'investment grade' (grado de inversión) a partir de BBB- (en escala S&P/Fitch) o Baa3 (Moody's) hacia arriba. Por debajo de este nivel se consideran 'high yield' o 'bonos basura'."
+    },
+    {
+      "id": "m5-11",
+      "block": "Ratings Crediticios",
+      "question": "¿Qué tipo de bonos se denominan 'high yield' o 'junk bonds'?",
+      "options": [
+        "Bonos con rating AAA",
+        "Bonos con rating investment grade",
+        "Bonos con rating por debajo de BBB-",
+        "Bonos gubernamentales"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los bonos 'high yield' o 'junk bonds' (bonos basura) son aquellos con calificación crediticia por debajo de BBB- (non-investment grade). Ofrecen mayores rendimientos para compensar el mayor riesgo de impago."
+    },
+    {
+      "id": "m5-12",
+      "block": "Credit Default Swaps (CDS)",
+      "question": "¿Qué es un Credit Default Swap (CDS)?",
+      "options": [
+        "Un tipo de bono corporativo",
+        "Un contrato de seguro contra el default de un emisor",
+        "Una acción preferente",
+        "Un derivado sobre tipos de interés"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un CDS es un contrato derivado que funciona como un seguro contra el riesgo de impago (default) de un emisor de deuda. El comprador paga una prima periódica y recibe compensación si ocurre un evento de crédito."
+    },
+    {
+      "id": "m5-13",
+      "block": "Credit Default Swaps (CDS)",
+      "question": "Si el spread de un CDS aumenta, ¿qué indica sobre la percepción del riesgo de crédito?",
+      "options": [
+        "El riesgo de crédito percibido está disminuyendo",
+        "El riesgo de crédito percibido está aumentando",
+        "No hay cambio en la percepción del riesgo",
+        "El emisor ha mejorado su calificación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un aumento en el spread del CDS indica que el mercado percibe un mayor riesgo de default del emisor. Los inversores requieren una prima más alta para asegurar ese riesgo."
+    },
+    {
+      "id": "m5-14",
+      "block": "Estructura de Capital",
+      "question": "En caso de quiebra de una empresa, ¿qué tipo de deuda tiene prioridad en el pago?",
+      "options": [
+        "Deuda subordinada",
+        "Acciones comunes",
+        "Deuda senior secured (garantizada)",
+        "Acciones preferentes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En caso de liquidación, la deuda senior secured (garantizada con activos) tiene la mayor prioridad de cobro. Luego viene deuda senior unsecured, deuda subordinada, acciones preferentes y finalmente acciones comunes."
+    },
+    {
+      "id": "m5-15",
+      "block": "Estructura de Capital",
+      "question": "¿Qué caracteriza a la deuda subordinada?",
+      "options": [
+        "Tiene prioridad sobre toda otra deuda",
+        "Se paga después de la deuda senior en caso de liquidación",
+        "Es lo mismo que las acciones",
+        "No paga intereses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La deuda subordinada es aquella que, en caso de liquidación o quiebra, se paga después de que se haya satisfecho la deuda senior. Por este mayor riesgo, suele ofrecer tipos de interés más altos."
+    },
+    {
+      "id": "m5-16",
+      "block": "Curva de Tipos",
+      "question": "¿Qué representa la curva de tipos de interés (yield curve)?",
+      "options": [
+        "La relación entre el rating crediticio y el rendimiento",
+        "La relación entre el plazo de vencimiento y el rendimiento",
+        "La relación entre el cupón y el precio",
+        "La relación entre la duración y la convexidad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La curva de tipos representa la relación entre el plazo de vencimiento de los bonos y su rendimiento (TIR). Normalmente tiene pendiente positiva: los bonos a más largo plazo ofrecen mayores rendimientos."
+    },
+    {
+      "id": "m5-17",
+      "block": "Curva de Tipos",
+      "question": "¿Qué indica una curva de tipos invertida?",
+      "options": [
+        "Bonos a corto plazo rinden más que bonos a largo plazo",
+        "Bonos a largo plazo rinden más que bonos a corto plazo",
+        "Todos los bonos tienen el mismo rendimiento",
+        "Los tipos de interés no cambiarán"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una curva invertida ocurre cuando los bonos a corto plazo ofrecen rendimientos más altos que los de largo plazo. Históricamente, esto ha sido un indicador de recesión económica futura."
+    },
+    {
+      "id": "m5-18",
+      "block": "Bonos Gubernamentales",
+      "question": "¿Qué caracteriza a los bonos del Tesoro de EE.UU. (Treasury bonds)?",
+      "options": [
+        "Alto riesgo de default",
+        "Considerados libres de riesgo de crédito",
+        "No pagan cupones",
+        "Solo pueden comprarlos institucionales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los bonos del Tesoro de EE.UU. se consideran prácticamente libres de riesgo de crédito porque están respaldados por la plena confianza del gobierno estadounidense. Se usan como activo 'libre de riesgo' de referencia."
+    },
+    {
+      "id": "m5-19",
+      "block": "Bonos Gubernamentales",
+      "question": "¿Qué son los bonos cupón cero (zero-coupon bonds)?",
+      "options": [
+        "Bonos que pagan cupones mensuales",
+        "Bonos que no pagan cupones y se venden con descuento",
+        "Bonos que solo pagan cupones al vencimiento",
+        "Bonos sin riesgo de tipo de interés"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los bonos cupón cero no pagan cupones periódicos. Se venden con descuento sobre el valor nominal y el inversor recibe el valor nominal completo al vencimiento. La diferencia es el rendimiento."
+    },
+    {
+      "id": "m5-20",
+      "block": "Bonos Corporativos",
+      "question": "¿Qué factor NO afecta directamente el spread de crédito de un bono corporativo?",
+      "options": [
+        "La calificación crediticia del emisor",
+        "La liquidez del bono",
+        "El color del logo de la empresa",
+        "Las condiciones macroeconómicas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El spread de crédito (diferencia entre el rendimiento del bono corporativo y un bono libre de riesgo) depende del riesgo de crédito, liquidez, condiciones de mercado, etc. El color del logo no tiene impacto."
+    },
+    {
+      "id": "m5-21",
+      "block": "Bonos Corporativos",
+      "question": "¿Qué es el 'credit spread'?",
+      "options": [
+        "La diferencia entre la TIR de un bono corporativo y un bono sin riesgo",
+        "La diferencia entre el cupón y la TIR",
+        "El precio del bono menos su valor nominal",
+        "La duración del bono"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El credit spread es la diferencia de rendimiento entre un bono con riesgo de crédito (como un bono corporativo) y un bono libre de riesgo (como un bono del Tesoro) con el mismo vencimiento. Compensa el riesgo de default."
+    },
+    {
+      "id": "m5-22",
+      "block": "Callable y Putable Bonds",
+      "question": "¿Qué es un bono callable?",
+      "options": [
+        "Un bono que el emisor puede amortizar antes del vencimiento",
+        "Un bono que el inversor puede vender al emisor antes del vencimiento",
+        "Un bono sin cupones",
+        "Un bono perpetuo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un bono callable (rescatable) da al emisor el derecho a amortizar (call) el bono antes de su vencimiento a un precio predeterminado. Esto beneficia al emisor cuando los tipos de interés bajan."
+    },
+    {
+      "id": "m5-23",
+      "block": "Callable y Putable Bonds",
+      "question": "¿Qué es un bono putable?",
+      "options": [
+        "Un bono que el emisor puede amortizar antes del vencimiento",
+        "Un bono que el inversor puede vender al emisor antes del vencimiento",
+        "Un bono con cupón variable",
+        "Un bono denominado en múltiples monedas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un bono putable da al inversor el derecho a vender (put) el bono de vuelta al emisor antes del vencimiento a un precio predeterminado. Esto protege al inversor si suben los tipos de interés."
+    },
+    {
+      "id": "m5-24",
+      "block": "Callable y Putable Bonds",
+      "question": "¿Cómo afecta la opción call al rendimiento de un bono callable comparado con un bono similar no callable?",
+      "options": [
+        "El bono callable ofrece menor rendimiento",
+        "El bono callable ofrece mayor rendimiento",
+        "Ofrecen el mismo rendimiento",
+        "Depende del color del bono"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un bono callable ofrece mayor rendimiento (yield) que un bono similar no callable para compensar al inversor por el riesgo de que el bono sea amortizado anticipadamente (especialmente si bajan los tipos)."
+    },
+    {
+      "id": "m5-25",
+      "block": "Bonos Convertibles",
+      "question": "¿Qué es un bono convertible?",
+      "options": [
+        "Un bono que puede convertirse en acciones de la empresa emisora",
+        "Un bono que cambia de moneda automáticamente",
+        "Un bono con cupón variable",
+        "Un bono que no paga intereses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un bono convertible es un bono corporativo que puede convertirse en un número predeterminado de acciones de la empresa emisora a opción del tenedor. Combina características de deuda y capital."
+    },
+    {
+      "id": "m5-26",
+      "block": "Bonos Convertibles",
+      "question": "¿Cuándo es más probable que un inversor convierta un bono convertible en acciones?",
+      "options": [
+        "Cuando el precio de la acción ha caído significativamente",
+        "Cuando el precio de la acción ha subido significativamente",
+        "Cuando los tipos de interés suben",
+        "Nunca es beneficioso convertir"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un inversor convertirá el bono en acciones cuando el valor de las acciones que recibiría exceda el valor del bono. Esto ocurre cuando el precio de la acción ha subido significativamente."
+    },
+    {
+      "id": "m5-27",
+      "block": "Inflación y Bonos",
+      "question": "¿Qué son los bonos indexados a la inflación?",
+      "options": [
+        "Bonos cuyos pagos se ajustan según la inflación",
+        "Bonos que solo invierten en sectores inflacionarios",
+        "Bonos con cupón fijo muy alto",
+        "Bonos sin riesgo de tipos de interés"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los bonos indexados a la inflación (como los TIPS en EE.UU.) ajustan tanto el principal como los cupones según un índice de inflación. Protegen al inversor del riesgo de inflación."
+    },
+    {
+      "id": "m5-28",
+      "block": "Inflación y Bonos",
+      "question": "¿Cómo afecta un aumento inesperado de la inflación al valor de un bono nominal tradicional?",
+      "options": [
+        "Aumenta el valor del bono",
+        "Disminuye el valor del bono",
+        "No tiene efecto",
+        "Solo afecta al cupón"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un aumento inesperado de la inflación reduce el valor real de los flujos de caja futuros del bono (cupones y principal), lo que disminuye su precio de mercado. Los inversores exigen mayor rendimiento para compensar."
+    },
+    {
+      "id": "m5-29",
+      "block": "Gestión de Carteras de Renta Fija",
+      "question": "¿Qué estrategia utiliza un gestor de renta fija que espera una bajada de tipos de interés?",
+      "options": [
+        "Aumentar la duración de la cartera",
+        "Disminuir la duración de la cartera",
+        "Vender todos los bonos",
+        "Mantener solo efectivo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si un gestor espera que bajen los tipos de interés, aumentará la duración de la cartera. Cuando bajan los tipos, los precios de los bonos suben, y este efecto es mayor en bonos con mayor duración."
+    },
+    {
+      "id": "m5-30",
+      "block": "Gestión de Carteras de Renta Fija",
+      "question": "¿Qué estrategia utiliza un gestor de renta fija que espera una subida de tipos de interés?",
+      "options": [
+        "Aumentar la duración de la cartera",
+        "Disminuir la duración de la cartera",
+        "Invertir en bonos de muy largo plazo",
+        "Comprar solo bonos callable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si un gestor espera que suban los tipos de interés, reducirá la duración de la cartera para minimizar la caída de precio de los bonos. Preferirá bonos a corto plazo que son menos sensibles a cambios en tipos."
+    },
+    {
+      "id": "m5-31",
+      "block": "Immunización",
+      "question": "¿Qué objetivo persigue la estrategia de immunización en renta fija?",
+      "options": [
+        "Maximizar el rendimiento sin importar el riesgo",
+        "Proteger una cartera de bonos del riesgo de tipo de interés",
+        "Invertir solo en bonos gubernamentales",
+        "Eliminar el riesgo de crédito"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La immunización es una estrategia que busca proteger el valor de una cartera de bonos ante cambios en los tipos de interés, igualando la duración de la cartera con el horizonte de inversión del inversor."
+    },
+    {
+      "id": "m5-32",
+      "block": "Análisis de Crédito",
+      "question": "¿Qué ratio financiero es especialmente relevante para evaluar la capacidad de una empresa de pagar sus deudas?",
+      "options": [
+        "Price-to-Earnings (P/E)",
+        "Ratio de cobertura de intereses (Interest Coverage Ratio)",
+        "Dividend Yield",
+        "Market Cap"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El ratio de cobertura de intereses (EBIT/Intereses) mide cuántas veces una empresa puede pagar los intereses de su deuda con sus beneficios operativos. Es clave para evaluar riesgo de crédito."
+    },
+    {
+      "id": "m5-33",
+      "block": "Análisis de Crédito",
+      "question": "¿Qué indica un ratio Deuda/EBITDA elevado?",
+      "options": [
+        "Baja capacidad de generar caja para pagar deuda",
+        "Alta capacidad de generar caja para pagar deuda",
+        "Buen perfil crediticio",
+        "No tiene relevancia para el análisis de crédito"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un ratio Deuda/EBITDA elevado indica que la empresa tiene mucha deuda en relación a su capacidad de generar caja operativa (EBITDA). Esto señala mayor riesgo de crédito y menor flexibilidad financiera."
+    }
+  ]
+}

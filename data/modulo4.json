@@ -1,0 +1,618 @@
+{
+  "module": "Módulo 4",
+  "title": "Renta Variable",
+  "totalQuestions": 48,
+  "questions": [
+    {
+      "id": "m4-1",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Cuál de las siguientes afirmaciones sobre el valor de una acción es correcta?",
+      "options": [
+        "El valor de una acción depende únicamente del beneficio contable del último año.",
+        "El valor de una acción es igual a su valor nominal ajustado por inflación.",
+        "El valor de una acción depende de los beneficios futuros esperados, descontados por tiempo y riesgo.",
+        "El valor de una acción es siempre igual al precio de cotización en el mercado."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El valor de una acción se calcula como la suma de flujos futuros descontados al presente. Es una estimación, no una certeza, y por eso el mercado se mueve tanto: por expectativas."
+    },
+    {
+      "id": "m4-2",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Qué función NO cumple el mercado secundario de acciones?",
+      "options": [
+        "Facilitar liquidez a los inversores.",
+        "Proporcionar información sobre expectativas futuras.",
+        "Financiar directamente a la empresa.",
+        "Disciplinar a las empresas a través del precio de sus acciones."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El mercado secundario no aporta financiación directa a la empresa, solo facilita compraventa entre inversores. La financiación directa ocurre en el mercado primario."
+    },
+    {
+      "id": "m4-3",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Qué entendemos por \"Skin in the Game\" en el contexto de un directivo de empresa?",
+      "options": [
+        "Que su bonus depende del cumplimiento de objetivos trimestrales.",
+        "Que posee una parte significativa del capital de la empresa y está alineado con los accionistas.",
+        "Que ha firmado un contrato de exclusividad con la empresa.",
+        "Que cobra su salario en acciones preferentes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tener \"skin in the game\" implica estar personalmente expuesto a los resultados de la empresa, lo que refuerza el compromiso a largo plazo y la toma de decisiones responsables."
+    },
+    {
+      "id": "m4-4",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Qué ocurre normalmente con el precio de una acción el día en que se paga el dividendo?",
+      "options": [
+        "Sube en la misma proporción del dividendo.",
+        "Se mantiene estable, salvo en mercados bajistas.",
+        "Baja en la misma proporción del dividendo pagado.",
+        "Solo baja si el dividendo es inferior al esperado."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cuando se paga un dividendo, la empresa entrega parte de su valor en efectivo, y por tanto el precio de la acción baja en esa misma proporción. No es \"dinero gratis\"."
+    },
+    {
+      "id": "m4-5",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Cuál de los siguientes eventos de bolsa supone una dilución para el accionista si no participa en él?",
+      "options": [
+        "Pago de dividendo en efectivo.",
+        "Reducción de capital por recompra de acciones.",
+        "Ampliación de capital con derechos de suscripción.",
+        "Split de acciones."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Si no compras las nuevas acciones en una ampliación de capital, tu porcentaje de participación disminuye. Por eso existen los derechos de suscripción preferente."
+    },
+    {
+      "id": "m4-6",
+      "block": "Introducción a la Renta Variable",
+      "question": "¿Cuál es el mayor riesgo de invertir sin comprender el negocio ni aplicar un margen de seguridad?",
+      "options": [
+        "Que la acción caiga por un ajuste técnico.",
+        "Que la empresa reparta dividendos bajos.",
+        "Que sobrevalores el negocio y pierdas capital de forma permanente.",
+        "Que el PER de mercado caiga temporalmente."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El mayor riesgo es la pérdida permanente de capital, normalmente por haber valorado mal el negocio o haber invertido fuera de tu círculo de competencia sin margen de seguridad."
+    },
+    {
+      "id": "m4-7",
+      "block": "Entender los números",
+      "question": "¿Cuál es la fórmula general de la contabilidad?",
+      "options": [
+        "Activo = Pasivo + Patrimonio Neto",
+        "Pasivo = Activo + Patrimonio Neto",
+        "Patrimonio Neto = Activo + Pasivo",
+        "Activo = Pasivo – Patrimonio Neto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta es la ecuación fundamental de la contabilidad. Todo lo que tiene la empresa (activo) está financiado por deuda (pasivo) o por capital de los accionistas (patrimonio neto)."
+    },
+    {
+      "id": "m4-8",
+      "block": "Entender los números",
+      "question": "¿Cuál de los siguientes elementos forma parte del patrimonio neto?",
+      "options": [
+        "Inversiones financieras",
+        "Proveedores",
+        "Beneficios retenidos",
+        "Inventarios"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los beneficios retenidos forman parte del patrimonio neto de la empresa."
+    },
+    {
+      "id": "m4-9",
+      "block": "Entender los números",
+      "question": "¿Qué implica un ratio de liquidez inferior a 1?",
+      "options": [
+        "Que sus activos no generan beneficios",
+        "Que la empresa está en quiebra técnica",
+        "Que podría tener dificultades para pagar sus deudas a corto plazo",
+        "Que la empresa no tiene deuda"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un ratio de liquidez <1 implica que los pasivos a corto superan a los activos corrientes, lo que indica riesgo de iliquidez si no se gestiona bien."
+    },
+    {
+      "id": "m4-10",
+      "block": "Entender los números",
+      "question": "¿Qué implica que el ratio de solvencia sea inferior a 1?",
+      "options": [
+        "Que su patrimonio neto es muy elevado",
+        "Que la empresa genera poco beneficio",
+        "Que la empresa tiene exceso de caja",
+        "Que está en quiebra técnica"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ratio de Solvencia = (activos totales/pasivos totales). Si los pasivos superan a los activos, la empresa no podría cubrir sus deudas ni liquidando todos sus activos. Es una situación de quiebra técnica."
+    },
+    {
+      "id": "m4-11",
+      "block": "Entender los números",
+      "question": "¿Cuál de las siguientes empresas tiene mejor posición de balance?",
+      "options": [
+        "Liquidez 1,2 / Solvencia 0,95",
+        "Liquidez 1,5 / Solvencia 1,0",
+        "Liquidez 0,9 / Solvencia 1,1",
+        "Liquidez 2,1 / Solvencia 2,5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La opción D muestra ratios por encima de los valores de referencia: liquidez superior a 1 (buena capacidad de pago a corto plazo) y solvencia muy sólida (>1,5)."
+    },
+    {
+      "id": "m4-12",
+      "block": "Entender los números",
+      "question": "¿Cuál es la diferencia clave entre EBIT y EBITDA?",
+      "options": [
+        "El EBITDA excluye intereses y depreciaciones, el EBIT no",
+        "El EBIT incluye los dividendos, el EBITDA no",
+        "No hay diferencia: ambos son sinónimos",
+        "El EBIT incluye impuestos, el EBITDA no"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EBITDA es el beneficio antes de intereses, impuestos, depreciaciones y amortizaciones. EBIT ya descuenta las amortizaciones, pero no los impuestos ni los intereses."
+    },
+    {
+      "id": "m4-13",
+      "block": "Entender los números",
+      "question": "¿Qué representa el ROE?",
+      "options": [
+        "El retorno para los accionistas sobre su capital invertido",
+        "El beneficio antes de impuestos dividido por ventas",
+        "La rentabilidad sobre los activos",
+        "El beneficio neto dividido por deuda total"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El ROE mide cuánto gana la empresa con el dinero de los accionistas. Es clave para evaluar la rentabilidad del equity."
+    },
+    {
+      "id": "m4-14",
+      "block": "Entender los números",
+      "question": "¿Cuándo se dice que una empresa crea valor para el accionista?",
+      "options": [
+        "Cuando el EBITDA supera al EBIT",
+        "Cuando el beneficio neto supera al capital invertido",
+        "Cuando el ROIC supera al WACC",
+        "Cuando el ROE supera al ROA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Si el retorno del capital operativo (ROIC) es mayor que el coste de capital (WACC), la empresa está generando valor adicional con cada euro invertido."
+    },
+    {
+      "id": "m4-15",
+      "block": "Entender los números",
+      "question": "¿Qué diferencia principal hay entre ROIC y ROCE?",
+      "options": [
+        "El ROIC se basa solo en patrimonio neto y el ROCE descuenta la caja",
+        "El ROIC resta la caja al capital invertido y descuenta impuestos; el ROCE no",
+        "El ROCE incluye solo los activos líquidos, el ROCE no",
+        "No hay diferencia práctica entre ambos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ROIC = NOPAT / (Patrimonio neto + Deuda neta). ROCE = EBIT / (Patrimonio neto + Deuda total). La diferencia clave está en que ROIC descuenta la caja porque considera solo el capital efectivamente empleado."
+    },
+    {
+      "id": "m4-16",
+      "block": "Entender los números",
+      "question": "¿Qué actividad no aparece en el flujo de caja operativo?",
+      "options": [
+        "Variaciones de pagos a proveedores",
+        "Recompras de acciones",
+        "Variaciones en inventarios",
+        "Pago efectivo de impuestos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las recompras de acciones están dentro del flujo de financiación. El flujo operativo incluye solo el día a día del negocio."
+    },
+    {
+      "id": "m4-17",
+      "block": "Entender los números",
+      "question": "¿Cuál de estas afirmaciones sobre el capital de trabajo es correcta?",
+      "options": [
+        "Si suben las cuentas por cobrar, entra más dinero y aumenta el FCF",
+        "Si suben las cuentas por pagar, entra más dinero y aumenta el FCF",
+        "El capital de trabajo no afecta al flujo operativo",
+        "Si suben los inventarios, entra más dinero y aumenta el FCF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un aumento en cuentas por pagar supone que la empresa retiene caja al posponer pagos, lo que aumenta el FCF. En cambio, más inventario o cuentas por cobrar consume caja."
+    },
+    {
+      "id": "m4-18",
+      "block": "Entender los números",
+      "question": "¿Cuál es el cálculo básico del Free Cash Flow?",
+      "options": [
+        "EBITDA – CapEx",
+        "EBIT – Intereses",
+        "Beneficio Neto – Amortizaciones",
+        "Cash Flow Operativo – CapEx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "El flujo de caja libre (Free Cash Flow) se obtiene restando al flujo operativo el CapEx. Es la caja \"real\" que queda disponible para accionistas."
+    },
+    {
+      "id": "m4-19",
+      "block": "Entender los números",
+      "question": "¿Qué representa el CAPEX de mantenimiento?",
+      "options": [
+        "Es un gasto asociado al mantenimiento de la deuda financiera",
+        "Es el capital que la empresa necesita invertir para mantener su operativa básica",
+        "Es el capital que la empresa necesita para expandir su capacidad",
+        "Son las amortizaciones y depreciaciones del año"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El CAPEX de mantenimiento es el gasto de capital que la empresa realiza para conservar sus activos en funcionamiento, sin aumentar su capacidad productiva. Suele aproximarse a las amortizaciones contables, pero no son lo mismo."
+    },
+    {
+      "id": "m4-20",
+      "block": "Entender los números",
+      "question": "¿Qué empresa sería más intensiva en capital?",
+      "options": [
+        "CapEx del 9% sobre ventas",
+        "CapEx del 2% sobre ventas",
+        "CapEx del 5% sobre ventas",
+        "CapEx del 7% sobre ventas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se considera intensiva en capital una empresa con CapEx >7% sobre ventas. Son compañías que requieren grandes inversiones en activos fijos."
+    },
+    {
+      "id": "m4-21",
+      "block": "Invertir en dividendos",
+      "question": "¿Qué representa el payout ratio en una empresa que reparte dividendos?",
+      "options": [
+        "La parte del dividendo que se reinvierte en nuevas acciones.",
+        "El porcentaje de beneficios que la empresa reparte como dividendo.",
+        "La diferencia entre dividendos brutos y netos después de impuestos.",
+        "El rendimiento total de la acción considerando el dividendo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El payout ratio indica qué porcentaje del beneficio neto de la empresa se reparte en forma de dividendo. Un payout demasiado alto (>80%) puede ser insostenible si bajan los beneficios."
+    },
+    {
+      "id": "m4-22",
+      "block": "Invertir en dividendos",
+      "question": "¿Cuál de las siguientes fechas es clave para saber si tienes derecho a cobrar el dividendo?",
+      "options": [
+        "Fecha de pago",
+        "Fecha de registro",
+        "Fecha de presentación de resultados",
+        "Fecha ex-dividendo"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La fecha ex-dividendo es la que determina quién tiene derecho a cobrar el dividendo. Si compras las acciones después de esa fecha, no cobras el dividendo."
+    },
+    {
+      "id": "m4-23",
+      "block": "Invertir en dividendos",
+      "question": "¿Qué riesgo principal existe al invertir en una empresa con un dividendo demasiado elevado?",
+      "options": [
+        "Mayor carga fiscal al accionista.",
+        "Es probable que la empresa sea una startup de alto crecimiento.",
+        "Es posible que el dividendo no sea sostenible si los beneficios caen.",
+        "Menor liquidez en el mercado secundario."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un dividendo muy alto puede parecer atractivo, pero si la empresa tiene un payout demasiado elevado o beneficios decrecientes, existe riesgo de recorte o suspensión (dividend trap)."
+    },
+    {
+      "id": "m4-24",
+      "block": "Invertir en dividendos",
+      "question": "¿Cuál de estas estrategias busca generar ingresos periódicos sin necesidad de tener ya las acciones?",
+      "options": [
+        "Reinversión automática de dividendos",
+        "Compra y mantenimiento de acciones",
+        "Venta de opciones PUT",
+        "RIP (Reinvestment Income Plan)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La venta de PUTs permite generar ingresos mediante primas sin poseer todavía la acción. Es una estrategia avanzada usada para entrar en compañías a mejor precio o generar rentas."
+    },
+    {
+      "id": "m4-25",
+      "block": "Invertir en dividendos",
+      "question": "¿Qué tipo de empresa es más habitual que reparta dividendos de forma estable y predecible?",
+      "options": [
+        "Startups tecnológicas de alto crecimiento",
+        "Empresas del sector salud, consumo básico o utilities",
+        "Compañías con alto endeudamiento y bajos márgenes",
+        "Empresas con pérdidas recurrentes pero buena proyección de futuro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las empresas consolidadas y predecibles —como las del sector salud, consumo básico o utilities— suelen ser líderes en reparto estable de dividendos, incluso en épocas de crisis."
+    },
+    {
+      "id": "m4-26",
+      "block": "Value Investing",
+      "question": "¿Cuál de los siguientes elementos es una de las cuatro grandes ventajas competitivas según Pat Dorsey?",
+      "options": [
+        "Poder de negociación con bancos",
+        "Capacidad de innovar continuamente",
+        "Costes de cambio para el cliente",
+        "Flujo de caja libre creciente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Según Pat Dorsey, una ventaja competitiva se puede basar en activos intangibles, efecto red, ventaja en costes o costes de cambio, que dificultan al cliente dejar la empresa."
+    },
+    {
+      "id": "m4-27",
+      "block": "Value Investing",
+      "question": "¿Cómo clasificaría Peter Lynch a una empresa madura que crece al ritmo del PIB y reparte dividendos altos?",
+      "options": [
+        "Slow Grower",
+        "Turnaround",
+        "Stalwart",
+        "Asset Play"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las slow growers son empresas maduras y estables, con crecimiento bajo y altos dividendos, características típicas de sectores ya desarrollados."
+    },
+    {
+      "id": "m4-28",
+      "block": "Value Investing",
+      "question": "¿Qué representa el \"margen de seguridad\" en el Value Investing?",
+      "options": [
+        "La diferencia entre el precio de cotización y el valor nominal",
+        "El descuento sobre el valor intrínseco para protegernos de errores de cálculo",
+        "El coste de capital medio ponderado",
+        "El exceso de rentabilidad respecto al índice de referencia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El margen de seguridad protege al inversor de errores de valoración o imprevistos al exigir un precio significativamente inferior al valor estimado de la empresa."
+    },
+    {
+      "id": "m4-29",
+      "block": "Value Investing",
+      "question": "¿Cuál de las siguientes afirmaciones sobre el valor intrínseco es correcta?",
+      "options": [
+        "Se basa únicamente en el valor contable de los activos",
+        "Es igual al precio objetivo de los analistas",
+        "Es el promedio de cotizaciones históricas ajustado por inflación",
+        "Es una estimación del valor presente de los beneficios futuros"
+      ],
+      "correctAnswer": 3,
+      "explanation": "El valor intrínseco intenta calcular lo que realmente vale una empresa, estimando los beneficios futuros y descontándolos al presente."
+    },
+    {
+      "id": "m4-30",
+      "block": "Value Investing",
+      "question": "¿Qué es el WACC?",
+      "options": [
+        "El flujo de caja libre descontado",
+        "El coste medio ponderado del capital de una empresa",
+        "El crecimiento compuesto de los ingresos",
+        "El valor residual en un modelo DCF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El WACC (Weighted Average Cost of Capital) refleja el coste promedio de financiar la empresa mediante deuda y capital. Es clave en el DCF."
+    },
+    {
+      "id": "m4-31",
+      "block": "Value Investing",
+      "question": "¿Cuál de estas afirmaciones sobre los múltiplos es correcta?",
+      "options": [
+        "Un PER bajo siempre indica una empresa barata",
+        "Los múltiplos deben analizarse en contexto con crecimiento y márgenes",
+        "Solo el PER es válido para valorar empresas",
+        "Múltiplos altos indican siempre sobrevaloración"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los múltiplos deben analizarse comparativamente con el sector, el crecimiento esperado y la rentabilidad. Un PER alto no siempre es sinónimo de burbuja."
+    },
+    {
+      "id": "m4-32",
+      "block": "Value Investing",
+      "question": "¿Qué condición debe cumplirse para que una empresa cree valor económico?",
+      "options": [
+        "Que el crecimiento de ingresos sea superior al de costes",
+        "Que el ROIC supere al WACC",
+        "Que el beneficio por acción (EPS) suba año a año",
+        "Que el margen EBITDA sea superior al margen bruto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una empresa crea valor económico cuando el retorno sobre el capital invertido (ROIC) supera su coste de capital (WACC)."
+    },
+    {
+      "id": "m4-33",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Cuál de las siguientes características es propia de las empresas clasificadas como \"growth\"?",
+      "options": [
+        "Presentan beneficios recurrentes, baja deuda y márgenes estables.",
+        "Se valoran principalmente por múltiplos sobre beneficios netos.",
+        "Suelen tener ingresos recurrentes, ROIC alto y gran previsibilidad.",
+        "Prioriza el crecimiento, incluso sin beneficios contables, y se valora por múltiplos sobre ingresos."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las empresas growth priorizan crecer a toda velocidad, muchas veces sin beneficios, y se valoran típicamente por múltiplos sobre ventas (P/S o EV/Revenue), no por beneficios."
+    },
+    {
+      "id": "m4-34",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Qué tipo de métrica se utiliza con mayor frecuencia para valorar una empresa growth?",
+      "options": [
+        "Precio/Valor contable (P/B)",
+        "Precio sobre ventas (Price/Sales o P/S)",
+        "Múltiplo sobre dividendo (Dividend Yield)",
+        "ROIC ajustado por la UAC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Como muchas empresas growth no tienen beneficios positivos, se utilizan múltiplos sobre ingresos, siendo el P/S uno de los más comunes."
+    },
+    {
+      "id": "m4-35",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Qué tipo de negocio ha demostrado crecer por encima del PIB e inflación durante muchos años y presenta alto ROE y escalabilidad?",
+      "options": [
+        "Negocio cíclico",
+        "Situación especial",
+        "Estable",
+        "Compounder"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las compounders son empresas que han demostrado crecer año tras año de forma sólida, con altos retornos sobre el capital y un modelo de negocio predecible y rentable."
+    },
+    {
+      "id": "m4-36",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Cuál de los siguientes elementos define mejor el concepto de una inversión quality?",
+      "options": [
+        "Elevado crecimiento sin beneficios contables",
+        "ROIC elevado, baja deuda, ingresos previsibles y márgenes estables",
+        "Ingresos explosivos derivados de nuevos productos o mercados",
+        "Alta intensidad de capital, deuda elevada y beneficios volátiles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El estilo Quality se caracteriza por negocios maduros y predecibles, con beneficios sostenidos, alta rentabilidad y bajo apalancamiento."
+    },
+    {
+      "id": "m4-37",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Cuál de estas fórmulas permite estimar el valor futuro de una empresa compounder?",
+      "options": [
+        "Valor futuro = Beneficio actual × PER actual",
+        "Valor futuro = Precio actual + Free Cash Flow acumulado",
+        "Valor futuro = Beneficio estimado en año 5 × iPER + Dividendos acumulados",
+        "Valor futuro = ROIC × WACC × crecimiento de ventas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Para valorar compounders se proyecta el beneficio a 5 años y se aplica un múltiplo estimado (iPER), sumando los dividendos que se cobren durante el periodo. Esto si hay que saberselo."
+    },
+    {
+      "id": "m4-38",
+      "block": "Inversión Growth y Quality",
+      "question": "¿Qué refleja mejor la fórmula del crecimiento de beneficios futuros según el análisis de compounders?",
+      "options": [
+        "Beneficio futuro = Beneficio actual × (1 + ROE × (1 - payout))^n",
+        "Beneficio futuro = Ingresos actuales × PER histórico × n",
+        "Beneficio futuro = EBIT actual + CAPEX - Depreciaciones",
+        "Beneficio futuro = Ventas actuales × margen neto × apalancamiento financiero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta fórmula refleja cómo el crecimiento del beneficio depende de dos variables clave: el ROE y la tasa de reinversión (1 - payout). Es fundamental para analizar compounders. Esto si hay que saberselo."
+    },
+    {
+      "id": "m4-39",
+      "block": "Invertir a través de Fondos de Inversión y ETF",
+      "question": "¿Cuál de las siguientes afirmaciones sobre los ETFs es correcta?",
+      "options": [
+        "Solo pueden comprarse al cierre del mercado, como los fondos tradicionales.",
+        "Replican índices, pero no permiten operar con derivados.",
+        "No permiten diversificación, a diferencia de los fondos.",
+        "Pueden comprarse y venderse como acciones durante toda la sesión bursátil."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Los ETFs cotizan como acciones y pueden negociarse en tiempo real, ofreciendo flexibilidad operativa frente a los fondos tradicionales."
+    },
+    {
+      "id": "m4-40",
+      "block": "Invertir a través de Fondos de Inversión y ETF",
+      "question": "¿Qué tipo de ETF replica materias primas como el oro o la plata?",
+      "options": [
+        "ETFN",
+        "ETC",
+        "ETP",
+        "ETR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los ETCs (Exchange-Traded Commodities) están diseñados específicamente para replicar el comportamiento de materias primas, como el oro, la plata o el petróleo."
+    },
+    {
+      "id": "m4-41",
+      "block": "Invertir a través de Fondos de Inversión y ETF",
+      "question": "¿Cuál de los siguientes es un riesgo específico al invertir en ETFs?",
+      "options": [
+        "La gestión activa del fondo puede fallar",
+        "No existe liquidez diaria para vender participaciones",
+        "El tracking error, que refleja la desviación respecto al índice que replica",
+        "El gestor puede cambiar la política del fondo sin aviso"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El tracking error mide la diferencia entre la rentabilidad del ETF y la del índice subyacente, y es uno de los riesgos clave de este tipo de instrumento."
+    },
+    {
+      "id": "m4-42",
+      "block": "Invertir a través de Fondos de Inversión y ETF",
+      "question": "¿Cuál de las siguientes ventajas fiscales es exclusiva de los fondos de inversión en España frente a los ETFs?",
+      "options": [
+        "Permiten el uso de derivados para cubrir riesgos",
+        "El traspaso entre fondos sin tributar plusvalías",
+        "Son más líquidos en los mercados",
+        "Suelen tener menores comisiones de gestión"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En España, los fondos permiten traspasos entre sí sin tributar por las plusvalías, lo cual es una ventaja fiscal clave frente a los ETFs."
+    },
+    {
+      "id": "m4-43",
+      "block": "Invertir a través de Fondos de Inversión y ETF",
+      "question": "¿Qué diferencia fundamental existe entre un fondo de inversión tradicional y un ETF?",
+      "options": [
+        "Los fondos tradicionales tienen una menor diversificación que los ETFs",
+        "Los ETFs cotizan en bolsa y los fondos tradicionales no",
+        "Los ETFs son gestionados por bancos, los fondos por aseguradoras",
+        "Solo los fondos tradicionales pueden replicar índices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La principal diferencia operativa es que los ETFs se compran y venden en tiempo real como acciones, mientras que los fondos tradicionales no cotizan en bolsa."
+    },
+    {
+      "id": "m4-44",
+      "block": "Inversión en corto y ESG",
+      "question": "¿Cuál es el principal riesgo de realizar una venta en corto?",
+      "options": [
+        "Que el activo no se pueda recomprar.",
+        "Que el dividendo no se cobre.",
+        "Que las ganancias sean limitadas.",
+        "Que las pérdidas sean potencialmente ilimitadas si el precio sube."
+      ],
+      "correctAnswer": 3,
+      "explanation": "En una venta en corto, si el precio del activo sube en lugar de bajar, el inversor debe recomprarlo más caro, y dado que el precio puede subir indefinidamente, las pérdidas también pueden ser ilimitadas."
+    },
+    {
+      "id": "m4-45",
+      "block": "Inversión en corto y ESG",
+      "question": "¿Qué es un short squeeze?",
+      "options": [
+        "Una caída repentina en el precio de una acción que beneficia a los inversores bajistas.",
+        "Un tipo de cobertura de riesgo basada en derivados financieros.",
+        "Una estrategia de inversión donde se compran acciones que están subiendo con fuerza.",
+        "Una subida abrupta del precio de una acción que obliga a los bajistas a recomprar, provocando aún más subidas."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Un short squeeze ocurre cuando muchos inversores están en corto, el precio de la acción sube inesperadamente, y al verse obligados a recomprar para limitar pérdidas, provocan una presión alcista adicional que dispara el precio aún más."
+    },
+    {
+      "id": "m4-46",
+      "block": "Inversión en corto y ESG",
+      "question": "¿Cuál de los siguientes no es un método habitual para tomar una posición bajista?",
+      "options": [
+        "Compra de opciones put.",
+        "Venta directa de acciones prestadas.",
+        "Compra de ETFs inversos.",
+        "Compra de acciones preferentes."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las acciones preferentes son un tipo de acción, no una herramienta para tomar posiciones bajistas. En cambio, los otros tres métodos (puts, venta en corto, ETFs inversos) son comunes en estrategias bajistas."
+    },
+    {
+      "id": "m4-47",
+      "block": "Inversión en corto y ESG",
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor el objetivo del análisis ESG?",
+      "options": [
+        "Identificar empresas con el mayor potencial de crecimiento a corto plazo.",
+        "Determinar exclusivamente la rentabilidad financiera futura de una empresa.",
+        "Evaluar los factores ambientales, sociales y de gobernanza que pueden afectar la sostenibilidad y riesgo de una inversión.",
+        "Sustituir por completo el análisis financiero tradicional en la toma de decisiones de inversión."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El análisis ESG busca incorporar criterios ambientales (E), sociales (S) y de gobernanza (G) para entender mejor los riesgos y oportunidades a largo plazo que no siempre se reflejan en los estados financieros tradicionales. No sustituye el análisis financiero, sino que lo complementa."
+    }
+  ]
+}
