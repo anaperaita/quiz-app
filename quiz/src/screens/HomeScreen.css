@@ -1,0 +1,409 @@
+.container {
+  min-height: 100vh;
+  background-color: #f5f6fa;
+  overflow-y: auto;
+  padding: 20px 16px;
+}
+
+.loading-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6fa;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e0e0e0;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 48px);
+  font-weight: 800;
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.module-selector-container {
+  margin-bottom: 25px;
+}
+
+.module-selector-label {
+  font-size: clamp(14px, 2.5vw, 16px);
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.module-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.module-button {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 48px;
+  border: 2px solid #e0e0e0;
+  font-size: clamp(14px, 2.5vw, 16px);
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 140px;
+}
+
+.module-button:hover {
+  border-color: #3498db;
+  box-shadow: 0 2px 4px rgba(52, 152, 219, 0.15);
+}
+
+.module-button.active {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-panel {
+  flex: 1;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.stats-card {
+  margin-bottom: 0;
+}
+
+.card-title {
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stat-row-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  transition: background-color 0.2s;
+}
+
+.stat-row-item:hover {
+  background-color: #e8f4f8;
+}
+
+.stat-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.stat-info {
+  flex: 1;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: clamp(20px, 4vw, 24px);
+  font-weight: bold;
+  color: #3498db;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.stat-value.accuracy {
+  color: #27ae60;
+}
+
+.stat-label {
+  font-size: clamp(12px, 2vw, 14px);
+  color: #7f8c8d;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.buttons-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button {
+  border-radius: 16px;
+  padding: 20px;
+  min-height: 48px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.button:hover:not(:disabled)::before {
+  left: 100%;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+.button:active:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  transform: none !important;
+}
+
+.primary-button {
+  background-color: #3498db;
+}
+
+.secondary-button {
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+}
+
+.stats-button {
+  background-color: #9b59b6;
+}
+
+.button-text {
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.button-text.primary,
+.button-text.stats {
+  color: #fff;
+}
+
+.button-text.disabled {
+  color: #bdc3c7;
+}
+
+.button-subtext {
+  font-size: clamp(12px, 2vw, 14px);
+  color: #7f8c8d;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button-subtext.primary,
+.button-subtext.stats {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.button-subtext.disabled {
+  color: #bdc3c7;
+}
+
+.info-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.info-text {
+  font-size: clamp(13px, 2vw, 14px);
+  color: #2c3e50;
+  text-align: center;
+  line-height: 22px;
+  margin: 0;
+}
+
+/* Responsive breakpoints following 2025 best practices */
+/* Mobile: base styles above (mobile-first approach) */
+
+/* Small tablet: 600px */
+@media (min-width: 600px) {
+  .container {
+    padding: 30px 24px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+}
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px 32px;
+  }
+
+  .card {
+    padding: 28px;
+  }
+
+  .title {
+    margin-bottom: 32px;
+  }
+
+  .buttons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .button.primary-button {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Desktop: 1024px */
+@media (min-width: 1024px) {
+  .container {
+    padding: 40px 60px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  /* Dashboard Split Layout */
+  .dashboard-layout {
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .left-panel {
+    width: 35%;
+    flex-shrink: 0;
+  }
+
+  .right-panel {
+    flex: 1;
+  }
+
+  .buttons-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .button.primary-button {
+    width: 100%;
+  }
+
+  /* Info card in left panel */
+  .left-panel .info-card {
+    margin-top: 0;
+  }
+}
+
+/* Large desktop: 1440px */
+@media (min-width: 1440px) {
+  .container {
+    padding: 40px 80px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+  }
+
+  .dashboard-layout {
+    gap: 40px;
+  }
+
+  .left-panel {
+    width: 30%;
+  }
+
+  .buttons-grid {
+    gap: 20px;
+  }
+}

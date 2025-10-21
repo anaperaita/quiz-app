@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import modulo4Data from '../../data/modulo4.json';
-import modulo5Data from '../../data/modulo5.json';
+import modulo4Data from '../data/modulo4.json';
+import modulo5Data from '../data/modulo5.json';
+import modulo6Data from '../data/modulo6.json';
 
 const QuizContext = createContext();
 
@@ -9,6 +9,7 @@ const QuizContext = createContext();
 const MODULES = [
   { id: 'modulo4', name: 'Módulo 4: Renta Variable', data: modulo4Data },
   { id: 'modulo5', name: 'Módulo 5: Renta Fija', data: modulo5Data },
+  { id: 'modulo6', name: 'Módulo 6: Materias Primas', data: modulo6Data },
 ];
 
 export const useQuiz = () => {
@@ -39,10 +40,10 @@ export const QuizProvider = ({ children }) => {
     }
   }, [selectedModule]);
 
-  const loadData = async () => {
+  const loadData = () => {
     try {
-      const savedStats = await AsyncStorage.getItem('quizStats');
-      const savedBookmarks = await AsyncStorage.getItem('bookmarks');
+      const savedStats = localStorage.getItem('quizStats');
+      const savedBookmarks = localStorage.getItem('bookmarks');
 
       if (savedStats) {
         setStats(JSON.parse(savedStats));
@@ -57,18 +58,18 @@ export const QuizProvider = ({ children }) => {
     }
   };
 
-  const saveStats = async (newStats) => {
+  const saveStats = (newStats) => {
     try {
-      await AsyncStorage.setItem('quizStats', JSON.stringify(newStats));
+      localStorage.setItem('quizStats', JSON.stringify(newStats));
       setStats(newStats);
     } catch (error) {
       console.error('Error saving stats:', error);
     }
   };
 
-  const saveBookmarks = async (newBookmarks) => {
+  const saveBookmarks = (newBookmarks) => {
     try {
-      await AsyncStorage.setItem('bookmarks', JSON.stringify(newBookmarks));
+      localStorage.setItem('bookmarks', JSON.stringify(newBookmarks));
       setBookmarks(newBookmarks);
     } catch (error) {
       console.error('Error saving bookmarks:', error);
@@ -163,14 +164,25 @@ export const QuizProvider = ({ children }) => {
     return questions.filter(q => bookmarks.includes(q.id));
   };
 
-  // Calcular estadísticas globales
+  // Obtener preguntas por bloque
+  const getQuestionsByBlock = (blockName) => {
+    return questions.filter(q => q.block === blockName);
+  };
+
+  // Calcular estadísticas globales (solo para el módulo actual)
   const getGlobalStats = () => {
     const totalQuestions = questions.length;
-    const answeredQuestions = Object.keys(stats).length;
+
+    // Filtrar solo las preguntas del módulo actual
+    const currentModuleQuestionIds = questions.map(q => q.id);
+    const currentModuleStats = Object.entries(stats)
+      .filter(([questionId]) => currentModuleQuestionIds.includes(questionId));
+
+    const answeredQuestions = currentModuleStats.length;
     let totalCorrect = 0;
     let totalIncorrect = 0;
 
-    Object.values(stats).forEach(s => {
+    currentModuleStats.forEach(([, s]) => {
       totalCorrect += s.correct;
       totalIncorrect += s.incorrect;
     });
@@ -189,9 +201,9 @@ export const QuizProvider = ({ children }) => {
   };
 
   // Resetear estadísticas
-  const resetStats = async () => {
+  const resetStats = () => {
     try {
-      await AsyncStorage.removeItem('quizStats');
+      localStorage.removeItem('quizStats');
       setStats({});
     } catch (error) {
       console.error('Error resetting stats:', error);
@@ -211,6 +223,7 @@ export const QuizProvider = ({ children }) => {
     getWeightedRandomQuestion,
     getIncorrectQuestions,
     getBookmarkedQuestions,
+    getQuestionsByBlock,
     getGlobalStats,
     resetStats,
   };

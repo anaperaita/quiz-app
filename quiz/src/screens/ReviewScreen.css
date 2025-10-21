@@ -1,0 +1,123 @@
+.review-container {
+  padding-bottom: 40px;
+  background-color: #f5f6fa;
+  min-height: 100vh;
+  padding: 20px 16px;
+}
+
+.review-container .content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header-info {
+  flex: 1;
+}
+
+.mode-text {
+  font-size: clamp(15px, 2.5vw, 16px);
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.progress-text-review {
+  font-size: clamp(13px, 2vw, 14px);
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.block-tag-review {
+  background-color: #3498db;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  flex: 1;
+  background-color: #ecf0f1;
+  border-radius: 12px;
+  padding: 18px;
+  min-height: 48px;
+  border: none;
+  cursor: pointer;
+  color: #2c3e50;
+  font-size: clamp(15px, 2.5vw, 16px);
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #d5d8dc;
+}
+
+.nav-button.disabled,
+.nav-button:disabled {
+  background-color: #bdc3c7;
+  color: #ecf0f1;
+  cursor: not-allowed;
+}
+
+.next-button-nav {
+  flex: 1;
+  background-color: #27ae60;
+  border-radius: 12px;
+  padding: 18px;
+  min-height: 48px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: clamp(15px, 2.5vw, 16px);
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.next-button-nav:hover {
+  background-color: #229954;
+}
+
+/* Responsive breakpoints following 2025 best practices */
+/* Mobile: base styles above (mobile-first approach) */
+
+/* Small tablet: 600px */
+@media (min-width: 600px) {
+  .review-container {
+    padding: 30px 24px;
+  }
+}
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+  .review-container {
+    padding: 40px 32px;
+  }
+}
+
+/* Desktop: 1024px */
+@media (min-width: 1024px) {
+  .review-container {
+    padding: 40px 60px;
+  }
+}
+
+/* Large desktop: 1440px */
+@media (min-width: 1440px) {
+  .review-container {
+    padding: 40px 80px;
+  }
+}

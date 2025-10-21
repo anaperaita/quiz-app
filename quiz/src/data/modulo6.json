@@ -1,0 +1,1021 @@
+{
+  "module": "Módulo 6",
+  "title": "Materias Primas",
+  "totalQuestions": 78,
+  "questions": [
+    {
+      "id": "m6-1",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Cuál de los siguientes activos no se considera una materia prima?",
+    "options": [
+      "Petróleo Brent",
+      "Cacao",
+      "Acciones tecnológicas",
+      "Cobre refinado"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las acciones tecnológicas son activos financieros, no materias primas. El resto son commodities negociadas en mercados globales."
+  },
+  {
+    "id": "m6-2",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Qué parte de la cadena de valor suele estar más expuesta a la volatilidad del precio de las materias primas?",
+    "options": [
+      "Midstream (almacenamiento y transporte)",
+      "Upstream (exploración y producción)",
+      "Downstream (venta final al consumidor)",
+      "Fondos cotizados que replican el índice GSCI"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La fase de exploración y producción es la más afectada por los precios, porque requiere grandes inversiones iniciales y su rentabilidad depende directamente del mercado."
+  },
+  {
+    "id": "m6-3",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Qué refleja la Curva de Lassonde en el sector minero?",
+    "options": [
+      "El coste medio de producción de una mina a lo largo del ciclo",
+      "La evolución del valor del proyecto según su fase de desarrollo",
+      "La fluctuación histórica del precio de los metales industriales",
+      "La rentabilidad financiera comparada entre minas junior y senior"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La Curva de Lassonde muestra cómo cambia la valoración de una mina desde la exploración hasta la fase de producción, reflejando el riesgo y las expectativas del mercado."
+  },
+  {
+    "id": "m6-4",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Qué es una reserva en el contexto del sector extractivo?",
+    "options": [
+      "El total de materiales identificados en una región geográfica",
+      "La parte del recurso que puede extraerse de forma rentable",
+      "Una estimación de la cantidad de capital necesario para explotar un yacimiento",
+      "El material ya extraído y almacenado en refinerías"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Una reserva no es todo el material existente, sino solo aquel que es técnicamente y económicamente viable extraer con los medios actuales."
+  },
+  {
+    "id": "m6-5",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Cuál es una ventaja del modelo Royalty & Streaming frente a operar una mina directamente?",
+    "options": [
+      "Mayor exposición a los costes operativos y al riesgo de exploración",
+      "Menor rentabilidad pero mayor control sobre los recursos",
+      "Menor riesgo operativo y generación de ingresos estables sin operar la mina",
+      "Eliminación completa del riesgo de precio de la materia prima"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las empresas Royalty & Streaming no operan minas; simplemente financian proyectos a cambio de una parte de los ingresos, lo que reduce su exposición al riesgo."
+  },
+  {
+    "id": "m6-6",
+    "block": "BLOQUE I: Introducción a las materias primas",
+    "question": "¿Por qué se considera al sector de materias primas especialmente cíclico?",
+    "options": [
+      "Porque su producción depende del clima y las estaciones",
+      "Porque los precios cambian cada trimestre según el IPC",
+      "Porque los proyectos tardan años en desarrollarse y la demanda varía rápido",
+      "Porque solo cotizan en mercados alternativos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hay un desfase entre inversión y producción, por lo que cuando suben los precios, las empresas reaccionan tarde… y cuando llega la oferta, el precio ya ha bajado."
+  },
+  {
+    "id": "m6-7",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Qué factor explica por qué la oferta de materias primas suele tardar en ajustarse a la demanda?",
+    "options": [
+      "Porque los proyectos requieren años de inversión y desarrollo",
+      "Porque los gobiernos controlan siempre la producción",
+      "Porque dependen de las decisiones de los consumidores",
+      "Porque el clima afecta a todas las materias primas por igual"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La oferta de materias primas no es inmediata: abrir una mina, perforar un pozo o sembrar una cosecha requiere años de planificación e inversión."
+  },
+  {
+    "id": "m6-8",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Cuál de estos factores no es estructural en el análisis de la oferta de materias primas?",
+    "options": [
+      "Tecnología de extracción",
+      "Estacionalidad climática",
+      "Inversión en CAPEX",
+      "Curva de costes de producción"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La estacionalidad climática afecta en el corto plazo, por tanto es un factor coyuntural, no estructural."
+  },
+  {
+    "id": "m6-9",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Qué ocurre cuando el precio del petróleo sube de forma prolongada?",
+    "options": [
+      "Aumenta la rentabilidad de los bonos ligados a materias primas",
+      "Se encarecen los costes de extracción de muchas materias primas",
+      "Mejora la eficiencia energética de los cultivos",
+      "La oferta de materias primas crece de inmediato en todo el mundo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El petróleo es una fuente clave de energía en muchos procesos productivos. Si su precio sube, los costes de extracción de otras materias primas también aumentan."
+  },
+  {
+    "id": "m6-10",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Qué papel juegan los inventarios estratégicos de materias primas?",
+    "options": [
+      "Permiten reducir costes logísticos y aumentar los márgenes",
+      "Se usan para calcular el CAPEX futuro de las empresas",
+      "Aumentan la producción efectiva sin necesidad de extraer recursos",
+      "Funcionan como reserva en situaciones de crisis o escasez"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los inventarios estratégicos son reservas que los gobiernos liberan solo en momentos de emergencia, para estabilizar el mercado."
+  },
+  {
+    "id": "m6-11",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Cuál de los siguientes ejemplos representa una decisión empresarial que afecta a la oferta?",
+    "options": [
+      "Una sequía que reduce la cosecha de trigo",
+      "La OPEP decide limitar la producción de petróleo para sostener los precios",
+      "La guerra en Ucrania que frena las exportaciones de maíz",
+      "Una normativa medioambiental que restringe la minería a cielo abierto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las decisiones de la OPEP son estratégicas, tomadas por los países productores para gestionar la oferta y controlar los precios."
+  },
+  {
+    "id": "m6-12",
+    "block": "BLOQUE II: Análisis de la oferta",
+    "question": "¿Qué problema puede surgir si se subestiman los inventarios reales de una materia prima?",
+    "options": [
+      "El CAPEX podría dispararse sin motivo",
+      "Los productores reducirán los precios inmediatamente",
+      "Los inversores minoristas serán penalizados con CDS",
+      "El mercado podría anticipar una escasez que no es real"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Si se sobreestima la disponibilidad de inventario, puede parecer que hay más oferta de la que realmente hay. Si los grandes compradores comienzan a acaparar, se genera tensión en el mercado y los precios suben rápidamente."
+  },
+  {
+    "id": "m6-13",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Qué se entiende por \"demanda de materias primas\"?",
+    "options": [
+      "La cantidad de materias primas que un país produce cada año",
+      "La oferta total disponible en el mercado",
+      "La cantidad que los consumidores desean y pueden comprar a un precio determinado",
+      "El valor teórico de las reservas estratégicas de materias primas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La demanda de materias primas es la cantidad que los consumidores (industria, países, ciudadanos…) desean y pueden comprar a un precio concreto."
+  },
+  {
+    "id": "m6-14",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Qué efecto suele tener un encarecimiento del dólar sobre la demanda global de materias primas?",
+    "options": [
+      "Aumenta la demanda porque se hacen más atractivas",
+      "Disminuye la demanda porque se encarecen en otras divisas",
+      "No afecta en absoluto a la demanda",
+      "Hace que aumente la oferta automáticamente"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Como las materias primas cotizan en dólares, si el dólar sube, se encarecen para países con otras divisas, y eso tiende a reducir la demanda."
+  },
+  {
+    "id": "m6-15",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Qué variable tiene mayor influencia estructural en la demanda de largo plazo de materias primas?",
+    "options": [
+      "La evolución de los tipos de interés semanales",
+      "La estacionalidad agrícola",
+      "El crecimiento de la población y la clase media",
+      "El precio puntual del petróleo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A largo plazo, factores como la demografía y el aumento de la riqueza global (más clase media) son los que más incrementan la demanda de materias primas."
+  },
+  {
+    "id": "m6-16",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Cuál de estos factores afecta principalmente a la demanda de materias primas a corto plazo?",
+    "options": [
+      "El envejecimiento de la población",
+      "La narrativa inversora y los flujos especulativos",
+      "La transición energética global",
+      "La evolución de la productividad agrícola a largo plazo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los movimientos especulativos e inversores pueden alterar fuertemente la demanda financiera en el corto plazo, aunque no haya cambios reales en el consumo físico."
+  },
+  {
+    "id": "m6-17",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Por qué puede afectar la política monetaria del banco central a la demanda de materias primas?",
+    "options": [
+      "Porque regula directamente el precio de las materias primas",
+      "Porque subidas de tipos suelen incentivar el consumo",
+      "Porque los tipos de interés afectan al crédito y la inversión",
+      "Porque obliga a los gobiernos a cambiar su política fiscal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tipos de interés más altos encarecen el crédito, reducen la inversión y el consumo, y por tanto enfrían la demanda de materias primas."
+  },
+  {
+    "id": "m6-18",
+    "block": "BLOQUE III: Análisis de la demanda",
+    "question": "¿Qué afirmación es cierta respecto a la demanda de materias primas en el contexto de una guerra o conflicto geopolítico?",
+    "options": [
+      "Las guerras tienden a estabilizar la demanda a largo plazo",
+      "Suelen reducir el consumo por parte de los países neutrales",
+      "Su impacto es limitado salvo que afecte a la oferta",
+      "Pueden alterar la demanda regional y cambiar flujos comerciales globales"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Una guerra puede cambiar rutas comerciales, crear demanda adicional (militar, energética) o forzar sustituciones, modificando el patrón global de consumo."
+  },
+  {
+    "id": "m6-19",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué suele ocurrir cuando el precio de una materia prima sube de forma prolongada?",
+    "options": [
+      "Las empresas reducen su gasto de capital para proteger márgenes",
+      "La demanda se contrae rápidamente por efecto del precio",
+      "Aumentan las inversiones para expandir la producción",
+      "Las empresas dejan de invertir por temor a una burbuja"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cuando los precios suben de forma sostenida, las empresas suelen invertir más (CAPEX) para aumentar producción y aprovechar el ciclo alcista."
+  },
+  {
+    "id": "m6-20",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué indica una curva de futuros en backwardation?",
+    "options": [
+      "Que la demanda es estable y la oferta también",
+      "Que los precios futuros son más altos que los actuales",
+      "Que los precios actuales son más altos que los futuros",
+      "Que los inventarios están en máximos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La backwardation ocurre cuando el precio spot es más alto que los precios futuros, indicando escasez actual y presión alcista a corto plazo."
+  },
+  {
+    "id": "m6-21",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué riesgo existe cuando muchas empresas lanzan producción nueva al mismo tiempo?",
+    "options": [
+      "Que se genere backwardation durante muchos años",
+      "Que aumente la demanda a corto plazo",
+      "Que se genere una sobreoferta y caigan los precios",
+      "Que los costes se disparen por inflación"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La entrada simultánea de nueva producción puede provocar sobreoferta, haciendo caer los precios justo cuando las inversiones empiezan a materializarse."
+  },
+  {
+    "id": "m6-22",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué importancia tiene la narrativa del mercado en materias primas?",
+    "options": [
+      "Ninguna, porque los precios dependen exclusivamente de los datos reales",
+      "Es solo útil en mercados agrícolas estacionales",
+      "Puede influir fuertemente en los precios aunque los datos lo contradigan",
+      "Solo afecta a las commodities financieras como el oro o el petróleo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La narrativa puede ser tan poderosa que mueva los precios por expectativas, aunque los datos reales apunten en otra dirección."
+  },
+  {
+    "id": "m6-23",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué puede indicar una caída del CAPEX en empresas productoras de materias primas?",
+    "options": [
+      "Que el sector se está sobrecalentando",
+      "Que se avecina un exceso de oferta",
+      "Que las empresas no ven incentivo para producir más",
+      "Que los precios futuros subirán en línea recta"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Una caída del CAPEX indica que las empresas no están invirtiendo, probablemente porque los precios no lo justifican, lo que puede anticipar escasez futura."
+  },
+  {
+    "id": "m6-24",
+    "block": "BLOQUE IV: El ciclo de capital, estructura del sector y narrativa del mercado",
+    "question": "¿Qué combinación de factores puede indicar una buena oportunidad de inversión en materias primas?",
+    "options": [
+      "Narrativa alcista, precios altos y producción estable",
+      "Narrativa bajista, CAPEX bajo y señales de escasez",
+      "Inventarios en máximos, alta inversión y precios bajos",
+      "Curva en contango, demanda débil y oferta en aumento"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cuando el mercado es pesimista pero hay señales de escasez futura y baja inversión, puede ser el momento ideal para posicionarse de forma contracorriente."
+  },
+  {
+    "id": "m6-25",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Qué fase del sector energético se encarga de explorar y extraer petróleo o gas?",
+    "options": [
+      "Midstream",
+      "Downstream",
+      "Transporte",
+      "Upstream"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El segmento upstream es el que se encarga de la exploración y extracción de petróleo o gas. Es la fase más expuesta a las fluctuaciones del precio del crudo."
+  },
+  {
+    "id": "m6-26",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Qué tipo de crudo es más valioso en el mercado por su facilidad de refinado?",
+    "options": [
+      "Crudo pesado con alto contenido de azufre",
+      "Crudo dulce y ligero",
+      "Crudo sintético",
+      "Crudo bituminoso"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El crudo dulce (bajo en azufre) y ligero (baja densidad) es el más fácil de refinar y, por tanto, más valioso. Brent y WTI son ejemplos de este tipo."
+  },
+  {
+    "id": "m6-27",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Cuál es el mayor productor mundial de petróleo actualmente?",
+    "options": [
+      "Rusia",
+      "China",
+      "Estados Unidos",
+      "Arabia Saudí"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Estados Unidos es el mayor productor mundial de petróleo, principalmente gracias al auge del shale oil desde 2016."
+  },
+  {
+    "id": "m6-28",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Qué representa la curva en S al analizar el consumo energético?",
+    "options": [
+      "La relación entre el precio y el coste marginal del petróleo",
+      "La evolución del consumo energético según el desarrollo económico de un país",
+      "La relación entre tipos de crudo y su rentabilidad esperada",
+      "La curva de demanda durante recesiones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La curva en S representa cómo el consumo energético aumenta rápidamente con el desarrollo económico hasta estabilizarse al alcanzar cierto nivel de vida."
+  },
+  {
+    "id": "m6-29",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Cuál de los siguientes usos del petróleo es el más relevante en términos de demanda global?",
+    "options": [
+      "Generación eléctrica",
+      "Transporte (gasolina y diésel)",
+      "Cosmética y perfumería",
+      "Fabricación de baterías"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El principal destino del petróleo es el transporte: gasolina, diésel, queroseno… Representa más del 50 % del consumo global."
+  },
+  {
+    "id": "m6-30",
+    "block": "BLOQUE V: Sector Petróleo y Gas",
+    "question": "¿Qué característica limita el crecimiento futuro del shale oil?",
+    "options": [
+      "La escasez de agua para la fractura hidráulica",
+      "Que es un tipo de crudo extremadamente contaminante",
+      "La rápida declinación de los pozos y el agotamiento de las zonas más productivas",
+      "Su prohibición por parte de la OPEP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El shale oil se enfrenta a un declive estructural porque los pozos declinan rápido y ya se han explotado las mejores zonas (high grading)."
+  },
+  {
+    "id": "m6-31",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Qué tipo de carbón se utiliza principalmente en la producción de acero?",
+    "options": [
+      "Carbón metalúrgico",
+      "Carbón sub-bituminoso",
+      "Carbón térmico",
+      "Lignita"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El carbón metalúrgico, especialmente el coque (coking coal), es esencial para producir acero en altos hornos."
+  },
+  {
+    "id": "m6-32",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Cuál es el principal país productor de carbón en el mundo?",
+    "options": [
+      "Australia",
+      "Estados Unidos",
+      "China",
+      "India"
+    ],
+    "correctAnswer": 2,
+    "explanation": "China produce más de la mitad del carbón mundial, tanto para consumo interno como para exportación limitada."
+  },
+  {
+    "id": "m6-33",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Qué factor ha presionado a la baja los precios del carbón en 2025?",
+    "options": [
+      "Subida del precio del gas",
+      "Aumento de los costes laborales",
+      "Caída de la demanda europea",
+      "Acumulación de inventarios y menor demanda asiática"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El exceso de inventarios en puertos y la caída de la demanda en China e India han presionado los precios a la baja."
+  },
+  {
+    "id": "m6-34",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Qué país lidera actualmente los nuevos desarrollos nucleares y demanda de uranio?",
+    "options": [
+      "Canadá",
+      "Rusia",
+      "India",
+      "China"
+    ],
+    "correctAnswer": 3,
+    "explanation": "China está al frente de la expansión nuclear mundial, con múltiples reactores en construcción y fuerte demanda de uranio."
+  },
+  {
+    "id": "m6-35",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Qué técnica representa más de la mitad de la producción global de uranio?",
+    "options": [
+      "Minería subterránea",
+      "In Situ Leach (ISL)",
+      "Open Pit Mining",
+      "Extracción por disolventes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El método ISL, que consiste en disolver el uranio bajo tierra y bombearlo a la superficie, representa el 56 % de la producción mundial."
+  },
+  {
+    "id": "m6-36",
+    "block": "BLOQUE VI: El carbón y el uranio",
+    "question": "¿Por qué el uranio es considerado una materia prima estratégica?",
+    "options": [
+      "Porque es el principal combustible nuclear y su oferta está limitada",
+      "Porque puede ser almacenado indefinidamente sin perder valor",
+      "Porque no emite CO₂ cuando se extrae",
+      "Porque se puede producir en laboratorios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El uranio es clave para la energía nuclear y su producción es limitada y concentrada, lo que lo hace estratégico para muchos países."
+  },
+  {
+    "id": "m6-37",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Cuál es el principal uso del mineral de hierro a nivel global?",
+    "options": [
+      "Fabricación de baterías de litio",
+      "Producción de fertilizantes industriales",
+      "Fabricación de acero",
+      "Generación de energía nuclear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El hierro se utiliza principalmente para producir acero, un material clave en la construcción, transporte e industria pesada."
+  },
+  {
+    "id": "m6-38",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Qué países controlan más del 70 % del comercio marítimo de mineral de hierro?",
+    "options": [
+      "Estados Unidos y Canadá",
+      "Australia y Brasil",
+      "Rusia y Ucrania",
+      "India y China"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Australia y Brasil son los grandes exportadores de mineral de hierro a nivel mundial, con un dominio claro del mercado marítimo."
+  },
+  {
+    "id": "m6-39",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Por qué se conoce al cobre como \"Dr. Copper\"?",
+    "options": [
+      "Porque se utiliza para fines médicos",
+      "Porque su precio anticipa el comportamiento de la economía global",
+      "Porque tiene propiedades antibacterianas",
+      "Porque es un buen conductor térmico"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Se le llama \"Dr. Copper\" porque históricamente su cotización sirve como indicador adelantado de la salud económica global."
+  },
+  {
+    "id": "m6-40",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Cuál de los siguientes sectores representa el mayor porcentaje de consumo de cobre?",
+    "options": [
+      "Automoción",
+      "Electrificación y equipos eléctricos",
+      "Construcción residencial",
+      "Industria aeroespacial"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Entre el 60 % y 65 % del cobre se destina a usos eléctricos, como cables, motores, renovables y redes de transmisión."
+  },
+  {
+    "id": "m6-41",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Qué país lidera actualmente la producción minera de cobre en el mundo?",
+    "options": [
+      "Perú",
+      "República Democrática del Congo",
+      "China",
+      "Chile"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chile es el mayor productor mundial de cobre, aunque China domina el refinado y el consumo global."
+  },
+  {
+    "id": "m6-42",
+    "block": "BLOQUE VII: Metales industriales",
+    "question": "¿Qué factor podría generar un déficit estructural de cobre en los próximos años?",
+    "options": [
+      "Caída de la demanda industrial en Europa",
+      "Aumento de la extracción ilegal en países emergentes",
+      "Saturación del mercado por sobreproducción",
+      "Falta de nuevas minas operativas frente al crecimiento de la demanda"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La demanda global crece más rápido que la capacidad de abrir nuevas minas, lo que puede generar un déficit persistente."
+  },
+  {
+    "id": "m6-43",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Cuál es una de las principales diferencias entre el oro y otros metales preciosos industriales como la plata o el paladio?",
+    "options": [
+      "El oro tiene mayor conductividad térmica que la plata",
+      "El oro es más usado en componentes electrónicos que el paladio",
+      "El oro actúa como activo monetario, mientras que los otros tienen mayor uso industrial",
+      "El oro tiene una producción mucho más diversificada que los PGMs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El oro se comporta como un activo monetario cuyo precio depende más de los tipos de interés reales y la geopolítica, mientras que la plata y los PGMs tienen un uso industrial dominante."
+  },
+  {
+    "id": "m6-44",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Por qué el mercado de la plata es considerado inelástico en términos de oferta?",
+    "options": [
+      "Porque la mayoría de su demanda proviene de inversores especulativos",
+      "Porque la plata se produce en su mayoría como subproducto de otras minas",
+      "Porque la mayoría de su producción se concentra en una única empresa global",
+      "Porque su demanda ha caído drásticamente desde 2020"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El 70–75 % de la plata proviene como subproducto de la minería de otros metales, lo que hace que no aumente su oferta fácilmente aunque suba el precio."
+  },
+  {
+    "id": "m6-45",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Qué aplicación ha impulsado más la demanda industrial de plata en la última década?",
+    "options": [
+      "La joyería tradicional en India",
+      "La producción de monedas por parte de bancos centrales",
+      "La energía solar, especialmente los paneles fotovoltaicos",
+      "El uso en la fotografía digital y analógica"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El uso de plata en paneles solares ha sido el gran impulsor desde 2016, sobre todo por el desarrollo fotovoltaico en China."
+  },
+  {
+    "id": "m6-46",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Qué metal del grupo PGM ha alcanzado precios superiores a 30.000 $/oz en su punto máximo?",
+    "options": [
+      "Paladio",
+      "Platino",
+      "Iridio",
+      "Rodio"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El rodio alcanzó precios superiores a 30.000 $/oz antes de desplomarse, debido a su escasez y su papel clave en convertidores catalíticos."
+  },
+  {
+    "id": "m6-47",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Qué característica hace que el oro tenga un stock-to-flow tan alto?",
+    "options": [
+      "Su precio históricamente bajo",
+      "Su producción está en caída libre",
+      "No se consume ni se destruye, por lo que el stock acumulado es enorme",
+      "Se recicla menos que otros metales como la plata"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Como el oro no se consume ni se oxida, todo el oro extraído sigue existiendo, lo que da lugar a un stock-to-flow muy elevado (66x aprox.)."
+  },
+  {
+    "id": "m6-48",
+    "block": "BLOQUE VIII: Metales preciosos industriales",
+    "question": "¿Cuál es un riesgo específico del paladio frente al platino en términos de demanda?",
+    "options": [
+      "El paladio es más barato que el platino y por tanto menos rentable",
+      "Su demanda está muy concentrada en automóviles de gasolina, lo que lo hace más vulnerable a cambios tecnológicos",
+      "El paladio tiene menos aplicaciones en joyería que el platino, lo que reduce su valor monetario",
+      "El paladio es producido principalmente en EE.UU., lo que limita su comercio global"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El paladio depende casi exclusivamente de su uso en coches de gasolina. Si cae esa demanda o se sustituyen tecnologías, el impacto sería enorme."
+  },
+  {
+    "id": "m6-49",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor a un commodity agrícola?",
+    "options": [
+      "Es una acción de empresas del sector primario",
+      "Es un instrumento financiero derivado de divisas",
+      "Es una materia prima derivada de la producción agraria que se comercializa en mercados globales",
+      "Es un producto manufacturado exportado por países en desarrollo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los commodities agrícolas son materias primas como trigo, maíz o café que se comercializan globalmente y cuya oferta y demanda dependen de factores climáticos, geográficos y económicos."
+  },
+  {
+    "id": "m6-50",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Qué mercado fue pionero en contratos de arroz similares a los futuros actuales?",
+    "options": [
+      "Osaka",
+      "Chicago",
+      "Londres",
+      "Buenos Aires"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En Osaka (Japón), ya en el siglo XVIII existía un mercado de arroz con contratos similares a los futuros, siendo uno de los primeros en formalizar este tipo de operaciones."
+  },
+  {
+    "id": "m6-51",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Cuál de los siguientes cultivos se destina principalmente a la alimentación animal?",
+    "options": [
+      "Arroz",
+      "Cacao",
+      "Maíz",
+      "Café"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El maíz, junto con la soja, es uno de los principales insumos para la alimentación de animales en ganadería intensiva, especialmente en países desarrollados."
+  },
+  {
+    "id": "m6-52",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Qué dos países concentran más de la mitad de la producción mundial de cacao?",
+    "options": [
+      "Brasil y Colombia",
+      "Indonesia y Nigeria",
+      "Costa de Marfil y Ghana",
+      "México y Perú"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Costa de Marfil y Ghana producen más del 50 % del cacao del mundo, lo que los convierte en actores clave para esta materia prima."
+  },
+  {
+    "id": "m6-53",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Cuál de las siguientes empresas forma parte del grupo ABCD que domina el comercio agrícola mundial?",
+    "options": [
+      "Glencore",
+      "Trafigura",
+      "Louis Dreyfus",
+      "Vitol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Louis Dreyfus forma parte del grupo ABCD (ADM, Bunge, Cargill, Dreyfus) que controla entre el 75 % y el 90 % del comercio mundial de cereales."
+  },
+  {
+    "id": "m6-54",
+    "block": "BLOQUE IX: Commodities agrícolas",
+    "question": "¿Cuál es uno de los grandes riesgos estructurales que amenazan la oferta agrícola mundial?",
+    "options": [
+      "El exceso de productividad",
+      "El proteccionismo comercial de los países productores",
+      "La digitalización del sector",
+      "El cambio climático y la degradación del suelo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El cambio climático y la degradación del suelo son amenazas reales que pueden reducir los rendimientos agrícolas y provocar disrupciones en la oferta global."
+  },
+  {
+    "id": "m6-55",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Qué caracteriza a las commodities minoritarias frente a las materias primas más conocidas?",
+    "options": [
+      "Son activos que cotizan en mercados financieros derivados",
+      "Tienen una demanda mucho mayor que el petróleo o el cobre",
+      "Están reguladas únicamente por bancos centrales",
+      "Presentan mercados más pequeños y estructuras de producción concentradas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las commodities minoritarias se caracterizan por tener mercados mucho más pequeños, menos liquidez y estructuras de producción muy concentradas."
+  },
+  {
+    "id": "m6-56",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Cuál es una ventaja clave al analizar commodities minoritarias?",
+    "options": [
+      "Es más fácil estudiar su oferta porque hay menos productores",
+      "Tienen una demanda estable en todos los países",
+      "Todas cotizan en dólares y por eso son más predecibles",
+      "Sus precios siempre suben con la inflación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Al haber menos actores en el mercado, es más sencillo analizar qué países y qué empresas dominan la oferta en commodities minoritarias."
+  },
+  {
+    "id": "m6-57",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Qué uso industrial está más relacionado con el estaño?",
+    "options": [
+      "Soldadura electrónica y componentes tecnológicos",
+      "Producción de fertilizantes agrícolas",
+      "Construcción de carreteras y puentes",
+      "Fabricación de ladrillos refractarios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El estaño se utiliza principalmente en soldadura electrónica, lo que lo vincula directamente al desarrollo de tecnología."
+  },
+  {
+    "id": "m6-58",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Por qué la oferta de algunas commodities minoritarias puede ser muy frágil?",
+    "options": [
+      "Porque la extracción suele ser cara y los yacimientos tienen baja concentración",
+      "Porque sus precios se fijan por decreto estatal",
+      "Porque la demanda depende solo de países en desarrollo",
+      "Porque son recursos renovables con baja rotación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Muchos yacimientos tienen baja concentración, lo que encarece la extracción y deja parte de la producción fuera si los precios caen."
+  },
+  {
+    "id": "m6-59",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Cuál de los siguientes elementos suele aumentar el riesgo de invertir en commodities minoritarias?",
+    "options": [
+      "La baja liquidez y volatilidad de sus mercados",
+      "La fuerte regulación europea sobre ellas",
+      "La excesiva transparencia del mercado",
+      "La alta rotación de sus acciones"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Al tener mercados más pequeños y menos liquidez, estas materias primas pueden ser más volátiles y difíciles de vender en momentos críticos."
+  },
+  {
+    "id": "m6-60",
+    "block": "BLOQUE X: Commodities minoritarias, riesgos y oportunidades",
+    "question": "¿Por qué las commodities minoritarias pueden ser oportunidades tácticas interesantes?",
+    "options": [
+      "Porque sus precios reaccionan fuertemente ante pequeños cambios en oferta o demanda",
+      "Porque están garantizadas por los bancos centrales",
+      "Porque cotizan en mercados OTC sin impuestos",
+      "Porque tienen cobertura obligatoria mediante CDS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La estructura tan concentrada de la oferta y su menor tamaño de mercado hacen que sus precios reaccionen con fuerza ante cualquier cambio."
+  },
+  {
+    "id": "m6-61",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Qué característica define a las materias primas frente a otros productos?",
+    "options": [
+      "Son productos con marcas reconocibles en el mercado",
+      "Son bienes no diferenciables entre productores",
+      "Su valor depende del país que los produce",
+      "Requieren canales de distribución exclusivos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las materias primas no se diferencian entre productores: una tonelada de cobre es igual venga de donde venga, lo que obliga a competir por eficiencia de costes."
+  },
+  {
+    "id": "m6-62",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Cuál es el principal riesgo de usar el EBITDA de un solo año para valorar una minera?",
+    "options": [
+      "Puede incluir beneficios extraordinarios",
+      "No refleja la media del ciclo y puede sobrestimar la solvencia",
+      "Ignora la estructura de capital de la empresa",
+      "Subestima los costes reales de extracción"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Usar el EBITDA de un año aislado, sobre todo en picos de ciclo, puede llevar a una falsa sensación de solvencia. Por eso se recomienda mirar ratios normalizados a media de ciclo."
+  },
+  {
+    "id": "m6-63",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Qué indicador incluye todos los costes operativos, de mantenimiento y exploración?",
+    "options": [
+      "ROCE",
+      "EBITDA",
+      "AISC",
+      "FCF"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El AISC (All-in Sustaining Costs) es una medida extendida en el análisis de mineras que integra los costes totales para mantener la operación en marcha."
+  },
+  {
+    "id": "m6-64",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Qué sucede típicamente cuando los precios de una materia prima bajan mucho y de forma prolongada?",
+    "options": [
+      "Aumentan las inversiones en nueva capacidad",
+      "Se acelera el crecimiento de la demanda",
+      "Se reduce la oferta por cierre de productores ineficientes",
+      "Las empresas aumentan su endeudamiento"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cuando los precios caen mucho tiempo, las empresas con mayores costes salen del mercado, lo que reduce la oferta y puede estabilizar el ciclo."
+  },
+  {
+    "id": "m6-65",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Qué ventaja tiene una empresa minera situada en el cuartil más bajo de la curva de costes?",
+    "options": [
+      "Tiene mayor capacidad de producción",
+      "Puede acceder a mercados más sofisticados",
+      "Tiene más margen para resistir ciclos bajistas",
+      "No necesita permisos ambientales complejos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Una empresa eficiente, con menores costes por unidad, puede seguir siendo rentable incluso en entornos de precios bajos. Eso le da una gran ventaja competitiva."
+  },
+  {
+    "id": "m6-66",
+    "block": "BLOQUE XI: Inversión value aplicada a materias primas",
+    "question": "¿Qué aspecto es más importante al analizar el apalancamiento financiero en sectores cíclicos?",
+    "options": [
+      "Que el ROCE supere el WACC",
+      "Que la deuda sea convertible en acciones",
+      "Que los vencimientos estén bien distribuidos y se analicen con beneficios medios de ciclo",
+      "Que el EBITDA del último año cubra toda la deuda"
+    ],
+    "correctAnswer": 2,
+    "explanation": "En sectores cíclicos como las materias primas, usar medias de ciclo y revisar el calendario de vencimientos es crucial para no sobreestimar la solvencia."
+  },
+  {
+    "id": "m6-67",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Qué característica diferencia a los contratos de futuros frente a otros instrumentos?",
+    "options": [
+      "No tienen apalancamiento ni vencimiento",
+      "Son productos exclusivamente diseñados para bancos centrales",
+      "Permiten invertir en materias primas sin necesidad de poseerlas físicamente",
+      "Se negocian únicamente en mercados OTC sin regulación"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los futuros permiten exponerse al precio de una materia prima sin poseerla físicamente. Se negocian en mercados organizados, tienen apalancamiento y vencimiento definido."
+  },
+  {
+    "id": "m6-68",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Cuál de los siguientes factores puede hacer que invertir en futuros resulte más costoso con el tiempo?",
+    "options": [
+      "Tener acciones del sector energético",
+      "Que el mercado esté en backwardation constante",
+      "Que el mercado esté en contango y haya que hacer rollovers",
+      "Invertir a través de ETFs en lugar de contratos de futuros"
+    ],
+    "correctAnswer": 2,
+    "explanation": "En contango, los contratos futuros más lejanos son más caros que los actuales, y al hacer rollover se va comprando más caro, erosionando la rentabilidad."
+  },
+  {
+    "id": "m6-69",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Qué ventaja ofrecen los ETFs frente a los futuros o los CFDs?",
+    "options": [
+      "Garantizan una rentabilidad mínima anual",
+      "Están libres de riesgo de mercado",
+      "No requieren gestionar vencimientos ni márgenes",
+      "Solo replican acciones del sector, no materias primas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los ETFs permiten exposición a materias primas sin necesidad de manejar márgenes, apalancamiento ni vencimientos, lo que los hace ideales para inversores menos experimentados."
+  },
+  {
+    "id": "m6-70",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Qué diferencia clave tienen los CFDs respecto a los futuros?",
+    "options": [
+      "Se negocian en mercados organizados y tienen vencimiento fijo",
+      "Ofrecen derechos sobre la entrega física del activo",
+      "No tienen vencimiento y se negocian directamente con el bróker",
+      "Son más seguros y recomendados para largo plazo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aunque muchos piensan que los CFDs son seguros, lo cierto es que su coste por mantenimiento, apalancamiento y falta de vencimiento los hace muy arriesgados si no se controlan bien."
+  },
+  {
+    "id": "m6-71",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Qué tipo de empresas reciben ingresos sin explotar directamente minas o pozos?",
+    "options": [
+      "Empresas integradas verticalmente con control de toda la cadena",
+      "Empresas con exposición directa a precios spot",
+      "Empresas de royalties o streaming",
+      "Empresas de logística minera"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las empresas de royalties o streaming no explotan directamente los recursos. Este tipo de empresa financia proyectos a cambio de recibir una parte de la producción o ingresos futuros, sin asumir los costes de operación directamente."
+  },
+  {
+    "id": "m6-72",
+    "block": "BLOQUE XII: Formas de invertir en materias primas",
+    "question": "¿Cuál de las siguientes métricas se utiliza habitualmente para valorar acciones de empresas extractivas?",
+    "options": [
+      "Valoración por PER exclusivamente",
+      "Tasa Interna de Retorno (TIR) y Valor Actual Neto (NPV)",
+      "Ingresos brutos sin descontar gastos",
+      "Margen neto sobre beneficios contables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "En minería y energía se usan métricas como NPV y TIR para valorar proyectos, ya que permiten medir su rentabilidad esperada teniendo en cuenta todos los flujos y costes futuros."
+  },
+  {
+    "id": "m6-73",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Qué significa el término \"realpolitik\" en el contexto de las materias primas?",
+    "options": [
+      "La aplicación de criterios pragmáticos y estratégicos por parte de los gobiernos al gestionar sus recursos",
+      "La tendencia de los precios a ajustarse al alza por presión especulativa",
+      "La imposición de aranceles de forma automática por parte de países desarrollados",
+      "El uso de derivados financieros para protegerse de la inflación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La realpolitik implica que los países toman decisiones estratégicas basadas en su interés, no en ideales. Esto impacta directamente en la política de materias primas: nacionalizaciones, restricciones, expropiaciones…"
+  },
+  {
+    "id": "m6-74",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Cuál de los siguientes factores corresponde al riesgo legal y regulatorio en commodities?",
+    "options": [
+      "Un conflicto diplomático entre dos países que afecta el comercio",
+      "La imposición de nuevos impuestos a las exportaciones de minerales",
+      "Una bajada repentina en la demanda internacional de cobre",
+      "Una huelga laboral en una mina por malas condiciones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los cambios en el marco legal, como impuestos, regalías o normativas de exportación, forman parte del riesgo regulatorio que enfrentan las empresas extractivas."
+  },
+  {
+    "id": "m6-75",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Qué herramienta permite al inversor analizar los factores políticos, sociales y legales del entorno donde opera una empresa de materias primas?",
+    "options": [
+      "El indicador técnico RSI",
+      "El análisis CAPEX/OPEX",
+      "La fórmula de valoración por múltiplos EV/EBITDA",
+      "El análisis PESTEL"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El análisis PESTEL sirve para identificar riesgos políticos, económicos, sociales, tecnológicos, ambientales y legales de forma estructurada."
+  },
+  {
+    "id": "m6-76",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Qué estrategia puede ayudar a mitigar el riesgo político en un proyecto extractivo?",
+    "options": [
+      "Reducir los salarios locales",
+      "Mantener el proyecto en secreto para evitar atención mediática",
+      "Retirar todos los beneficios comunitarios",
+      "Establecer alianzas con socios locales o permitir participación del gobierno"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Involucrar al gobierno o a socios locales en el proyecto crea incentivos compartidos y reduce el riesgo de intervención estatal o conflictos sociales."
+  },
+  {
+    "id": "m6-77",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Cuál de los siguientes escenarios refleja un riesgo de tipo geopolítico?",
+    "options": [
+      "Una nueva normativa medioambiental local",
+      "El colapso de una presa en una mina",
+      "La nacionalización de un yacimiento por parte de un gobierno populista",
+      "Un embargo comercial impuesto por un país a otro por razones diplomáticas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las sanciones, embargos o guerras comerciales entre países forman parte del riesgo geopolítico que puede alterar el flujo global de materias primas."
+  },
+  {
+    "id": "m6-78",
+    "block": "BLOQUE XIII: Análisis de riesgos y realpolitik",
+    "question": "¿Qué acción puede mejorar la aceptación social de una empresa extractiva y reducir el riesgo social?",
+    "options": [
+      "Ignorar los conflictos con las comunidades cercanas",
+      "Despedir empleados en épocas de crisis para proteger márgenes",
+      "Evitar la presencia de medios de comunicación locales",
+      "Invertir en escuelas, hospitales o empleo local en la zona del proyecto"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las inversiones sociales generan buena voluntad y reducen las tensiones con las comunidades, evitando protestas y parones productivos."
+  }
+  ]
+}
