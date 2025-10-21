@@ -1,141 +1,90 @@
-# Quiz App - Módulo 4
+# Quiz App - Módulos de Inversión
 
-Aplicación móvil de quiz para Android desarrollada con React Native y Expo.
+Una aplicación web de quiz inteligente para estudiar los módulos de inversión (Renta Variable, Renta Fija, y Materias Primas).
 
-## Características
+## 🚀 Despliegue en GitHub Pages
 
-- ✅ **Preguntas Aleatorias Inteligentes**: El sistema prioriza automáticamente las preguntas que has fallado más veces
-- 📊 **Estadísticas Detalladas**: Seguimiento completo de tu progreso y rendimiento
-- ⭐ **Marcadores**: Marca preguntas difíciles para repasar más tarde
-- 🔄 **Modo Repaso**: Practica específicamente las preguntas que has fallado
-- 💾 **Persistencia Local**: Todos tus datos se guardan automáticamente en el dispositivo
-- 🎨 **Diseño Minimalista**: Interfaz limpia y fácil de usar
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages usando GitHub Actions.
 
-## Tecnologías Utilizadas
+### Pasos para publicar:
 
-- React Native
-- Expo
-- React Navigation
-- AsyncStorage
-- Context API
+1. **Crear un repositorio en GitHub** (si no existe):
+   - Ve a https://github.com/new
+   - Nombre del repositorio: `quizz-app`
+   - Haz el repositorio público o privado (ambos funcionan con GitHub Pages)
+   - NO inicialices con README (ya tienes uno)
 
-## Instalación
+2. **Conectar el repositorio local con GitHub**:
+   ```bash
+   git remote add origin https://github.com/TU-USUARIO/quizz-app.git
+   ```
 
-1. Asegúrate de tener Node.js instalado
-2. Instala las dependencias:
+3. **Push al repositorio**:
+   ```bash
+   git push -u origin main
+   ```
+
+4. **Configurar GitHub Pages**:
+   - Ve a tu repositorio en GitHub
+   - Click en "Settings" (Configuración)
+   - En el menú lateral, click en "Pages"
+   - En "Source", selecciona "GitHub Actions"
+   - ¡Listo! El workflow se ejecutará automáticamente
+
+5. **Esperar el despliegue**:
+   - Ve a la pestaña "Actions" en tu repositorio
+   - Verás el workflow "Deploy to GitHub Pages" ejecutándose
+   - Cuando termine (⚠️ tarda ~2-3 minutos), tu app estará disponible en:
+   ```
+   https://TU-USUARIO.github.io/quizz-app/
+   ```
+
+### Actualizaciones automáticas
+
+Cada vez que hagas `git push` a la rama `main`, la aplicación se desplegará automáticamente.
+
+## 🛠️ Desarrollo Local
 
 ```bash
+# Instalar dependencias
+cd quiz
 npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
+
+# Preview de la build de producción
+npm run preview
 ```
 
-## Ejecutar la Aplicación
+## 📱 Características
 
-### En Expo Go (Recomendado para desarrollo rápido)
+- ✅ 3 módulos: Renta Variable, Renta Fija, y Materias Primas
+- ✅ Sistema de estadísticas por módulo
+- ✅ Modo de repaso de preguntas incorrectas
+- ✅ Marcado de preguntas importantes
+- ✅ Revisión por bloques temáticos
+- ✅ Algoritmo inteligente que prioriza preguntas no vistas o falladas
+- ✅ PWA - Funciona offline una vez cargada
 
-```bash
-npm start
-```
+## 🎯 Tecnologías
 
-Luego escanea el código QR con la app Expo Go en tu teléfono Android.
+- React 19
+- Vite
+- React Router
+- LocalStorage para persistencia
+- GitHub Actions para CI/CD
+- GitHub Pages para hosting
 
-### En Android Emulator
+## 📊 Contenido
 
-```bash
-npm run android
-```
+- **Módulo 4**: Renta Variable (60 preguntas)
+- **Módulo 5**: Renta Fija (60 preguntas)
+- **Módulo 6**: Materias Primas (78 preguntas)
 
-### En iOS Simulator (solo macOS)
+---
 
-```bash
-npm run ios
-```
-
-## Estructura del Proyecto
-
-```
-quizz-app/
-├── data/
-│   └── modulo4.json        # Preguntas del módulo 4
-├── src/
-│   ├── context/
-│   │   └── QuizContext.js  # Estado global y lógica
-│   └── screens/
-│       ├── HomeScreen.js   # Pantalla principal
-│       ├── QuizScreen.js   # Pantalla de quiz
-│       ├── StatisticsScreen.js
-│       └── ReviewScreen.js
-├── App.js
-└── package.json
-```
-
-## Agregar Nuevos Módulos
-
-Para agregar preguntas de otros módulos:
-
-1. Crea un nuevo archivo JSON en la carpeta `data/` (ejemplo: `modulo5.json`)
-2. Sigue el mismo formato que `modulo4.json`:
-
-```json
-{
-  "module": "Módulo 5",
-  "title": "Título del módulo",
-  "totalQuestions": 50,
-  "questions": [
-    {
-      "id": "m5-1",
-      "block": "Nombre del bloque",
-      "question": "Texto de la pregunta",
-      "options": [
-        "Opción A",
-        "Opción B",
-        "Opción C",
-        "Opción D"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Explicación de la respuesta correcta"
-    }
-  ]
-}
-```
-
-3. Importa y agrega el módulo en `src/context/QuizContext.js`
-
-## Formato de las Preguntas
-
-- **id**: Identificador único (ej: "m4-1", "m4-2", etc.)
-- **block**: Categoría o bloque temático
-- **question**: Texto de la pregunta
-- **options**: Array con 4 opciones de respuesta
-- **correctAnswer**: Índice de la respuesta correcta (0-3)
-- **explanation**: Explicación que se muestra después de responder
-
-## Funcionalidades
-
-### Sistema Inteligente de Preguntas
-El algoritmo calcula un "peso" para cada pregunta basado en:
-- Preguntas nunca respondidas tienen peso estándar
-- Preguntas con más fallos tienen mayor probabilidad de aparecer
-- Esto ayuda a reforzar el aprendizaje en áreas débiles
-
-### Estadísticas
-- Total de preguntas respondidas
-- Precisión global
-- Estadísticas por bloque/categoría
-- Historial de intentos por pregunta
-
-### Marcadores
-- Marca preguntas difíciles para revisarlas más tarde
-- Acceso rápido desde la pantalla principal
-
-### Modo Repaso
-- Practica solo las preguntas que has fallado
-- Revisa preguntas marcadas
-- Navegación secuencial entre preguntas
-
-## Resetear Datos
-
-Puedes resetear todas las estadísticas desde la pantalla de Estadísticas. Esta acción no se puede deshacer.
-
-## Licencia
-
-Este proyecto es de código abierto y está disponible para uso educativo.
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
