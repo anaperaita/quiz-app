@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <QuizProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/quiz" element={<QuizScreen />} />
