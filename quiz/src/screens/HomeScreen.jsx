@@ -95,8 +95,16 @@ export default function HomeScreen() {
                 className="button primary-button"
                 onClick={() => navigate('/quiz')}
               >
-                <span className="button-text primary">📚 Practicar</span>
+                <span className="button-text primary">📚 Práctica Aleatoria</span>
                 <span className="button-subtext primary">Preguntas aleatorias inteligentes</span>
+              </button>
+
+              <button
+                className="button primary-button"
+                onClick={() => navigate('/sequential-mode')}
+              >
+                <span className="button-text primary">📋 Práctica en Orden</span>
+                <span className="button-subtext primary">Todas o por bloque, tú eliges</span>
               </button>
 
               <button

@@ -17,6 +17,7 @@ export default function QuizScreen() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
   const [askedQuestions, setAskedQuestions] = useState([]);
+  const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 });
 
   useEffect(() => {
     loadNextQuestion();
@@ -48,6 +49,13 @@ export default function QuizScreen() {
 
     const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
     recordAnswer(currentQuestion.id, isCorrect);
+
+    // Actualizar estadísticas de la sesión
+    setSessionStats(prev => ({
+      correct: prev.correct + (isCorrect ? 1 : 0),
+      incorrect: prev.incorrect + (isCorrect ? 0 : 1)
+    }));
+
     setShowResult(true);
   };
 
@@ -149,10 +157,33 @@ export default function QuizScreen() {
           )}
         </div>
 
-        {/* Progress */}
-        <p className="progress-text">
-          Preguntas respondidas en esta sesión: {askedQuestions.length}
-        </p>
+        {/* Session Stats */}
+        <div className="session-stats">
+          <div className="session-stat-item">
+            <span className="session-stat-label">Sesión:</span>
+            <span className="session-stat-value">
+              {askedQuestions.length} preguntas
+            </span>
+          </div>
+          {(sessionStats.correct > 0 || sessionStats.incorrect > 0) && (
+            <>
+              <div className="session-stat-item">
+                <span className="session-stat-icon">✅</span>
+                <span className="session-stat-value">{sessionStats.correct}</span>
+              </div>
+              <div className="session-stat-item">
+                <span className="session-stat-icon">❌</span>
+                <span className="session-stat-value">{sessionStats.incorrect}</span>
+              </div>
+              <div className="session-stat-item">
+                <span className="session-stat-icon">🎯</span>
+                <span className="session-stat-value">
+                  {((sessionStats.correct / (sessionStats.correct + sessionStats.incorrect)) * 100).toFixed(0)}%
+                </span>
+              </div>
+            </>
+          )}
+        </div>
 
         {/* Back button */}
         <button className="back-button" onClick={() => navigate('/')}>

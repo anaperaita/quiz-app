@@ -115,6 +115,13 @@ export const QuizProvider = ({ children }) => {
 
     if (availableQuestions.length === 0) return null;
 
+    // Encontrar la frecuencia mínima (pregunta menos vista)
+    const frequencies = availableQuestions.map(q => {
+      const questionStats = stats[q.id] || { correct: 0, incorrect: 0 };
+      return questionStats.correct + questionStats.incorrect;
+    });
+    const minFrequency = Math.min(...frequencies);
+
     // Calcular peso para cada pregunta
     const weightedQuestions = availableQuestions.map(q => {
       const questionStats = stats[q.id] || { correct: 0, incorrect: 0 };
@@ -129,10 +136,10 @@ export const QuizProvider = ({ children }) => {
       const failureRate = questionStats.incorrect / totalAttempts;
       let weight = failureRate * 3 + 0.5;
 
-      // Bonus: priorizar preguntas vistas menos veces
-      // Las preguntas vistas 1-2 veces tienen bonus, las vistas 10+ tienen penalización
-      const frequencyBonus = Math.max(0, (10 - totalAttempts) / 10);
-      weight = weight * (1 + frequencyBonus * 0.5);
+      // Bonus: inversamente proporcional a la frecuencia relativa
+      // 1 / (frecuencia - frecuencia_minima + 1)
+      const frequencyBonus = 1 / (totalAttempts - minFrequency + 1);
+      weight = weight * (1 + frequencyBonus);
 
       return { question: q, weight };
     });

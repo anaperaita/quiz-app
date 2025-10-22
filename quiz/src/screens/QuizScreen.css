@@ -215,6 +215,41 @@
   font-size: clamp(13px, 2vw, 14px);
 }
 
+.session-stats {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.session-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.session-stat-label {
+  font-size: clamp(13px, 2vw, 14px);
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.session-stat-icon {
+  font-size: clamp(16px, 3vw, 18px);
+}
+
+.session-stat-value {
+  font-size: clamp(14px, 2.5vw, 16px);
+  color: #2c3e50;
+  font-weight: 600;
+}
+
 .back-button {
   background-color: #ecf0f1;
   border-radius: 12px;

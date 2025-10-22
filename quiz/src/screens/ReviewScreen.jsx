@@ -7,6 +7,7 @@ export default function ReviewScreen() {
   const navigate = useNavigate();
   const { mode, blockName } = useParams();
   const {
+    questions,
     getIncorrectQuestions,
     getBookmarkedQuestions,
     getQuestionsByBlock,
@@ -18,26 +19,32 @@ export default function ReviewScreen() {
 
   const isBookmarkedMode = mode === 'bookmarked';
   const isBlockMode = mode === 'block';
+  const isSequentialMode = mode === 'sequential';
   const [questionsList, setQuestionsList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
-    let questions;
+    let questionList;
 
-    if (isBlockMode) {
+    if (isSequentialMode) {
+      // Get all questions in their original order
+      questionList = [...questions];
+    } else if (isBlockMode) {
       const decodedBlockName = decodeURIComponent(blockName);
-      questions = getQuestionsByBlock(decodedBlockName);
+      questionList = getQuestionsByBlock(decodedBlockName);
     } else if (isBookmarkedMode) {
-      questions = getBookmarkedQuestions();
+      questionList = getBookmarkedQuestions();
     } else {
-      questions = getIncorrectQuestions();
+      questionList = getIncorrectQuestions();
     }
 
-    if (questions.length === 0) {
+    if (questionList.length === 0) {
       let message;
-      if (isBlockMode) {
+      if (isSequentialMode) {
+        message = 'No hay preguntas disponibles';
+      } else if (isBlockMode) {
         message = 'No se encontraron preguntas para este bloque';
       } else if (isBookmarkedMode) {
         message = 'No tienes preguntas marcadas';
@@ -49,7 +56,7 @@ export default function ReviewScreen() {
       return;
     }
 
-    setQuestionsList(questions);
+    setQuestionsList(questionList);
   }, []);
 
   const currentQuestion = questionsList[currentIndex];
@@ -112,7 +119,9 @@ export default function ReviewScreen() {
         <div className="review-header">
           <div className="header-info">
             <p className="mode-text">
-              {isBlockMode
+              {isSequentialMode
+                ? '📋 Modo Secuencial'
+                : isBlockMode
                 ? `📘 ${decodeURIComponent(blockName)}`
                 : isBookmarkedMode
                 ? '⭐ Marcadas'

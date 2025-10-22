@@ -5,6 +5,7 @@ import HomeScreen from './screens/HomeScreen';
 import QuizScreen from './screens/QuizScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import StatisticsScreen from './screens/StatisticsScreen';
+import SequentialModeScreen from './screens/SequentialModeScreen';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/quiz" element={<QuizScreen />} />
+          <Route path="/sequential-mode" element={<SequentialModeScreen />} />
           <Route path="/review/:mode/:blockName" element={<ReviewScreen />} />
           <Route path="/review/:mode" element={<ReviewScreen />} />
           <Route path="/review" element={<ReviewScreen />} />
