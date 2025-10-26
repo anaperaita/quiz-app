@@ -30,7 +30,10 @@ export default function HomeScreen() {
     <div className="container">
       <div className="content">
         {/* Header */}
-        <h1 className="title">Visual Quiz</h1>
+        <div className="header-container">
+          <img src="/logo.svg" alt="Visual Quiz Logo" className="app-logo" />
+          <h1 className="title">Visual Quiz</h1>
+        </div>
 
         {/* Module Selector */}
         <div className="module-selector-container">

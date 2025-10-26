@@ -31,13 +31,27 @@
   margin: 0 auto;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.app-logo {
+  width: clamp(50px, 10vw, 70px);
+  height: clamp(50px, 10vw, 70px);
+  filter: drop-shadow(0 4px 12px rgba(102, 126, 234, 0.2));
+}
+
 .title {
   font-size: clamp(32px, 6vw, 48px);
   font-weight: 800;
   color: #2c3e50;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 24px;
+  margin: 0;
   letter-spacing: -1px;
 }
 
