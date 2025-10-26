@@ -9,24 +9,20 @@ export default defineConfig(({ command }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico'],
+      includeAssets: ['logo.svg'],
       manifest: {
-        name: 'Visual Quiz',
-        short_name: 'Quiz',
-        description: 'App de quiz inteligente para estudiar',
-        theme_color: '#3498db',
+        name: 'Visual Quiz - Módulos de Inversión',
+        short_name: 'Visual Quiz',
+        description: 'App de quiz inteligente para estudiar módulos de inversión',
+        theme_color: '#667eea',
         background_color: '#f5f6fa',
         display: 'standalone',
         icons: [
           {
-            src: '/icon-192.png',
-            sizes: '192x192',
-            type: 'image/png',
-          },
-          {
-            src: '/icon-512.png',
-            sizes: '512x512',
-            type: 'image/png',
+            src: '/logo.svg',
+            sizes: 'any',
+            type: 'image/svg+xml',
+            purpose: 'any maskable',
           },
         ],
       },

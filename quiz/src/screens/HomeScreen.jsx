@@ -31,7 +31,7 @@ export default function HomeScreen() {
       <div className="content">
         {/* Header */}
         <div className="header-container">
-          <img src="/logo.svg" alt="Visual Quiz Logo" className="app-logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Visual Quiz Logo" className="app-logo" />
           <h1 className="title">Visual Quiz</h1>
         </div>
 
