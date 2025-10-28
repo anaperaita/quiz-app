@@ -1,14 +1,27 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import './HamburgerMenu.css';
 
 /**
  * HamburgerMenu Component
- * Provides a hamburger menu for module selection accessible from any screen
+ * Provides a hamburger menu for module selection
+ * Hidden on question/quiz screens to avoid distractions
  */
 export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
   const { availableModules, selectedModule, setSelectedModule } = useQuiz();
+
+  // Hide menu on question/quiz screens
+  const isQuestionScreen = ['/quiz', '/sequential-mode', '/review'].some(
+    path => location.pathname.startsWith(path)
+  );
+
+  // Don't render on question screens
+  if (isQuestionScreen) {
+    return null;
+  }
 
   // Close menu when clicking outside
   useEffect(() => {
