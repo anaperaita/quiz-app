@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import modulesConfig from '../data/modules.config.json';
+import * as storage from '../services/storage';
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const QuizContext = createContext();
@@ -73,14 +74,14 @@ export const QuizProvider = ({ children }) => {
 
   const loadData = () => {
     try {
-      const savedStats = localStorage.getItem('quizStats');
-      const savedBookmarks = localStorage.getItem('bookmarks');
+      const savedStats = storage.getStats();
+      const savedBookmarks = storage.getBookmarks();
 
       if (savedStats) {
-        setStats(JSON.parse(savedStats));
+        setStats(savedStats);
       }
       if (savedBookmarks) {
-        setBookmarks(JSON.parse(savedBookmarks));
+        setBookmarks(savedBookmarks);
       }
     } catch (error) {
       console.error('Error loading data:', error);
@@ -89,21 +90,17 @@ export const QuizProvider = ({ children }) => {
     }
   };
 
-  const saveStats = (newStats) => {
-    try {
-      localStorage.setItem('quizStats', JSON.stringify(newStats));
+  const saveStatsToStorage = (newStats) => {
+    const success = storage.saveStats(newStats);
+    if (success) {
       setStats(newStats);
-    } catch (error) {
-      console.error('Error saving stats:', error);
     }
   };
 
-  const saveBookmarks = (newBookmarks) => {
-    try {
-      localStorage.setItem('bookmarks', JSON.stringify(newBookmarks));
+  const saveBookmarksToStorage = (newBookmarks) => {
+    const success = storage.saveBookmarks(newBookmarks);
+    if (success) {
       setBookmarks(newBookmarks);
-    } catch (error) {
-      console.error('Error saving bookmarks:', error);
     }
   };
 
@@ -126,7 +123,7 @@ export const QuizProvider = ({ children }) => {
     }
 
     newStats[questionId].lastAttempt = new Date().toISOString();
-    saveStats(newStats);
+    saveStatsToStorage(newStats);
   };
 
   // Toggle bookmark
@@ -137,7 +134,7 @@ export const QuizProvider = ({ children }) => {
     } else {
       newBookmarks = [...bookmarks, questionId];
     }
-    saveBookmarks(newBookmarks);
+    saveBookmarksToStorage(newBookmarks);
   };
 
   // Obtener preguntas con peso según fallos y frecuencia
@@ -240,11 +237,10 @@ export const QuizProvider = ({ children }) => {
 
   // Resetear estadísticas
   const resetStats = () => {
-    try {
-      localStorage.removeItem('quizStats');
+    const success = storage.resetAllData();
+    if (success) {
       setStats({});
-    } catch (error) {
-      console.error('Error resetting stats:', error);
+      setBookmarks([]);
     }
   };
 
