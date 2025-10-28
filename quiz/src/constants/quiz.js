@@ -6,9 +6,9 @@
 /**
  * Weight assigned to unanswered questions
  * Higher value = higher priority
- * Unanswered questions get maximum priority (5x more likely than baseline)
+ * Unanswered questions get maximum priority (10x more likely than baseline)
  */
-export const UNANSWERED_QUESTION_WEIGHT = 5;
+export const UNANSWERED_QUESTION_WEIGHT = 10;
 
 /**
  * Failure rate multiplier

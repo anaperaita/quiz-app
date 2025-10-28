@@ -19,6 +19,9 @@ export const recordAnswer = (stats, questionId, isCorrect) => {
       incorrect: 0,
       lastAttempt: null,
     };
+  } else {
+    // Deep clone the existing question stats to avoid mutation
+    newStats[questionId] = { ...newStats[questionId] };
   }
 
   if (isCorrect) {
