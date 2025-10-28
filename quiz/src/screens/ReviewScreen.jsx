@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import './ReviewScreen.css';
@@ -25,7 +25,11 @@ export default function ReviewScreen() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
 
-  useEffect(() => {
+  /**
+   * Load questions based on review mode
+   * Wrapped in useCallback with all dependencies
+   */
+  const loadQuestions = useCallback(() => {
     let questionList;
 
     if (isSequentialMode) {
@@ -57,7 +61,21 @@ export default function ReviewScreen() {
     }
 
     setQuestionsList(questionList);
-  }, []);
+  }, [
+    isSequentialMode,
+    isBlockMode,
+    isBookmarkedMode,
+    blockName,
+    questions,
+    getQuestionsByBlock,
+    getBookmarkedQuestions,
+    getIncorrectQuestions,
+    navigate
+  ]);
+
+  useEffect(() => {
+    loadQuestions();
+  }, [loadQuestions]);
 
   const currentQuestion = questionsList[currentIndex];
 
