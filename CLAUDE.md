@@ -77,8 +77,15 @@ From the `/quiz` directory:
 - **Components**: Functional components with hooks
 - **Naming**: PascalCase for components, camelCase for variables/functions
 - **Documentation**: Add JSDoc comments for complex functions and component props
-- **File Organization**: Follow existing structure - new screens in `/screens/`, new context in `/context/`
+- **File Organization**:
+  - Screens: `/src/screens/`
+  - Context: `/src/context/`
+  - Hooks: `/src/hooks/`
+  - Services: `/src/services/`
+  - Components: `/src/components/`
+  - Constants: `/src/constants/`
 - **No Files Off-Limits**: All files can be modified when necessary
+- **Code Quality**: All ESLint warnings resolved, clean lint output maintained
 
 ## Development Guidelines
 
