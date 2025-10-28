@@ -1,11 +1,8 @@
 import React, { createContext, useState, useEffect } from 'react';
 import modulesConfig from '../data/modules.config.json';
 import * as storage from '../services/storage';
-import {
-  UNANSWERED_QUESTION_WEIGHT,
-  FAILURE_RATE_MULTIPLIER,
-  BASE_WEIGHT,
-} from '../constants/quiz';
+import * as questionService from '../services/questionService';
+import * as statsService from '../services/statsService';
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const QuizContext = createContext();
@@ -111,23 +108,7 @@ export const QuizProvider = ({ children }) => {
 
   // Registrar respuesta de una pregunta
   const recordAnswer = (questionId, isCorrect) => {
-    const newStats = { ...stats };
-
-    if (!newStats[questionId]) {
-      newStats[questionId] = {
-        correct: 0,
-        incorrect: 0,
-        lastAttempt: null,
-      };
-    }
-
-    if (isCorrect) {
-      newStats[questionId].correct += 1;
-    } else {
-      newStats[questionId].incorrect += 1;
-    }
-
-    newStats[questionId].lastAttempt = new Date().toISOString();
+    const newStats = statsService.recordAnswer(stats, questionId, isCorrect);
     saveStatsToStorage(newStats);
   };
 
@@ -144,100 +125,27 @@ export const QuizProvider = ({ children }) => {
 
   // Obtener preguntas con peso según fallos y frecuencia
   const getWeightedRandomQuestion = (excludeIds = []) => {
-    const availableQuestions = questions.filter(q => !excludeIds.includes(q.id));
-
-    if (availableQuestions.length === 0) return null;
-
-    // Encontrar la frecuencia mínima (pregunta menos vista)
-    const frequencies = availableQuestions.map(q => {
-      const questionStats = stats[q.id] || { correct: 0, incorrect: 0 };
-      return questionStats.correct + questionStats.incorrect;
-    });
-    const minFrequency = Math.min(...frequencies);
-
-    // Calcular peso para cada pregunta
-    const weightedQuestions = availableQuestions.map(q => {
-      const questionStats = stats[q.id] || { correct: 0, incorrect: 0 };
-      const totalAttempts = questionStats.correct + questionStats.incorrect;
-
-      // Si nunca se ha respondido, peso MUY alto (máxima prioridad)
-      if (totalAttempts === 0) {
-        return { question: q, weight: UNANSWERED_QUESTION_WEIGHT };
-      }
-
-      // Calcular peso basado en tasa de fallos
-      const failureRate = questionStats.incorrect / totalAttempts;
-      let weight = failureRate * FAILURE_RATE_MULTIPLIER + BASE_WEIGHT;
-
-      // Bonus: inversamente proporcional a la frecuencia relativa
-      // 1 / (frecuencia - frecuencia_minima + 1)
-      const frequencyBonus = 1 / (totalAttempts - minFrequency + 1);
-      weight = weight * (1 + frequencyBonus);
-
-      return { question: q, weight };
-    });
-
-    // Seleccionar pregunta aleatoria ponderada
-    const totalWeight = weightedQuestions.reduce((sum, item) => sum + item.weight, 0);
-    let random = Math.random() * totalWeight;
-
-    for (const item of weightedQuestions) {
-      random -= item.weight;
-      if (random <= 0) {
-        return item.question;
-      }
-    }
-
-    return weightedQuestions[0].question;
+    return questionService.getWeightedRandomQuestion(questions, stats, excludeIds);
   };
 
   // Obtener preguntas incorrectas
   const getIncorrectQuestions = () => {
-    return questions.filter(q => {
-      const questionStats = stats[q.id];
-      return questionStats && questionStats.incorrect > questionStats.correct;
-    });
+    return questionService.getIncorrectQuestions(questions, stats);
   };
 
   // Obtener preguntas marcadas
   const getBookmarkedQuestions = () => {
-    return questions.filter(q => bookmarks.includes(q.id));
+    return questionService.getBookmarkedQuestions(questions, bookmarks);
   };
 
   // Obtener preguntas por bloque
   const getQuestionsByBlock = (blockName) => {
-    return questions.filter(q => q.block === blockName);
+    return questionService.getQuestionsByBlock(questions, blockName);
   };
 
   // Calcular estadísticas globales (solo para el módulo actual)
   const getGlobalStats = () => {
-    const totalQuestions = questions.length;
-
-    // Filtrar solo las preguntas del módulo actual
-    const currentModuleQuestionIds = questions.map(q => q.id);
-    const currentModuleStats = Object.entries(stats)
-      .filter(([questionId]) => currentModuleQuestionIds.includes(questionId));
-
-    const answeredQuestions = currentModuleStats.length;
-    let totalCorrect = 0;
-    let totalIncorrect = 0;
-
-    currentModuleStats.forEach(([, s]) => {
-      totalCorrect += s.correct;
-      totalIncorrect += s.incorrect;
-    });
-
-    const totalAttempts = totalCorrect + totalIncorrect;
-    const accuracy = totalAttempts > 0 ? (totalCorrect / totalAttempts * 100).toFixed(1) : 0;
-
-    return {
-      totalQuestions,
-      answeredQuestions,
-      totalCorrect,
-      totalIncorrect,
-      totalAttempts,
-      accuracy,
-    };
+    return statsService.calculateGlobalStats(questions, stats);
   };
 
   // Resetear estadísticas
