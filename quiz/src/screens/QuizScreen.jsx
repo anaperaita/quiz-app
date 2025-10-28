@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
+import { useToast } from '../hooks/useToast';
+import Toast from '../components/Toast';
 import './QuizScreen.css';
 
 export default function QuizScreen() {
@@ -12,6 +14,8 @@ export default function QuizScreen() {
     bookmarks,
     stats,
   } = useQuiz();
+
+  const { toast, showInfo, showWarning, hideToast } = useToast();
 
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -27,8 +31,8 @@ export default function QuizScreen() {
     setAskedQuestions(prevAsked => {
       const question = getWeightedRandomQuestion(prevAsked);
       if (!question) {
-        alert('¡Has practicado todas las preguntas disponibles!');
-        navigate('/');
+        showInfo('¡Has practicado todas las preguntas disponibles! Volviendo al inicio...', 4000);
+        setTimeout(() => navigate('/'), 1000);
         return prevAsked;
       }
       setCurrentQuestion(question);
@@ -36,7 +40,7 @@ export default function QuizScreen() {
       setShowResult(false);
       return [...prevAsked, question.id];
     });
-  }, [getWeightedRandomQuestion, navigate]);
+  }, [getWeightedRandomQuestion, navigate, showInfo]);
 
   // Load first question on mount only
   useEffect(() => {
@@ -51,7 +55,7 @@ export default function QuizScreen() {
 
   const handleSubmit = () => {
     if (selectedAnswer === null) {
-      alert('Por favor selecciona una respuesta');
+      showWarning('Por favor selecciona una respuesta');
       return;
     }
 
@@ -89,6 +93,7 @@ export default function QuizScreen() {
 
   return (
     <div className="container quiz-container">
+      {toast && <Toast {...toast} onClose={hideToast} />}
       <div className="content">
         {/* Header */}
         <div className="header">

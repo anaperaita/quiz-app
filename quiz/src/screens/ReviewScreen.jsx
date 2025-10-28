@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
+import { useToast } from '../hooks/useToast';
+import Toast from '../components/Toast';
 import './ReviewScreen.css';
 
 export default function ReviewScreen() {
@@ -16,6 +18,8 @@ export default function ReviewScreen() {
     bookmarks,
     stats,
   } = useQuiz();
+
+  const { toast, showInfo, showWarning, showSuccess, hideToast } = useToast();
 
   const isBookmarkedMode = mode === 'bookmarked';
   const isBlockMode = mode === 'block';
@@ -55,8 +59,8 @@ export default function ReviewScreen() {
       } else {
         message = 'No tienes preguntas falladas para repasar';
       }
-      alert(message);
-      navigate('/');
+      showInfo(`${message}. Volviendo al inicio...`, 3000);
+      setTimeout(() => navigate('/'), 1000);
       return;
     }
 
@@ -70,7 +74,8 @@ export default function ReviewScreen() {
     getQuestionsByBlock,
     getBookmarkedQuestions,
     getIncorrectQuestions,
-    navigate
+    navigate,
+    showInfo
   ]);
 
   useEffect(() => {
@@ -86,7 +91,7 @@ export default function ReviewScreen() {
 
   const handleSubmit = () => {
     if (selectedAnswer === null) {
-      alert('Por favor selecciona una respuesta');
+      showWarning('Por favor selecciona una respuesta');
       return;
     }
 
@@ -101,8 +106,8 @@ export default function ReviewScreen() {
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
-      alert(`¡Has completado la revisión de ${questionsList.length} preguntas!`);
-      navigate('/');
+      showSuccess(`¡Has completado la revisión de ${questionsList.length} preguntas!`, 3000);
+      setTimeout(() => navigate('/'), 1500);
     }
   };
 
@@ -132,6 +137,7 @@ export default function ReviewScreen() {
 
   return (
     <div className="container review-container">
+      {toast && <Toast {...toast} onClose={hideToast} />}
       <div className="content">
         {/* Header */}
         <div className="review-header">

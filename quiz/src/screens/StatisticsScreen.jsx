@@ -1,11 +1,14 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
+import { useToast } from '../hooks/useToast';
+import Toast from '../components/Toast';
 import './StatisticsScreen.css';
 
 export default function StatisticsScreen() {
   const navigate = useNavigate();
   const { questions, stats, resetStats, getGlobalStats } = useQuiz();
+  const { toast, showWarning, hideToast } = useToast();
 
   const globalStats = getGlobalStats();
 
@@ -32,13 +35,21 @@ export default function StatisticsScreen() {
   });
 
   const handleReset = () => {
-    if (window.confirm('¿Estás seguro de que quieres resetear todas las estadísticas?')) {
-      resetStats();
-    }
+    showWarning(
+      '¿Estás seguro de que quieres resetear todas las estadísticas? Haz clic de nuevo en 3 segundos para confirmar.',
+      3000
+    );
+    setTimeout(() => {
+      const confirmReset = window.confirm('¿Confirmas el reseteo de todas las estadísticas?');
+      if (confirmReset) {
+        resetStats();
+      }
+    }, 100);
   };
 
   return (
     <div className="container stats-container">
+      {toast && <Toast {...toast} onClose={hideToast} />}
       <div className="content">
         <h1 className="stats-title">Estadísticas</h1>
 
