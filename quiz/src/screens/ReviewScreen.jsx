@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useQuiz } from '../context/QuizContext';
+import { useQuiz } from '../hooks/useQuiz';
 import './ReviewScreen.css';
 
 export default function ReviewScreen() {

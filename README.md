@@ -42,13 +42,18 @@ Esta aplicación permite estudiar de forma efectiva mediante un sistema intelige
 
 ## 🎯 Contenido
 
-### Módulo 4 - Renta Variable (60 preguntas)
+### Sistema de Módulos Dinámico
+La aplicación ahora soporta **carga dinámica de módulos** sin necesidad de modificar código. Puedes añadir nuevos módulos simplemente agregando archivos JSON.
+
+### Módulos Disponibles
+
+**Módulo 4 - Renta Variable (60 preguntas)**
 Bloques temáticos sobre inversión en acciones, análisis fundamental, valoración de empresas, estrategias de inversión en renta variable.
 
-### Módulo 5 - Renta Fija (60 preguntas)
+**Módulo 5 - Renta Fija (60 preguntas)**
 Bloques sobre bonos, tipos de interés, curva de rendimientos, análisis de renta fija, estrategias de inversión en bonos.
 
-### Módulo 6 - Materias Primas (78 preguntas)
+**Módulo 6 - Materias Primas (78 preguntas)**
 13 bloques que cubren:
 - Introducción a las materias primas
 - Análisis de oferta y demanda
@@ -58,6 +63,46 @@ Bloques sobre bonos, tipos de interés, curva de rendimientos, análisis de rent
 - Commodities agrícolas y minoritarias
 - Inversión value aplicada
 - Formas de invertir y análisis de riesgos
+
+### 📦 Añadir Nuevos Módulos
+
+Para añadir un nuevo módulo (sin modificar código):
+
+1. **Crea el archivo JSON** en `quiz/src/data/` siguiendo el formato de los módulos existentes
+2. **Añade una entrada** en `quiz/src/data/modules.config.json`:
+   ```json
+   {
+     "id": "modulo7",
+     "name": "Módulo 7: Nombre del Tema",
+     "file": "modulo7.json"
+   }
+   ```
+3. **¡Listo!** El módulo aparecerá automáticamente en la aplicación
+
+#### Formato del Archivo de Módulo
+
+```json
+{
+  "module": "Módulo X",
+  "title": "Título del Módulo",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": "m7-1",
+      "block": "BLOQUE I: Nombre del bloque",
+      "question": "Texto de la pregunta",
+      "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "correctAnswer": 2,
+      "explanation": "Explicación detallada"
+    }
+  ]
+}
+```
+
+**Importante:**
+- Los IDs de preguntas deben ser únicos en todos los módulos
+- `correctAnswer` usa índice 0 (0 = primera opción, 1 = segunda, etc.)
+- Sigue el patrón de IDs consistente (ej: m7-1, m7-2, m7-3...)
 
 ## 🛠️ Tecnologías
 
@@ -73,8 +118,8 @@ Bloques sobre bonos, tipos de interés, curva de rendimientos, análisis de rent
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU-USUARIO/quizz-app.git
-cd quizz-app/quiz
+git clone https://github.com/TU-USUARIO/quiz-app.git
+cd quiz-app/quiz
 
 # Instalar dependencias
 npm install
@@ -95,25 +140,27 @@ npm run preview
 quizz-app/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml          # GitHub Actions workflow
+│       └── deploy.yml             # GitHub Actions workflow
 ├── quiz/
-│   ├── public/                 # Archivos estáticos
+│   ├── public/                    # Archivos estáticos
 │   ├── src/
 │   │   ├── context/
-│   │   │   └── QuizContext.jsx # Estado global y lógica
+│   │   │   └── QuizContext.jsx    # Estado global y lógica
 │   │   ├── data/
-│   │   │   ├── modulo4.json    # Datos Módulo 4
-│   │   │   ├── modulo5.json    # Datos Módulo 5
-│   │   │   └── modulo6.json    # Datos Módulo 6
+│   │   │   ├── modules.config.json # Configuración de módulos
+│   │   │   ├── modulo4.json       # Datos Módulo 4
+│   │   │   ├── modulo5.json       # Datos Módulo 5
+│   │   │   └── modulo6.json       # Datos Módulo 6
 │   │   ├── screens/
-│   │   │   ├── HomeScreen.jsx  # Pantalla principal
-│   │   │   ├── QuizScreen.jsx  # Pantalla de quiz
-│   │   │   ├── ReviewScreen.jsx # Repaso y bloques
+│   │   │   ├── HomeScreen.jsx     # Pantalla principal
+│   │   │   ├── QuizScreen.jsx     # Pantalla de quiz
+│   │   │   ├── ReviewScreen.jsx   # Repaso y bloques
 │   │   │   └── StatisticsScreen.jsx # Estadísticas
-│   │   ├── App.jsx             # Componente principal
-│   │   └── main.jsx            # Punto de entrada
-│   ├── vite.config.js          # Configuración Vite
+│   │   ├── App.jsx                # Componente principal
+│   │   └── main.jsx               # Punto de entrada
+│   ├── vite.config.js             # Configuración Vite
 │   └── package.json
+├── CLAUDE.md                      # Contexto para Claude Code
 └── README.md
 ```
 
@@ -135,25 +182,6 @@ El proyecto incluye un workflow de GitHub Actions que:
 4. Despliega a GitHub Pages
 5. Tiempo estimado: 2-3 minutos
 
-## 📝 Formato de Datos
-
-Cada pregunta sigue esta estructura:
-
-```json
-{
-  "id": "m4-1",
-  "block": "BLOQUE I: Nombre del bloque",
-  "question": "Texto de la pregunta",
-  "options": [
-    "Opción A",
-    "Opción B",
-    "Opción C",
-    "Opción D"
-  ],
-  "correctAnswer": 2,
-  "explanation": "Explicación detallada de la respuesta correcta"
-}
-```
 
 ## 🤝 Contribuciones
 
@@ -164,9 +192,7 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
 
-Este proyecto es de código abierto y está disponible para uso educativo.
 
 ---
 

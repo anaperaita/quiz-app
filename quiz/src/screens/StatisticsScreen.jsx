@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useQuiz } from '../context/QuizContext';
+import { useQuiz } from '../hooks/useQuiz';
 import './StatisticsScreen.css';
 
 export default function StatisticsScreen() {
