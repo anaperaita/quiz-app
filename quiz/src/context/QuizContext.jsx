@@ -1,6 +1,11 @@
 import React, { createContext, useState, useEffect } from 'react';
 import modulesConfig from '../data/modules.config.json';
 import * as storage from '../services/storage';
+import {
+  UNANSWERED_QUESTION_WEIGHT,
+  FAILURE_RATE_MULTIPLIER,
+  BASE_WEIGHT,
+} from '../constants/quiz';
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const QuizContext = createContext();
@@ -157,12 +162,12 @@ export const QuizProvider = ({ children }) => {
 
       // Si nunca se ha respondido, peso MUY alto (máxima prioridad)
       if (totalAttempts === 0) {
-        return { question: q, weight: 5 };
+        return { question: q, weight: UNANSWERED_QUESTION_WEIGHT };
       }
 
       // Calcular peso basado en tasa de fallos
       const failureRate = questionStats.incorrect / totalAttempts;
-      let weight = failureRate * 3 + 0.5;
+      let weight = failureRate * FAILURE_RATE_MULTIPLIER + BASE_WEIGHT;
 
       // Bonus: inversamente proporcional a la frecuencia relativa
       // 1 / (frecuencia - frecuencia_minima + 1)
