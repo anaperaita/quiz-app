@@ -1,16 +1,41 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import modulo4Data from '../data/modulo4.json';
-import modulo5Data from '../data/modulo5.json';
-import modulo6Data from '../data/modulo6.json';
+import modulesConfig from '../data/modules.config.json';
 
 const QuizContext = createContext();
 
-// Disponibilidad de módulos
-const MODULES = [
-  { id: 'modulo4', name: 'Módulo 4: Renta Variable', data: modulo4Data },
-  { id: 'modulo5', name: 'Módulo 5: Renta Fija', data: modulo5Data },
-  { id: 'modulo6', name: 'Módulo 6: Materias Primas', data: modulo6Data },
-];
+/**
+ * Dynamically load all modules based on modules.config.json
+ * Uses Vite's glob import for efficient module loading
+ * Returns an array of module objects
+ */
+const loadModules = () => {
+  try {
+    // Vite's glob import - eagerly imports all JSON files in /data directory
+    const moduleFiles = import.meta.glob('../data/*.json', { eager: true });
+
+    // Map config modules to their loaded data
+    const modules = modulesConfig.modules.map((moduleInfo) => {
+      const modulePath = `../data/${moduleInfo.file}`;
+      const moduleData = moduleFiles[modulePath];
+
+      if (!moduleData) {
+        console.warn(`Module file not found: ${moduleInfo.file}`);
+        return null;
+      }
+
+      return {
+        id: moduleInfo.id,
+        name: moduleInfo.name,
+        data: moduleData.default,
+      };
+    }).filter(Boolean); // Remove any null entries
+
+    return modules;
+  } catch (error) {
+    console.error('Error loading modules:', error);
+    return [];
+  }
+};
 
 export const useQuiz = () => {
   const context = useContext(QuizContext);
@@ -21,24 +46,37 @@ export const useQuiz = () => {
 };
 
 export const QuizProvider = ({ children }) => {
-  const [selectedModule, setSelectedModule] = useState('modulo4');
-  const [questions, setQuestions] = useState(modulo4Data.questions);
+  const [availableModules, setAvailableModules] = useState([]);
+  const [selectedModule, setSelectedModule] = useState(null);
+  const [questions, setQuestions] = useState([]);
   const [stats, setStats] = useState({});
   const [bookmarks, setBookmarks] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Cargar datos guardados al iniciar
+  // Cargar módulos dinámicamente al iniciar
   useEffect(() => {
+    const modules = loadModules();
+    setAvailableModules(modules);
+
+    // Set default module to first available module
+    if (modules.length > 0) {
+      const defaultModuleId = modules[0].id;
+      setSelectedModule(defaultModuleId);
+      setQuestions(modules[0].data.questions);
+    }
+
     loadData();
   }, []);
 
   // Actualizar preguntas cuando cambia el módulo
   useEffect(() => {
-    const module = MODULES.find(m => m.id === selectedModule);
-    if (module) {
-      setQuestions(module.data.questions);
+    if (selectedModule && availableModules.length > 0) {
+      const module = availableModules.find(m => m.id === selectedModule);
+      if (module) {
+        setQuestions(module.data.questions);
+      }
     }
-  }, [selectedModule]);
+  }, [selectedModule, availableModules]);
 
   const loadData = () => {
     try {
@@ -224,7 +262,7 @@ export const QuizProvider = ({ children }) => {
     loading,
     selectedModule,
     setSelectedModule,
-    availableModules: MODULES,
+    availableModules,
     recordAnswer,
     toggleBookmark,
     getWeightedRandomQuestion,

@@ -1,0 +1,19 @@
+{
+  "modules": [
+    {
+      "id": "modulo4",
+      "name": "Módulo 4: Renta Variable",
+      "file": "modulo4.json"
+    },
+    {
+      "id": "modulo5",
+      "name": "Módulo 5: Renta Fija",
+      "file": "modulo5.json"
+    },
+    {
+      "id": "modulo6",
+      "name": "Módulo 6: Materias Primas",
+      "file": "modulo6.json"
+    }
+  ]
+}
