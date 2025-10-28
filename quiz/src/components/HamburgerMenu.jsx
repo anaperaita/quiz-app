@@ -13,16 +13,6 @@ export default function HamburgerMenu() {
   const location = useLocation();
   const { availableModules, selectedModule, setSelectedModule } = useQuiz();
 
-  // Hide menu on question/quiz screens
-  const isQuestionScreen = ['/quiz', '/sequential-mode', '/review'].some(
-    path => location.pathname.startsWith(path)
-  );
-
-  // Don't render on question screens
-  if (isQuestionScreen) {
-    return null;
-  }
-
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -51,6 +41,16 @@ export default function HamburgerMenu() {
     setSelectedModule(moduleId);
     setIsOpen(false);
   };
+
+  // Hide menu on question/quiz screens
+  const isQuestionScreen = ['/quiz', '/sequential-mode', '/review'].some(
+    path => location.pathname.startsWith(path)
+  );
+
+  // Don't render on question screens
+  if (isQuestionScreen) {
+    return null;
+  }
 
   return (
     <div className="hamburger-menu">
