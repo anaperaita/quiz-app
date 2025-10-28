@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import './QuizScreen.css';
@@ -19,22 +19,30 @@ export default function QuizScreen() {
   const [askedQuestions, setAskedQuestions] = useState([]);
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 });
 
+  /**
+   * Load next weighted random question
+   * Uses functional state updates to avoid dependency on askedQuestions
+   */
+  const loadNextQuestion = useCallback(() => {
+    setAskedQuestions(prevAsked => {
+      const question = getWeightedRandomQuestion(prevAsked);
+      if (!question) {
+        alert('¡Has practicado todas las preguntas disponibles!');
+        navigate('/');
+        return prevAsked;
+      }
+      setCurrentQuestion(question);
+      setSelectedAnswer(null);
+      setShowResult(false);
+      return [...prevAsked, question.id];
+    });
+  }, [getWeightedRandomQuestion, navigate]);
+
+  // Load first question on mount only
   useEffect(() => {
     loadNextQuestion();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  const loadNextQuestion = () => {
-    const question = getWeightedRandomQuestion(askedQuestions);
-    if (!question) {
-      alert('¡Has practicado todas las preguntas disponibles!');
-      navigate('/');
-      return;
-    }
-    setCurrentQuestion(question);
-    setSelectedAnswer(null);
-    setShowResult(false);
-    setAskedQuestions([...askedQuestions, question.id]);
-  };
 
   const handleAnswerSelect = (index) => {
     if (showResult) return;
