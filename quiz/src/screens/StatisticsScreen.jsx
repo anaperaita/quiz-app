@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import { useToast } from '../hooks/useToast';
+import { calculateAccuracyString } from '../utils/calculations';
 import Toast from '../components/Toast';
 import './StatisticsScreen.css';
 
@@ -116,10 +117,7 @@ export default function StatisticsScreen() {
             <div className="blocks-grid">
               {Object.entries(blockStats).map(([block, blockData]) => {
                 const totalAttempts = blockData.correct + blockData.incorrect;
-                const accuracy =
-                  totalAttempts > 0
-                    ? ((blockData.correct / totalAttempts) * 100).toFixed(1)
-                    : 0;
+                const accuracy = calculateAccuracyString(blockData.correct, blockData.incorrect, 1);
 
                 return (
                   <div
@@ -132,10 +130,10 @@ export default function StatisticsScreen() {
                       <div className="progress-bar-large">
                         <div
                           className="progress-fill-large"
-                          style={{ width: `${accuracy}%` }}
+                          style={{ width: accuracy }}
                         ></div>
                       </div>
-                      <p className="block-percentage">{accuracy}%</p>
+                      <p className="block-percentage">{accuracy}</p>
                     </div>
                     <div className="block-card-stats">
                       <span>{blockData.answered}/{blockData.total} respondidas</span>

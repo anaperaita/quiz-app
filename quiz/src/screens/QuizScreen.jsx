@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import { useToast } from '../hooks/useToast';
 import { useQuestionInteraction } from '../hooks/useQuestionInteraction';
+import { calculateSessionAccuracy } from '../utils/calculations';
 import Toast from '../components/Toast';
 import './QuizScreen.css';
 
@@ -175,7 +176,7 @@ export default function QuizScreen() {
               <div className="session-stat-item">
                 <span className="session-stat-icon">🎯</span>
                 <span className="session-stat-value">
-                  {((sessionStats.correct / (sessionStats.correct + sessionStats.incorrect)) * 100).toFixed(0)}%
+                  {calculateSessionAccuracy(sessionStats)}%
                 </span>
               </div>
             </>
