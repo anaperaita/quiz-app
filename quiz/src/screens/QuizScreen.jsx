@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import { useToast } from '../hooks/useToast';
+import { useQuestionInteraction } from '../hooks/useQuestionInteraction';
 import Toast from '../components/Toast';
 import './QuizScreen.css';
 
@@ -17,9 +18,16 @@ export default function QuizScreen() {
 
   const { toast, showInfo, showWarning, hideToast } = useToast();
 
+  const {
+    selectedAnswer,
+    showResult,
+    handleAnswerSelect,
+    handleSubmit: submitAnswer,
+    resetInteraction,
+    getOptionClass,
+  } = useQuestionInteraction(recordAnswer);
+
   const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [showResult, setShowResult] = useState(false);
   const [askedQuestions, setAskedQuestions] = useState([]);
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 });
 
@@ -36,11 +44,10 @@ export default function QuizScreen() {
         return prevAsked;
       }
       setCurrentQuestion(question);
-      setSelectedAnswer(null);
-      setShowResult(false);
+      resetInteraction();
       return [...prevAsked, question.id];
     });
-  }, [getWeightedRandomQuestion, navigate, showInfo]);
+  }, [getWeightedRandomQuestion, navigate, showInfo, resetInteraction]);
 
   // Load first question on mount only
   useEffect(() => {
@@ -48,27 +55,18 @@ export default function QuizScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleAnswerSelect = (index) => {
-    if (showResult) return;
-    setSelectedAnswer(index);
-  };
-
   const handleSubmit = () => {
-    if (selectedAnswer === null) {
+    const result = submitAnswer(currentQuestion, (isCorrect) => {
+      // Update session stats
+      setSessionStats(prev => ({
+        correct: prev.correct + (isCorrect ? 1 : 0),
+        incorrect: prev.incorrect + (isCorrect ? 0 : 1)
+      }));
+    });
+
+    if (result === null) {
       showWarning('Por favor selecciona una respuesta');
-      return;
     }
-
-    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
-    recordAnswer(currentQuestion.id, isCorrect);
-
-    // Actualizar estadísticas de la sesión
-    setSessionStats(prev => ({
-      correct: prev.correct + (isCorrect ? 1 : 0),
-      incorrect: prev.incorrect + (isCorrect ? 0 : 1)
-    }));
-
-    setShowResult(true);
   };
 
   const handleNext = () => {
@@ -121,30 +119,16 @@ export default function QuizScreen() {
 
         {/* Options */}
         <div className="options-container">
-          {currentQuestion.options.map((option, index) => {
-            let className = 'option-button';
-
-            if (showResult) {
-              if (index === currentQuestion.correctAnswer) {
-                className += ' correct-option';
-              } else if (index === selectedAnswer && !isCorrect) {
-                className += ' incorrect-option';
-              }
-            } else if (selectedAnswer === index) {
-              className += ' selected-option';
-            }
-
-            return (
-              <button
-                key={index}
-                className={className}
-                onClick={() => handleAnswerSelect(index)}
-                disabled={showResult}
-              >
-                <span className="option-text">{option}</span>
-              </button>
-            );
-          })}
+          {currentQuestion.options.map((option, index) => (
+            <button
+              key={index}
+              className={getOptionClass(index, currentQuestion.correctAnswer)}
+              onClick={() => handleAnswerSelect(index)}
+              disabled={showResult}
+            >
+              <span className="option-text">{option}</span>
+            </button>
+          ))}
         </div>
 
         {/* Explanation */}

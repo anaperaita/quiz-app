@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import { useToast } from '../hooks/useToast';
+import { useQuestionInteraction } from '../hooks/useQuestionInteraction';
 import Toast from '../components/Toast';
 import './ReviewScreen.css';
 
@@ -21,13 +22,20 @@ export default function ReviewScreen() {
 
   const { toast, showInfo, showWarning, showSuccess, hideToast } = useToast();
 
+  const {
+    selectedAnswer,
+    showResult,
+    handleAnswerSelect,
+    handleSubmit: submitAnswer,
+    resetInteraction,
+    getOptionClass,
+  } = useQuestionInteraction(recordAnswer);
+
   const isBookmarkedMode = mode === 'bookmarked';
   const isBlockMode = mode === 'block';
   const isSequentialMode = mode === 'sequential';
   const [questionsList, setQuestionsList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [showResult, setShowResult] = useState(false);
 
   /**
    * Load questions based on review mode
@@ -84,27 +92,18 @@ export default function ReviewScreen() {
 
   const currentQuestion = questionsList[currentIndex];
 
-  const handleAnswerSelect = (index) => {
-    if (showResult) return;
-    setSelectedAnswer(index);
-  };
-
   const handleSubmit = () => {
-    if (selectedAnswer === null) {
-      showWarning('Por favor selecciona una respuesta');
-      return;
-    }
+    const result = submitAnswer(currentQuestion);
 
-    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
-    recordAnswer(currentQuestion.id, isCorrect);
-    setShowResult(true);
+    if (result === null) {
+      showWarning('Por favor selecciona una respuesta');
+    }
   };
 
   const handleNext = () => {
     if (currentIndex < questionsList.length - 1) {
       setCurrentIndex(currentIndex + 1);
-      setSelectedAnswer(null);
-      setShowResult(false);
+      resetInteraction();
     } else {
       showSuccess(`¡Has completado la revisión de ${questionsList.length} preguntas!`, 3000);
       setTimeout(() => navigate('/'), 1500);
@@ -114,8 +113,7 @@ export default function ReviewScreen() {
   const handlePrevious = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
-      setSelectedAnswer(null);
-      setShowResult(false);
+      resetInteraction();
     }
   };
 
@@ -181,30 +179,16 @@ export default function ReviewScreen() {
 
         {/* Options */}
         <div className="options-container">
-          {currentQuestion.options.map((option, index) => {
-            let className = 'option-button';
-
-            if (showResult) {
-              if (index === currentQuestion.correctAnswer) {
-                className += ' correct-option';
-              } else if (index === selectedAnswer && !isCorrect) {
-                className += ' incorrect-option';
-              }
-            } else if (selectedAnswer === index) {
-              className += ' selected-option';
-            }
-
-            return (
-              <button
-                key={index}
-                className={className}
-                onClick={() => handleAnswerSelect(index)}
-                disabled={showResult}
-              >
-                <span className="option-text">{option}</span>
-              </button>
-            );
-          })}
+          {currentQuestion.options.map((option, index) => (
+            <button
+              key={index}
+              className={getOptionClass(index, currentQuestion.correctAnswer)}
+              onClick={() => handleAnswerSelect(index)}
+              disabled={showResult}
+            >
+              <span className="option-text">{option}</span>
+            </button>
+          ))}
         </div>
 
         {/* Explanation */}
