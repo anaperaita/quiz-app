@@ -10,9 +10,6 @@ export default function HomeScreen() {
     loading,
     bookmarks,
     getIncorrectQuestions,
-    selectedModule,
-    setSelectedModule,
-    availableModules,
   } = useQuiz();
 
   if (loading) {
@@ -33,22 +30,6 @@ export default function HomeScreen() {
         <div className="header-container">
           <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Visual Quiz Logo" className="app-logo" />
           <h1 className="title">Visual Quiz</h1>
-        </div>
-
-        {/* Module Selector */}
-        <div className="module-selector-container">
-          <p className="module-selector-label">Selecciona Módulo:</p>
-          <div className="module-buttons">
-            {availableModules.map(module => (
-              <button
-                key={module.id}
-                className={`module-button ${selectedModule === module.id ? 'active' : ''}`}
-                onClick={() => setSelectedModule(module.id)}
-              >
-                {module.name}
-              </button>
-            ))}
-          </div>
         </div>
 
         {/* Dashboard Layout */}

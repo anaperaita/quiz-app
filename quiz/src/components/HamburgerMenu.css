@@ -1,0 +1,248 @@
+/* Hamburger Menu Styles */
+
+.hamburger-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* Hamburger Button */
+.hamburger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 44px;
+  height: 44px;
+  background-color: #667eea;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+}
+
+.hamburger-button:hover {
+  background-color: #5568d3;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+}
+
+.hamburger-button:active {
+  transform: scale(0.95);
+}
+
+.hamburger-line {
+  width: 24px;
+  height: 2.5px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animate hamburger to X when open */
+.hamburger-button.open .hamburger-line:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger-button.open .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-button.open .hamburger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Overlay */
+.hamburger-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Menu Panel */
+.hamburger-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  max-width: 85vw;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger-panel.open {
+  transform: translateX(0);
+}
+
+/* Header */
+.hamburger-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+  border-bottom: 2px solid #f0f0f0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.hamburger-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.hamburger-close {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.hamburger-close:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hamburger-close:active {
+  transform: scale(0.9);
+}
+
+/* Modules List */
+.hamburger-modules {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.hamburger-module-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 8px;
+  background-color: #f8f9fa;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2d3748;
+  text-align: left;
+}
+
+.hamburger-module-item:hover {
+  background-color: #e9ecef;
+  transform: translateX(4px);
+}
+
+.hamburger-module-item.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.hamburger-module-item:active {
+  transform: translateX(4px) scale(0.98);
+}
+
+.module-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.module-name {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.module-check {
+  font-size: 18px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    top: 16px;
+    left: 16px;
+  }
+
+  .hamburger-button {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  .hamburger-line {
+    width: 22px;
+  }
+
+  .hamburger-panel {
+    width: 280px;
+  }
+
+  .hamburger-header {
+    padding: 20px 16px;
+  }
+
+  .hamburger-title {
+    font-size: 20px;
+  }
+
+  .hamburger-modules {
+    padding: 8px;
+  }
+
+  .hamburger-module-item {
+    padding: 14px;
+    font-size: 14px;
+  }
+}
+
+/* Scrollbar styling for modules list */
+.hamburger-modules::-webkit-scrollbar {
+  width: 6px;
+}
+
+.hamburger-modules::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.hamburger-modules::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
+.hamburger-modules::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}

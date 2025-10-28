@@ -55,55 +55,6 @@
   letter-spacing: -1px;
 }
 
-.module-selector-container {
-  margin-bottom: 25px;
-}
-
-.module-selector-label {
-  font-size: clamp(14px, 2.5vw, 16px);
-  font-weight: 600;
-  color: #2c3e50;
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-.module-buttons {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.module-button {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 16px;
-  min-height: 48px;
-  border: 2px solid #e0e0e0;
-  font-size: clamp(14px, 2.5vw, 16px);
-  font-weight: 600;
-  color: #2c3e50;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  flex: 1;
-  min-width: 140px;
-}
-
-.module-button:hover {
-  border-color: #3498db;
-  box-shadow: 0 2px 4px rgba(52, 152, 219, 0.15);
-}
-
-.module-button.active {
-  background-color: #3498db;
-  border-color: #3498db;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
-}
-
 .dashboard-layout {
   display: flex;
   flex-direction: column;
