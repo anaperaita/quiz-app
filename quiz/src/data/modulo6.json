@@ -52,7 +52,7 @@
       "Una estimación de la cantidad de capital necesario para explotar un yacimiento",
       "El material ya extraído y almacenado en refinerías"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "Una reserva no es todo el material existente, sino solo aquel que es técnicamente y económicamente viable extraer con los medios actuales."
   },
   {
@@ -845,7 +845,7 @@
       "Tiene más margen para resistir ciclos bajistas",
       "No necesita permisos ambientales complejos"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "explanation": "Una empresa eficiente, con menores costes por unidad, puede seguir siendo rentable incluso en entornos de precios bajos. Eso le da una gran ventaja competitiva."
   },
   {
@@ -910,7 +910,7 @@
       "No tienen vencimiento y se negocian directamente con el bróker",
       "Son más seguros y recomendados para largo plazo"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "explanation": "Aunque muchos piensan que los CFDs son seguros, lo cierto es que su coste por mantenimiento, apalancamiento y falta de vencimiento los hace muy arriesgados si no se controlan bien."
   },
   {
@@ -923,7 +923,7 @@
       "Empresas de royalties o streaming",
       "Empresas de logística minera"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "explanation": "Las empresas de royalties o streaming no explotan directamente los recursos. Este tipo de empresa financia proyectos a cambio de recibir una parte de la producción o ingresos futuros, sin asumir los costes de operación directamente."
   },
   {
