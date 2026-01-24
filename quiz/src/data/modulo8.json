@@ -1,0 +1,761 @@
+{
+  "module": "Módulo 8",
+  "title": "Bitcoin y Criptomonedas",
+  "totalQuestions": 58,
+  "questions": [
+    {
+      "id": "m8-1",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Qué problema fundamental resolvía Bitcoin al nacer?",
+      "options": [
+        "Evitar el doble gasto en un sistema digital sin necesidad de terceros",
+        "Mejorar la velocidad de las transferencias bancarias",
+        "Crear una red social alternativa a Facebook",
+        "Aumentar la rentabilidad del dinero en el sistema financiero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El objetivo de Bitcoin era permitir transacciones electrónicas entre personas sin intermediarios, resolviendo el problema del doble gasto en entornos digitales."
+    },
+    {
+      "id": "m8-2",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Qué función cumplen los nodos en la red de Bitcoin?",
+      "options": [
+        "Ejecutar las transacciones que ordena el banco central",
+        "Procesar los pagos con tarjeta",
+        "Verificar todas las transacciones y hacer cumplir las reglas del protocolo",
+        "Controlar la emisión de nuevos bitcoins de forma centralizada"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los nodos son ordenadores que validan y propagan transacciones en la red, asegurando que todas las reglas se cumplan y sin necesidad de confiar en terceros."
+    },
+    {
+      "id": "m8-3",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Cuál de estas afirmaciones es cierta respecto al whitepaper de Bitcoin?",
+      "options": [
+        "Fue publicado por Vitalik Buterin en 2013",
+        "Se define como un sistema de efectivo electrónico peer-to-peer",
+        "Propone una red cerrada y privada para grandes bancos",
+        "Su objetivo principal era evitar el uso de criptografía en internet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el whitepaper de Satoshi Nakamoto (2008), Bitcoin se presenta como un sistema de efectivo electrónico entre pares (peer-to-peer), que elimina la necesidad de confianza en terceros."
+    },
+    {
+      "id": "m8-4",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Qué es lo que demuestra realmente la propiedad de bitcoins?",
+      "options": [
+        "La posesión de una hardware wallet",
+        "El registro en una plataforma de intercambio",
+        "El control de la clave privada",
+        "La validación por parte de un banco"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En Bitcoin, la propiedad no depende de dispositivos físicos ni de intermediarios, sino del control exclusivo de la clave privada, que permite firmar transacciones y mover los fondos."
+    },
+    {
+      "id": "m8-5",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Por qué se dice que la propiedad en Bitcoin es absoluta?",
+      "options": [
+        "Porque está garantizada por tratados internacionales",
+        "Porque depende de la fuerza física del propietario",
+        "Porque no puede ser alterada, confiscada ni revertida por el Estado",
+        "Porque siempre está asociada a una identidad legal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bitcoin introduce una forma de propiedad que no depende de la autoridad estatal ni de intermediarios, y que no puede ser intervenida mientras el propietario conserve su clave privada."
+    },
+    {
+      "id": "m8-6",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿En qué sentido puede considerarse Bitcoin un \"activo real digital\"?",
+      "options": [
+        "Porque está respaldado por una empresa privada",
+        "Porque su existencia depende de una fundación",
+        "Porque su valor se decide por votación de los usuarios",
+        "Porque no depende de una entidad emisora ni de la voluntad de terceros"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bitcoin no depende de una empresa, fundación o emisor central. Su existencia y reglas están definidas por el protocolo y la red, lo que lo aproxima conceptualmente a activos reales como el oro."
+    },
+    {
+      "id": "m8-7",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Por qué no es correcto agrupar Bitcoin junto al resto de criptomonedas?",
+      "options": [
+        "Porque Bitcoin pertenece a una categoría económica distinta y no funciona como un proyecto empresarial",
+        "Porque Bitcoin no utiliza criptografía",
+        "Porque Bitcoin es una red privada",
+        "Porque Bitcoin depende de una fundación central"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bitcoin no funciona como una startup ni como una organización con control discrecional. Es un sistema monetario y patrimonial sin emisor ni gestor, lo que lo sitúa en una categoría distinta al resto de criptoactivos."
+    },
+    {
+      "id": "m8-8",
+      "block": "BLOQUE I: Fundamentos de Bitcoin",
+      "question": "¿Por qué la lentitud de Bitcoin no se considera un fallo del sistema?",
+      "options": [
+        "Porque prioriza la verificabilidad y la resistencia a la manipulación frente a la velocidad",
+        "Porque pretende sustituir a Visa y Mastercard",
+        "Porque los bloques podrían minarse más rápido si se quisiera",
+        "Porque depende de servidores centralizados"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El diseño de Bitcoin no busca competir como sistema de pago rápido, sino permitir que cualquier nodo verifique las transacciones sin intermediarios, reforzando así la seguridad y la descentralización."
+    },
+    {
+      "id": "m8-9",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿En qué categoría económica encaja mejor Bitcoin?",
+      "options": [
+        "Reserva de valor estable",
+        "Depósito de valor",
+        "Medio de pago cotidiano",
+        "Activo respaldado por deuda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Debido a su volatilidad, Bitcoin no puede considerarse una reserva de valor estable, pero sí un depósito de valor que permite almacenar riqueza asumiendo la incertidumbre de su valoración."
+    },
+    {
+      "id": "m8-10",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Por qué Bitcoin introduce una tensión directa con el Estado?",
+      "options": [
+        "Porque elimina completamente la necesidad de impuestos",
+        "Porque sustituye a los sistemas democráticos",
+        "Porque permite una forma de propiedad absoluta fuera del control estatal",
+        "Porque centraliza el poder monetario"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bitcoin hace posible una propiedad que no depende del territorio ni de la autoridad estatal, lo que tensiona uno de los pilares históricos del poder del Estado: el control sobre la propiedad."
+    },
+    {
+      "id": "m8-11",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Qué papel juega Bitcoin frente a los excesos del Estado?",
+      "options": [
+        "Actúa como una alternativa política directa",
+        "Sustituye las instituciones públicas",
+        "Refuerza la capacidad recaudatoria",
+        "Introduce un límite y un poder de negociación frente al Estado"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bitcoin no elimina al Estado, pero limita su margen de actuación, incentivando una mayor moderación fiscal y monetaria al ofrecer una vía de escape al control patrimonial."
+    },
+    {
+      "id": "m8-12",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Qué pueden hacer los Estados para beneficiarse de Bitcoin?",
+      "options": [
+        "Integrarlo mediante marcos jurídicos favorables y fomentar su adopción",
+        "Prohibir su uso para evitar la pérdida de soberanía",
+        "Modificar su protocolo para adaptarlo a sus intereses",
+        "Centralizar su emisión"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Algunos Estados pueden optar por aprovechar Bitcoin promoviendo educación, regulación favorable, actividad minera o su integración como activo patrimonial."
+    },
+    {
+      "id": "m8-13",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Por qué se define el dinero como una tecnología social?",
+      "options": [
+        "Porque surge para reducir los costes de transacción y la incertidumbre en los intercambios",
+        "Porque depende exclusivamente del Estado",
+        "Porque solo existe en formato digital",
+        "Porque requiere siempre intermediarios financieros"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El dinero no es solo un objeto, sino una herramienta social que permite facilitar intercambios impersonales reduciendo costes y riesgos."
+    },
+    {
+      "id": "m8-14",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Qué se entiende por sistema monetario dual?",
+      "options": [
+        "Un sistema donde dos Estados comparten moneda",
+        "Un sistema basado exclusivamente en deuda pública",
+        "Un sistema en el que distintos activos cumplen funciones monetarias distintas",
+        "Un sistema donde el dinero pierde valor constantemente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cuando ningún activo optimiza todas las funciones monetarias, se emplean distintos activos para el intercambio y para el depósito patrimonial."
+    },
+    {
+      "id": "m8-15",
+      "block": "BLOQUE II: Bitcoin como Activo Económico",
+      "question": "¿Cuál es el principal valor económico de Bitcoin según esta teoría?",
+      "options": [
+        "Su capacidad para sustituir al dinero fiat en el corto plazo",
+        "Su utilidad como medio de pago diario",
+        "Su papel como activo especulativo sin valor fundamental",
+        "Su función de protección patrimonial en determinados estados del mundo"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bitcoin reduce los costes de proteger el patrimonio frente a escenarios extremos, lo que le otorga un valor económico específico aunque no sea dinero en todas las dimensiones."
+    },
+    {
+      "id": "m8-16",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Qué papel desempeña la criptografía en el origen de Bitcoin?",
+      "options": [
+        "Sirve únicamente para ocultar identidades",
+        "Permite reducir el poder de intervención de los Estados en las transacciones",
+        "Sustituye completamente a las instituciones jurídicas",
+        "Garantiza la estabilidad de precios"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La criptografía permite proteger identidad y patrimonio, limitando la capacidad de intervención estatal en el ámbito digital."
+    },
+    {
+      "id": "m8-17",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Por qué la Proof of Work funciona como un mecanismo de veracidad?",
+      "options": [
+        "Porque impide cualquier modificación del historial",
+        "Porque centraliza la validación en los mineros",
+        "Porque convierte la energía invertida en una señal honesta difícil de falsificar",
+        "Porque elimina la necesidad de nodos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La necesidad de rehacer el trabajo computacional previo hace que las alteraciones sean costosas y fácilmente detectables."
+    },
+    {
+      "id": "m8-18",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Qué distingue a Bitcoin de otros sistemas monetarios desde el punto de vista social?",
+      "options": [
+        "Su dependencia de líderes visibles",
+        "Su vinculación a una jurisdicción concreta",
+        "Su control por instituciones financieras",
+        "Su autonomía respecto a Estados y organizaciones"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bitcoin no depende de ningún líder, organización o Estado, sino del consenso distribuido de la red."
+    },
+    {
+      "id": "m8-19",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Qué patrón histórico se observa en la relación entre imperios y sus monedas?",
+      "options": [
+        "Las monedas se fortalecen indefinidamente con el poder imperial",
+        "El auge y caída de los imperios suele ir acompañado del deterioro de su moneda",
+        "Las monedas no guardan relación con el poder político",
+        "Los imperios caen exclusivamente por causas militares"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Históricamente, la pérdida de hegemonía política y económica suele ir acompañada de la degradación del sistema monetario dominante."
+    },
+    {
+      "id": "m8-20",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Por qué Bitcoin resulta relevante en un contexto de transición hegemónica?",
+      "options": [
+        "Porque garantiza el liderazgo de un nuevo imperio",
+        "Porque sustituye automáticamente a las divisas estatales",
+        "Porque ofrece un activo ajeno a la lógica monetaria imperial tradicional",
+        "Porque elimina los ciclos económicos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bitcoin no representa un Estado, pero actúa como una alternativa para preservar valor durante periodos de reconfiguración del poder global."
+    },
+    {
+      "id": "m8-21",
+      "block": "BLOQUE III: Criptografía y Seguridad",
+      "question": "¿Cuál es la principal diferencia entre Bitcoin y los activos tradicionales en términos de protección?",
+      "options": [
+        "Los activos tradicionales dependen de energía, Bitcoin no",
+        "Bitcoin depende del uso de la fuerza física",
+        "Los activos tradicionales son siempre más seguros",
+        "Bitcoin sustituye el coste humano por el coste energético"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mientras los activos tradicionales se protegen mediante coerción y control territorial, Bitcoin basa su seguridad en el coste computacional y energético."
+    },
+    {
+      "id": "m8-22",
+      "block": "BLOQUE IV: Comportamiento del Activo",
+      "question": "¿Por qué las revalorizaciones porcentuales de Bitcoin tienden a moderarse con el tiempo?",
+      "options": [
+        "Porque los halvings pierden efecto",
+        "Porque al aumentar su capitalización el crecimiento relativo se normaliza",
+        "Porque deja de ser escaso",
+        "Porque los Estados controlan su precio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A medida que un activo crece en capitalización, es normal que sus revalorizaciones porcentuales sean más moderadas, sin que ello implique pérdida de potencial."
+    },
+    {
+      "id": "m8-23",
+      "block": "BLOQUE IV: Comportamiento del Activo",
+      "question": "¿Qué combinación de características define mejor el comportamiento histórico de Bitcoin como activo?",
+      "options": [
+        "Baja volatilidad y baja rentabilidad",
+        "Alta estabilidad y crecimiento constante",
+        "Alta volatilidad y elevada rentabilidad anualizada",
+        "Estabilidad absoluta a largo plazo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bitcoin ha combinado históricamente fuertes oscilaciones de precio con una rentabilidad anualizada muy elevada, especialmente en horizontes largos."
+    },
+    {
+      "id": "m8-24",
+      "block": "BLOQUE IV: Comportamiento del Activo",
+      "question": "¿Por qué Bitcoin sigue considerándose un activo en fase temprana?",
+      "options": [
+        "Porque no tiene un protocolo terminado",
+        "Porque su capitalización es muy inferior a la de activos tradicionales como el oro",
+        "Porque no puede utilizarse como inversión",
+        "Porque depende de decisiones políticas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La comparación de capitalizaciones muestra que Bitcoin aún es pequeño frente a otros activos globales, lo que sugiere una etapa temprana en su desarrollo histórico."
+    },
+    {
+      "id": "m8-25",
+      "block": "BLOQUE IV: Comportamiento del Activo",
+      "question": "¿Por qué se dice que las propiedades de Bitcoin son emergentes y no del código en sí?",
+      "options": [
+        "Porque dependen únicamente de la criptografía",
+        "Porque aparecen solo cuando el sistema de incentivos alcanza suficiente escala",
+        "Porque están programadas explícitamente en el software",
+        "Porque los Estados las garantizan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La descentralización, la seguridad o la resistencia a la censura surgen de la interacción entre nodos, mineros e incentivos, no del código aislado."
+    },
+    {
+      "id": "m8-26",
+      "block": "BLOQUE V: Claves y Transacciones",
+      "question": "¿Cuál es la función principal de la clave privada en Bitcoin?",
+      "options": [
+        "Generar nuevas direcciones",
+        "Observar los movimientos de la cartera",
+        "Firmar transacciones y transferir la propiedad",
+        "Verificar bloques"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La clave privada permite firmar órdenes de gasto; quien la controla ejerce la propiedad efectiva de los bitcoin."
+    },
+    {
+      "id": "m8-27",
+      "block": "BLOQUE V: Claves y Transacciones",
+      "question": "¿Por qué el alto coste energético del minado refuerza la seguridad del sistema?",
+      "options": [
+        "Porque reduce el número de nodos",
+        "Porque hace innecesaria la verificación",
+        "Porque garantiza precios estables",
+        "Porque desincentiva comportamientos deshonestos al hacerlos costosos"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Si un minero actúa mal, los nodos rechazan el bloque y el coste energético se pierde, alineando los incentivos hacia el cumplimiento de las reglas."
+    },
+    {
+      "id": "m8-28",
+      "block": "BLOQUE V: Claves y Transacciones",
+      "question": "¿Cuál es la función principal de la semilla en una cartera de Bitcoin?",
+      "options": [
+        "Almacenar los bitcoins",
+        "Sustituir a la clave privada",
+        "Permitir derivar todas las claves y restaurar la cartera",
+        "Verificar bloques"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La semilla permite regenerar todas las claves privadas y direcciones asociadas, actuando como copia de seguridad única de la cartera."
+    },
+    {
+      "id": "m8-29",
+      "block": "BLOQUE V: Claves y Transacciones",
+      "question": "¿Por qué Bitcoin utiliza un modelo basado en UTxOs en lugar de saldos?",
+      "options": [
+        "Para facilitar la inflación monetaria",
+        "Para permitir que los nodos verifiquen cada gasto y evitar el doble gasto",
+        "Para ocultar el historial de transacciones",
+        "Para centralizar la contabilidad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El modelo UTxO permite comprobar que cada moneda no ha sido gastada previamente y garantiza la validez de las transacciones sin intermediarios."
+    },
+    {
+      "id": "m8-30",
+      "block": "BLOQUE V: Claves y Transacciones",
+      "question": "¿Qué determina qué transacciones entran antes en un bloque?",
+      "options": [
+        "El orden de llegada a la red",
+        "La reputación del emisor",
+        "El tipo de dirección utilizada",
+        "La comisión ofrecida al minero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dado que el espacio en los bloques es limitado, las transacciones compiten entre sí y los mineros priorizan aquellas que ofrecen mayores comisiones."
+    },
+    {
+      "id": "m8-31",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Qué es realmente una wallet en Bitcoin?",
+      "options": [
+        "Un monedero que almacena bitcoins",
+        "Una cuenta bancaria digital",
+        "Una herramienta para gestionar claves privadas",
+        "Un contrato inteligente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las wallets no almacenan bitcoin, sino las claves que permiten ejercer la propiedad sobre ellos."
+    },
+    {
+      "id": "m8-32",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Cuál es la diferencia principal entre una cartera fría y una caliente?",
+      "options": [
+        "El tipo de moneda que almacenan",
+        "El nivel de conexión a Internet",
+        "El coste de las comisiones",
+        "El tipo de direcciones utilizadas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las carteras frías permanecen desconectadas de Internet, mientras que las calientes están online y son más cómodas pero más vulnerables."
+    },
+    {
+      "id": "m8-33",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Por qué las hardware wallets mejoran la seguridad?",
+      "options": [
+        "Porque eliminan la necesidad de nodos",
+        "Porque almacenan bitcoins fuera de la blockchain",
+        "Porque permiten firmar transacciones sin exponer la clave privada",
+        "Porque garantizan anonimato total"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La clave privada nunca abandona el dispositivo, reduciendo drásticamente la superficie de ataque."
+    },
+    {
+      "id": "m8-34",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Para qué sirve una cartera watch-only?",
+      "options": [
+        "Para gastar fondos sin restricciones",
+        "Para minar bitcoin",
+        "Para almacenar la semilla",
+        "Para observar movimientos sin exponer claves privadas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Permite monitorizar direcciones y saldos utilizando solo la clave pública."
+    },
+    {
+      "id": "m8-35",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Cuál es el principal riesgo de las software wallets?",
+      "options": [
+        "La imposibilidad de firmar transacciones",
+        "La exposición de las claves al estar en dispositivos conectados",
+        "La falta de compatibilidad con Bitcoin",
+        "El coste económico"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al operar en dispositivos conectados, aumentan los riesgos frente a malware o intrusiones."
+    },
+    {
+      "id": "m8-36",
+      "block": "BLOQUE VI: Wallets y Custodia",
+      "question": "¿Por qué es importante separar la semilla y la passphrase?",
+      "options": [
+        "Para facilitar el uso diario",
+        "Para cumplir requisitos legales",
+        "Para reducir el tamaño del respaldo",
+        "Para aumentar la seguridad ante robos o pérdidas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La separación física de ambos elementos reduce el riesgo de que un único fallo comprometa toda la custodia."
+    },
+    {
+      "id": "m8-37",
+      "block": "BLOQUE VII: Blockchain y Tecnología",
+      "question": "¿Qué define mejor a una blockchain desde el punto de vista técnico?",
+      "options": [
+        "Una base de datos centralizada",
+        "Un sistema de contabilidad distribuida basado en bloques enlazados",
+        "Un software de pagos digitales",
+        "Una red privada de empresas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La blockchain es un registro distribuido donde la información se organiza en bloques enlazados criptográficamente."
+    },
+    {
+      "id": "m8-38",
+      "block": "BLOQUE VII: Blockchain y Tecnología",
+      "question": "¿Por qué el uso de blockchain no garantiza por sí solo descentralización o seguridad?",
+      "options": [
+        "Porque todas las blockchains usan Proof of Work",
+        "Porque la criptografía es insuficiente",
+        "Porque la estructura blockchain necesita un diseño de incentivos y gobernanza adecuado",
+        "Porque depende siempre de una autoridad central"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sin un sistema de incentivos y una gobernanza adecuada, una blockchain puede ser centralizada o poco segura."
+    },
+    {
+      "id": "m8-39",
+      "block": "BLOQUE VII: Blockchain y Tecnología",
+      "question": "¿Cuál es una de las principales deficiencias actuales de muchas blockchains públicas?",
+      "options": [
+        "Falta de nodos",
+        "Ausencia de criptografía",
+        "Imposibilidad de crear tokens",
+        "Problemas de escalabilidad y privacidad"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las blockchains públicas suelen enfrentar limitaciones en velocidad, coste y privacidad debido a su naturaleza abierta."
+    },
+    {
+      "id": "m8-40",
+      "block": "BLOQUE VIII: Stablecoins",
+      "question": "¿Cuál es el objetivo principal de una stablecoin?",
+      "options": [
+        "Sustituir a Bitcoin como reserva de valor",
+        "Mantener una paridad estable con un activo de referencia",
+        "Eliminar la necesidad de regulación financiera",
+        "Aumentar la volatilidad del mercado cripto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las stablecoins buscan replicar digitalmente el valor de un activo estable, normalmente una moneda fiduciaria, manteniendo una relación 1:1."
+    },
+    {
+      "id": "m8-41",
+      "block": "BLOQUE VIII: Stablecoins",
+      "question": "¿Qué riesgo es más relevante en las stablecoins emitidas por entidades centralizadas?",
+      "options": [
+        "El riesgo de escalabilidad",
+        "El riesgo tecnológico de la blockchain",
+        "El riesgo de contraparte del emisor",
+        "El riesgo energético"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La estabilidad depende de la solvencia del emisor y de la correcta gestión y transparencia de las reservas."
+    },
+    {
+      "id": "m8-42",
+      "block": "BLOQUE VIII: Stablecoins",
+      "question": "¿Qué efecto económico relevante tienen las stablecoins a escala global?",
+      "options": [
+        "Debilitan el papel del dólar",
+        "Eliminan los sistemas bancarios",
+        "Aumentan la inflación mundial",
+        "Facilitan la dolarización y reducen costes en pagos internacionales"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Al permitir acceso directo a una unidad de valor estable y pagos eficientes, refuerzan la presencia del dólar y abaratan las transacciones globales."
+    },
+    {
+      "id": "m8-43",
+      "block": "BLOQUE IX: Sidechains y Capas",
+      "question": "¿Qué es una sidechain en el contexto de Bitcoin?",
+      "options": [
+        "Una actualización obligatoria del protocolo",
+        "Una blockchain completamente independiente",
+        "Una cadena paralela conectada a Bitcoin con reglas propias",
+        "Un tipo de wallet avanzada"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las sidechains operan en paralelo a Bitcoin, permitiendo nuevas funcionalidades sin alterar la capa base."
+    },
+    {
+      "id": "m8-44",
+      "block": "BLOQUE IX: Sidechains y Capas",
+      "question": "¿Cuál es la principal característica distintiva de Liquid?",
+      "options": [
+        "Es una sidechain completamente descentralizada",
+        "Funciona sin relación con Bitcoin",
+        "Sustituye a Lightning Network",
+        "Es una sidechain federada orientada a empresas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Liquid está operada por una federación de entidades y prioriza eficiencia y privacidad frente a descentralización."
+    },
+    {
+      "id": "m8-45",
+      "block": "BLOQUE IX: Sidechains y Capas",
+      "question": "¿Por qué Liquid no se considera una capa fundamental del sistema Bitcoin?",
+      "options": [
+        "Porque elimina la Proof of Work",
+        "Porque requiere confianza en una federación",
+        "Porque no permite mover bitcoin",
+        "Porque no utiliza blockchain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al depender de una federación, Liquid introduce un grado de confianza que no encaja con los principios base de Bitcoin."
+    },
+    {
+      "id": "m8-46",
+      "block": "BLOQUE IX: Sidechains y Capas",
+      "question": "¿Cuál es la principal diferencia entre Rootstock (RSK) y la red principal de Bitcoin?",
+      "options": [
+        "Que RSK permite contratos inteligentes compatibles con Ethereum mediante una sidechain",
+        "Que RSK elimina la necesidad de confianza",
+        "Que RSK sustituye la Proof of Work",
+        "Que RSK es más descentralizada que Bitcoin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rootstock añade programabilidad a Bitcoin mediante una sidechain compatible con la EVM, sacrificando parte de la soberanía y descentralización propias de la capa base."
+    },
+    {
+      "id": "m8-47",
+      "block": "BLOQUE X: Lightning Network",
+      "question": "¿Cuál es la función principal de Lightning Network dentro del ecosistema Bitcoin?",
+      "options": [
+        "Sustituir la blockchain de Bitcoin",
+        "Aumentar la capacidad transaccional operando fuera de la cadena",
+        "Eliminar la necesidad de nodos",
+        "Centralizar los pagos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lightning traslada los pagos fuera de la blockchain, manteniendo a Bitcoin como capa de seguridad y liquidación."
+    },
+    {
+      "id": "m8-48",
+      "block": "BLOQUE X: Lightning Network",
+      "question": "¿Qué papel cumple la blockchain de Bitcoin en Lightning Network?",
+      "options": [
+        "Procesar todos los pagos intermedios",
+        "Actuar como red de enrutamiento",
+        "Garantizar la seguridad al inicio y al cierre de los canales",
+        "Fijar las comisiones de Lightning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La blockchain solo interviene al abrir y cerrar canales, actuando como árbitro final."
+    },
+    {
+      "id": "m8-49",
+      "block": "BLOQUE X: Lightning Network",
+      "question": "¿Cuál es una de las principales debilidades de Lightning Network?",
+      "options": [
+        "La imposibilidad de usar Bitcoin",
+        "La complejidad en la gestión de la liquidez y la tendencia a la custodia",
+        "La falta de criptografía",
+        "La dependencia de Proof of Stake"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los canales requieren liquidez bien distribuida y muchos usuarios recurren a soluciones custodias, reduciendo descentralización."
+    },
+    {
+      "id": "m8-50",
+      "block": "BLOQUE XI: DLT y Consenso",
+      "question": "¿Qué diferencia fundamental a un Distributed Ledger (DLT) de una base de datos distribuida tradicional?",
+      "options": [
+        "El uso de bloques",
+        "La velocidad de procesamiento",
+        "La asunción de un modelo adversarial",
+        "El uso de criptomonedas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un DLT está diseñado para funcionar incluso cuando existen nodos deshonestos, algo que no se presupone en bases de datos distribuidas clásicas."
+    },
+    {
+      "id": "m8-51",
+      "block": "BLOQUE XI: DLT y Consenso",
+      "question": "¿Por qué las blockchains privadas no ofrecen las mismas garantías que las públicas?",
+      "options": [
+        "Porque no utilizan criptografía",
+        "Porque su gobernanza es centralizada y basada en permisos",
+        "Porque no pueden procesar transacciones",
+        "Porque no almacenan información"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al depender de entidades autorizadas, las blockchains privadas sacrifican resistencia a la censura y neutralidad."
+    },
+    {
+      "id": "m8-52",
+      "block": "BLOQUE XI: DLT y Consenso",
+      "question": "¿Qué característica distingue a Proof of Work frente a otros mecanismos de consenso?",
+      "options": [
+        "La necesidad de identidad",
+        "La rapidez en la validación",
+        "El uso de votaciones",
+        "La ausencia de permisos y la seguridad basada en coste energético"
+      ],
+      "correctAnswer": 3,
+      "explanation": "PoW permite participación abierta y convierte el gasto energético en una señal objetiva de seguridad."
+    },
+    {
+      "id": "m8-53",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Cuándo se produce un evento fiscal en Bitcoin?",
+      "options": [
+        "Cuando hacienda se entera",
+        "Cuando se realiza un hecho económico o jurídico relevante",
+        "Cuando se mantiene en autocustodia",
+        "Cuando se mina un bloque"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solo los hechos definidos por la ley generan obligación tributaria."
+    },
+    {
+      "id": "m8-54",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Qué impuesto se genera al vender bitcoin con ganancia en España?",
+      "options": [
+        "IVA",
+        "ITP",
+        "ISD",
+        "IRPF (base del ahorro)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La venta genera una ganancia patrimonial que tributa en la base del ahorro del IRPF."
+    },
+    {
+      "id": "m8-55",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Qué método utiliza Hacienda para determinar qué bitcoin se ha vendido?",
+      "options": [
+        "LIFO",
+        "Valor medio",
+        "FIFO",
+        "Elección del contribuyente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se considera que se venden primero los bitcoins adquiridos en primer lugar."
+    },
+    {
+      "id": "m8-56",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Qué ocurre fiscalmente al intercambiar BTC por ETH?",
+      "options": [
+        "No ocurre nada porque no hay euros",
+        "Se genera un evento fiscal",
+        "Solo tributa si hay beneficio",
+        "Solo tributa el exchange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La permuta constituye una transmisión y puede generar ganancia patrimonial."
+    },
+    {
+      "id": "m8-57",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Qué doble efecto fiscal tiene una donación de bitcoin?",
+      "options": [
+        "Solo tributa el donatario",
+        "Solo tributa el donante",
+        "Tributan donante y donatario",
+        "No tributa nadie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El donatario paga ISD y el donante tributa en IRPF por la ganancia."
+    },
+    {
+      "id": "m8-58",
+      "block": "BLOQUE XII: Fiscalidad",
+      "question": "¿Por qué la residencia fiscal es clave en la tributación de Bitcoin?",
+      "options": [
+        "Porque determina el precio del bitcoin",
+        "Porque define qué normativa e impuestos se aplican",
+        "Porque elimina el método FIFO",
+        "Porque evita el IRPF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La residencia determina qué impuestos se aplican y en qué territorio se tributa."
+    }
+  ]
+}

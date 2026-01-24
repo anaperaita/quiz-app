@@ -1,0 +1,917 @@
+{
+  "module": "Módulo 7",
+  "title": "Derivados Financieros",
+  "totalQuestions": 70,
+  "questions": [
+    {
+      "id": "m7-1",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿Cuál es la función principal por la que se inventaron los derivados financieros?",
+      "options": [
+        "Generar apalancamiento ilimitado",
+        "Especular con el movimiento de precios",
+        "Gestionar y transferir el riesgo",
+        "Obtener ingresos por primas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La función principal de los derivados es la gestión y transferencia de riesgos, como el riesgo de tipo de cambio o el riesgo de precio, aunque también se usen para especular."
+    },
+    {
+      "id": "m7-2",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿Qué característica clave de los derivados permite controlar una posición grande con poco dinero, aumentando las ganancias potenciales y las pérdidas?",
+      "options": [
+        "La liquidación en efectivo",
+        "El nocional",
+        "El apalancamiento",
+        "La delta"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El apalancamiento es la característica clave que permite controlar una posición grande con poco dinero, lo que puede resultar en ganancias espectaculares o pérdidas enormes."
+    },
+    {
+      "id": "m7-3",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿Qué mercado permite a las partes negociar contratos de derivados directamente, sin un intermediario central, ofreciendo mayor flexibilidad pero más riesgo de contraparte?",
+      "options": [
+        "Mercados organizados",
+        "Mercados de futuros",
+        "Mercados OTC (Over the Counter)",
+        "Cámaras de compensación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los Mercados OTC (Over the Counter) son aquellos donde las partes negocian directamente, sin intermediarios, lo que los hace más flexibles pero también más arriesgados."
+    },
+    {
+      "id": "m7-4",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿Cuál de los siguientes no se considera un riesgo financiero que los derivados buscan cubrir o aprovechar, según el texto?",
+      "options": [
+        "Riesgo de precio (e.g., petróleo)",
+        "Riesgo operativo",
+        "Riesgo de tipo de interés",
+        "Riesgo de tipo de cambio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El riesgo operativo se menciona como un riesgo asociado a los futuros (ejecución, legal), pero los factores de riesgo financieros que los derivados buscan cubrir son el de tipo de interés, tipo de cambio, crédito, precio y volatilidad."
+    },
+    {
+      "id": "m7-5",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿Qué familia de derivados se define como un acuerdo para intercambiar flujos financieros, siendo el Interest Rate Swap (IRS) el más común?",
+      "options": [
+        "Futuros",
+        "Forwards",
+        "Opciones",
+        "Swaps"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Los Swaps son acuerdos para intercambiar flujos financieros entre dos partes, siendo los IRS (Interest Rate Swaps) los más comunes."
+    },
+    {
+      "id": "m7-6",
+      "block": "BLOQUE I: Derivados y Factores de Riesgo",
+      "question": "¿De qué depende el valor de un derivado financiero?",
+      "options": [
+        "De su valor intrínseco inicial",
+        "Del capital nocional invertido",
+        "De la voluntad del comprador",
+        "Del comportamiento de un activo subyacente"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Un derivado no tiene valor por sí mismo; su valor 'deriva' o depende del comportamiento de otra cosa, el activo subyacente."
+    },
+    {
+      "id": "m7-7",
+      "block": "BLOQUE II: Arbitraje y Valoración Teórica",
+      "question": "¿Qué condición es la base de la valoración financiera moderna y define el precio justo de un derivado?",
+      "options": [
+        "La volatilidad del activo",
+        "La ausencia de arbitraje",
+        "La martingala",
+        "La esperanza matemática cero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El concepto clave es que el precio justo es el valor presente de los flujos futuros esperados del activo, bajo la condición de que no haya arbitraje."
+    },
+    {
+      "id": "m7-8",
+      "block": "BLOQUE II: Arbitraje y Valoración Teórica",
+      "question": "¿Qué herramienta matemática permite valorar activos como si todos los inversores fueran indiferentes al riesgo?",
+      "options": [
+        "La curva forward",
+        "La paridad Put-Call",
+        "La medida de riesgo neutra (o medida Q)",
+        "La delta"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La medida de riesgo neutra (o medida Q) es una herramienta matemática para valorar activos como si los inversores fueran indiferentes al riesgo, garantizando la ausencia de arbitraje."
+    },
+    {
+      "id": "m7-9",
+      "block": "BLOQUE II: Arbitraje y Valoración Teórica",
+      "question": "Según el concepto de martingala aplicado a la valoración sin arbitraje, ¿cuál es la mejor predicción para el precio futuro de un activo?",
+      "options": [
+        "Que subirá o bajará dependiendo del riesgo.",
+        "Que tiene esperanza matemática cero de cambio.",
+        "El precio actual descontado al tipo libre de riesgo.",
+        "Que siempre regresará a su precio justo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el mundo de la martingala, el precio actual refleja toda la información disponible, y la mejor predicción para el futuro es el precio actual, lo que implica que tiene esperanza matemática cero de cambio de media."
+    },
+    {
+      "id": "m7-10",
+      "block": "BLOQUE II: Arbitraje y Valoración Teórica",
+      "question": "¿Qué se utiliza para descontar el valor esperado de los flujos futuros de un activo bajo la medida de riesgo neutra?",
+      "options": [
+        "El tipo libre de riesgo",
+        "El tipo de interés forward",
+        "El tipo de interés de mercado",
+        "El tipo de interés ajustado a la volatilidad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bajo la medida de riesgo neutra, el precio actual de un activo es igual al valor esperado de sus flujos futuros, descontado al tipo libre de riesgo."
+    },
+    {
+      "id": "m7-11",
+      "block": "BLOQUE III: Subyacentes",
+      "question": "¿Qué factor afecta significativamente el valor de un derivado sobre una acción (Equity)?",
+      "options": [
+        "El tipo de cambio.",
+        "Los dividendos que reparta.",
+        "El riesgo de crédito del emisor.",
+        "El coste de almacenaje."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el subyacente de Acciones, es clave saber que los dividendos afectan mucho al valor del derivado, ya que se descuentan del precio y afectan a la prima."
+    },
+    {
+      "id": "m7-12",
+      "block": "BLOQUE III: Subyacentes",
+      "question": "En los derivados sobre Materias Primas, ¿qué consideración es fundamental cuando hay liquidación física?",
+      "options": [
+        "El tipo de interés de la divisa de cotización.",
+        "La estacionalidad, los costes logísticos y el punto de entrega.",
+        "El precio spot de la materia prima.",
+        "El ajuste de convexidad del futuro."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cuando hay entrega física de Materias Primas (Commodities), es crucial considerar la estacionalidad, los costes logísticos y el punto de entrega."
+    },
+    {
+      "id": "m7-13",
+      "block": "BLOQUE III: Subyacentes",
+      "question": "¿Cuál es un detalle importante a considerar en los derivados sobre Tipos de cambio (Divisas)?",
+      "options": [
+        "El calendario de pagos y el fixing.",
+        "El nocional del contrato.",
+        "La moneyness del contrato.",
+        "La rho del contrato."
+      ],
+      "correctAnswer": 0,
+      "explanation": "En las divisas, lo importante es la nomenclatura, el fixing que determina el precio de liquidación y las fechas exactas de los flujos."
+    },
+    {
+      "id": "m7-14",
+      "block": "BLOQUE III: Subyacentes",
+      "question": "¿Qué implica la liquidación en efectivo de un contrato de derivados, a diferencia de la liquidación física?",
+      "options": [
+        "El contrato se cancela sin intercambio de dinero.",
+        "Solo se intercambia el valor equivalente en dinero.",
+        "Siempre se negocia en mercados OTC.",
+        "Se realiza la entrega física del activo subyacente."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La liquidación en efectivo implica que solo se intercambia el valor equivalente en dinero al vencimiento del contrato."
+    },
+    {
+      "id": "m7-15",
+      "block": "BLOQUE IV: Swaps y Productos Relacionados",
+      "question": "En un Interest Rate Swap (IRS), ¿qué capital se usa para calcular los pagos de intereses y cuál es su característica principal?",
+      "options": [
+        "El capital fijo que se intercambia al inicio.",
+        "El capital variable que se intercambia al final.",
+        "El capital teórico llamado nocional, que nunca se mueve.",
+        "El capital nocional, que se paga al tipo fijo y se cobra al variable."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un IRS intercambia pagos de intereses sobre un capital teórico llamado nocional, el cual nunca se mueve o intercambia entre las partes."
+    },
+    {
+      "id": "m7-16",
+      "block": "BLOQUE IV: Swaps y Productos Relacionados",
+      "question": "¿Qué producto permite al inversor minorista especular con la subida o bajada de un activo a través de un bróker, depositando una garantía y liquidando la diferencia diariamente?",
+      "options": [
+        "Total Return Swap (TRS)",
+        "Interest Rate Swap (IRS)",
+        "Futures sobre tipos de interés",
+        "Contracts for Difference (CFDs)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Los Contracts for Difference (CFDs) son similares a los swaps de retorno total, pero más accesibles para pequeños inversores, gestionándose a través de un bróker que liquida la diferencia diariamente."
+    },
+    {
+      "id": "m7-17",
+      "block": "BLOQUE IV: Swaps y Productos Relacionados",
+      "question": "¿Qué riesgos clave cubren principalmente los Cross Currency Swaps (CCS)?",
+      "options": [
+        "Solo el riesgo de tipo de cambio.",
+        "El riesgo de tipo de cambio y el riesgo de tipos de interés.",
+        "Solo el riesgo de crédito.",
+        "El riesgo de volatilidad y el riesgo operativo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los Cross Currency Swaps (CCS) se usan para cubrir tanto el riesgo de tipo de cambio como el de tipos de interés, al involucrar dos divisas y sus respectivas curvas de tipos."
+    },
+    {
+      "id": "m7-18",
+      "block": "BLOQUE IV: Swaps y Productos Relacionados",
+      "question": "¿Qué producto permite a una empresa fijar hoy el tipo de cambio al que comprará o venderá una moneda dentro de unos meses, eliminando la incertidumbre?",
+      "options": [
+        "Interest Rate Swap (IRS)",
+        "Cross Currency Swap (CCS)",
+        "FX Forward",
+        "Total Return Swap (TRS)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un FX Forward es un contrato que permite fijar hoy el tipo de cambio al que se comprará o venderá una moneda en el futuro, eliminando la incertidumbre."
+    },
+    {
+      "id": "m7-19",
+      "block": "BLOQUE V: Futuros y Forwards",
+      "question": "¿Cuál es la principal diferencia de valoración de un forward si el activo subyacente reparte dividendos durante la vida del contrato?",
+      "options": [
+        "El precio del forward es mayor.",
+        "El precio del forward es menor, restando el valor presente de los dividendos.",
+        "El precio del forward es mayor, añadiendo los dividendos al spot.",
+        "El precio del forward no se ve afectado."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si el activo paga dividendos, el que posee el forward no los recibe. Por tanto, el forward debe valer menos, y la fórmula se ajusta restando el valor presente de los dividendos."
+    },
+    {
+      "id": "m7-20",
+      "block": "BLOQUE V: Futuros y Forwards",
+      "question": "La estrategia de \"Cash & Carry\" se utiliza para generar un beneficio sin riesgo cuando:",
+      "options": [
+        "El precio spot es igual al precio forward.",
+        "El precio del forward cotiza por encima o por debajo de su valor teórico.",
+        "Los tipos de interés están en un nivel bajo.",
+        "El margen es muy alto."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La estrategia de Cash & Carry (o Cash & Carry inverso) se aplica cuando el forward cotiza por encima o por debajo de su valor teórico, aprovechando el desfase para obtener un beneficio sin riesgo."
+    },
+    {
+      "id": "m7-21",
+      "block": "BLOQUE V: Futuros y Forwards",
+      "question": "¿Qué se requiere para operar futuros que no es necesario en los forwards, y sirve como garantía para asegurar que ambas partes cumplen sus obligaciones?",
+      "options": [
+        "Un nocional",
+        "Un margen",
+        "Una liquidación al vencimiento",
+        "Un intermediario OTC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los futuros requieren depositar un margen (inicial y de mantenimiento) como garantía, a diferencia de los forwards OTC."
+    },
+    {
+      "id": "m7-22",
+      "block": "BLOQUE V: Futuros y Forwards",
+      "question": "¿Cuál es el significado de Contango en la curva forward?",
+      "options": [
+        "Los contratos futuros valen menos que el precio spot.",
+        "El precio del futuro y el precio forward coinciden.",
+        "Los contratos futuros valen más que el precio actual del activo.",
+        "Hay escasez o alta demanda inmediata."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Contango se da cuando los contratos futuros valen más que el precio actual del activo, lo que crea una curva ascendente."
+    },
+    {
+      "id": "m7-23",
+      "block": "BLOQUE V: Futuros y Forwards",
+      "question": "¿Qué se conoce como Carry en el mundo de los futuros?",
+      "options": [
+        "La diferencia entre el precio spot y el precio del futuro.",
+        "La rentabilidad que se obtiene solo por el paso del tiempo si la curva se mantiene igual.",
+        "El ajuste de convexidad de la valoración.",
+        "El margen inicial que se requiere para operar."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El Carry es la rentabilidad que se obtiene solo por el paso del tiempo si la curva se mantiene igual. Si el mercado está en backwardation, el carry es positivo."
+    },
+    {
+      "id": "m7-24",
+      "block": "BLOQUE VI: Opciones: Conceptos y Valoración",
+      "question": "Al comprar una opción Call, se adquiere:",
+      "options": [
+        "La obligación de comprar un activo a un precio determinado.",
+        "El derecho, pero no la obligación, de vender un activo a un precio determinado.",
+        "El derecho, pero no la obligación, de comprar un activo a un precio determinado.",
+        "La obligación de vender un activo a un precio determinado."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comprar una opción, como una Call, da el derecho, pero no la obligación a comprar un activo a un precio determinado."
+    },
+    {
+      "id": "m7-25",
+      "block": "BLOQUE VI: Opciones: Conceptos y Valoración",
+      "question": "¿Qué se conoce como el valor temporal de una opción?",
+      "options": [
+        "Es el valor total de la prima pagada.",
+        "Es el valor intrínseco menos el precio de la opción.",
+        "Es la diferencia entre el precio de la opción y su valor intrínseco.",
+        "Es la pérdida de valor por el paso del tiempo (Theta)."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El valor temporal es la diferencia entre el precio de la opción y su valor intrínseco, debido a la posibilidad de que el precio del subyacente cambie favorablemente antes del vencimiento."
+    },
+    {
+      "id": "m7-26",
+      "block": "BLOQUE VI: Opciones: Conceptos y Valoración",
+      "question": "¿Qué clasificación de moneyness corresponde a una opción sin valor intrínseco, pero que puede tener valor temporal?",
+      "options": [
+        "In the Money (ITM)",
+        "At the Money (ATM)",
+        "Out of the Money (OTM)",
+        "Out of Time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una opción Out of the Money (OTM) no tiene valor intrínseco, pero puede tener valor temporal si existe la posibilidad de que entre 'in the money' antes del vencimiento."
+    },
+    {
+      "id": "m7-27",
+      "block": "BLOQUE VI: Opciones: Conceptos y Valoración",
+      "question": "¿Qué establece la Paridad Put-Call?",
+      "options": [
+        "Que el precio de una Call debe ser siempre mayor que el de una Put.",
+        "Una relación matemática que une el precio de una Call y una Put con el mismo strike y vencimiento.",
+        "Que el valor intrínseco de una Call debe ser igual al valor temporal de una Put.",
+        "Que solo se pueden vender Put si se tiene la acción (Put Cubierta)."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Paridad Put-Call es una relación matemática que debe cumplirse entre el precio de una Call y una Put con el mismo strike y vencimiento para evitar el arbitraje."
+    },
+    {
+      "id": "m7-28",
+      "block": "BLOQUE VI: Opciones: Conceptos y Valoración",
+      "question": "¿Cuál es el principal uso de los LEAPS?",
+      "options": [
+        "Coberturas a muy corto plazo.",
+        "Obtener apalancamiento controlado y exposición a largo plazo.",
+        "Apostar a la volatilidad del subyacente.",
+        "Replicar un forward sintético."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los LEAPS (opciones a largo plazo, más de un año) se usan para obtener apalancamiento controlado y exposición a largo plazo."
+    },
+    {
+      "id": "m7-29",
+      "block": "BLOQUE VII: Griegas de las Opciones",
+      "question": "¿Qué mide la Delta de una opción?",
+      "options": [
+        "El cambio en el precio de la opción si cambia la volatilidad.",
+        "La pérdida de valor de la opción con el paso del tiempo.",
+        "Cuánto cambia el precio de una opción si sube (o baja) el precio del activo subyacente.",
+        "Cómo cambia la Delta cuando se mueve el precio del activo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Delta mide la sensibilidad del precio de una opción ante un cambio en el precio del activo subyacente."
+    },
+    {
+      "id": "m7-30",
+      "block": "BLOQUE VII: Griegas de las Opciones",
+      "question": "Si una opción Call tiene una Delta de 0,9, ¿a qué se parece su comportamiento?",
+      "options": [
+        "A una opción Out of the Money.",
+        "A una opción At the Money.",
+        "A tener directamente el activo subyacente.",
+        "A una opción Put."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cuanto más se acerca la Delta a 1, más se parece la opción a tener directamente el activo subyacente."
+    },
+    {
+      "id": "m7-31",
+      "block": "BLOQUE VII: Griegas de las Opciones",
+      "question": "¿Qué mide la Theta de una opción?",
+      "options": [
+        "La aceleración de la Delta.",
+        "El desgaste o decaimiento temporal por el paso del tiempo.",
+        "La sensibilidad al cambio de la volatilidad.",
+        "La sensibilidad a los tipos de interés."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Theta mide el decaimiento temporal o desgaste: cómo afecta el paso del tiempo al valor de una opción, siendo negativa para el comprador."
+    },
+    {
+      "id": "m7-32",
+      "block": "BLOQUE VII: Griegas de las Opciones",
+      "question": "Si la Vega de una opción es alta, ¿qué implica?",
+      "options": [
+        "Que la opción ganará mucho dinero si el mercado se queda quieto.",
+        "Que la opción es muy sensible a cambios en la volatilidad.",
+        "Que la opción tiene un Payoff limitado.",
+        "Que el inversor tiene un riesgo de contrapartida bajo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Vega mide cómo afecta al precio de la opción un cambio en la volatilidad. Una Vega alta implica que la opción es muy sensible a esos cambios."
+    },
+    {
+      "id": "m7-33",
+      "block": "BLOQUE VII: Griegas de las Opciones",
+      "question": "¿Cómo afecta generalmente una subida de tipos de interés (Rho) al valor de una opción Put?",
+      "options": [
+        "La Put sube de valor.",
+        "La Put baja de valor.",
+        "La Put no se ve afectada.",
+        "La Put pierde valor intrínseco."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si suben los tipos de interés, el efecto de descuento juega en contra de las Puts, por lo que estas bajan de valor."
+    },
+    {
+      "id": "m7-34",
+      "block": "BLOQUE VIII: Estrategias Avanzadas de Opciones",
+      "question": "¿Qué combinación de opciones define una estrategia de Straddle?",
+      "options": [
+        "Comprar una Call OTM y una Put OTM.",
+        "Vender una Call ITM y una Put OTM.",
+        "Comprar una Call y una Put con el mismo strike y vencimiento.",
+        "Vender dos Calls en el centro y comprar una arriba y una abajo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El Straddle consiste en comprar (o vender) a la vez una Call y una Put con el mismo strike y vencimiento."
+    },
+    {
+      "id": "m7-35",
+      "block": "BLOQUE VIII: Estrategias Avanzadas de Opciones",
+      "question": "¿Cuál es el objetivo principal de la estrategia Straddle (comprado)?",
+      "options": [
+        "Ganar dinero si el precio se queda muy estable.",
+        "Apostar a que el precio se mueva mucho en cualquier dirección.",
+        "Obtener un ingreso por la prima cobrada.",
+        "Cubrir el riesgo de tipo de cambio."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El Straddle comprado es una estrategia de larga volatilidad, que busca ganar dinero si el precio se dispara mucho hacia arriba o hacia abajo, sin importar la dirección."
+    },
+    {
+      "id": "m7-36",
+      "block": "BLOQUE VIII: Estrategias Avanzadas de Opciones",
+      "question": "¿Qué estrategia es la versión \"más barata\" del Straddle, que reduce el coste inicial a cambio de exigir un movimiento más amplio del activo?",
+      "options": [
+        "Short Straddle",
+        "Strangle",
+        "Short Butterfly",
+        "Long Butterfly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El Strangle (comprar Call OTM y Put OTM) reduce las primas a pagar (es más barato) a cambio de necesitar que el activo se mueva más para empezar a ganar dinero."
+    },
+    {
+      "id": "m7-37",
+      "block": "BLOQUE VIII: Estrategias Avanzadas de Opciones",
+      "question": "¿Qué estrategia busca ganar dinero si el precio no se mueve y se queda cerca del strike central?",
+      "options": [
+        "Short Straddle",
+        "Straddle",
+        "Short Butterfly",
+        "Strangle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El Short Straddle (vender Call y Put al mismo strike) es una estrategia de corta volatilidad, que gana si el precio se queda muy estable."
+    },
+    {
+      "id": "m7-38",
+      "block": "BLOQUE VIII: Estrategias Avanzadas de Opciones",
+      "question": "¿Cuál es el objetivo de un inversor al montar una Long Butterfly?",
+      "options": [
+        "Ganar si el mercado se mueve mucho.",
+        "Ganar si el precio no se mueve y se queda cerca del strike central.",
+        "Apostar a que el precio subirá fuertemente.",
+        "Beneficiarse de la Gamma alta."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Long Butterfly es una estrategia corta en volatilidad, perfecta si el inversor cree que el precio va a quedarse más o menos estable, ganando si el precio acaba cerca del strike central."
+    },
+    {
+      "id": "m7-39",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Cuál es el principal riesgo que introduce el requisito de margen y liquidación diaria en los contratos de futuros?",
+      "options": [
+        "Riesgo de contrapartida.",
+        "Riesgo de mercado ilimitado.",
+        "Riesgo de liquidez por el \"margin call\" inesperado.",
+        "Riesgo operativo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El sistema de margen y liquidación diaria introduce riesgos de liquidez, ya que un movimiento adverso puede generar un 'margin call' y la obligación de poner dinero adicional en poco tiempo."
+    },
+    {
+      "id": "m7-40",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Qué efecto se introduce en la valoración de los futuros, si existe correlación entre los tipos de interés y el precio del activo, debido a la liquidación diaria?",
+      "options": [
+        "El efecto de Backwardation.",
+        "El ajuste de convexidad.",
+        "El riesgo de rotación de curva.",
+        "La asimetría."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La liquidación diaria de los futuros introduce un efecto de convexidad en su valoración si existe correlación entre los tipos de interés y el precio del activo."
+    },
+    {
+      "id": "m7-41",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "Un inversor vende una Put con strike 280€ sobre una acción que cotiza a 300€. ¿Cuál es la estrategia básica de este inversor?",
+      "options": [
+        "Posición alcista apalancada.",
+        "Cobertura bajista.",
+        "Comprar con descuento y cobrar primas.",
+        "Generar ingresos vendiendo sus acciones."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La venta de una Put es como poner una orden de compra limit (limit buy), pero cobrando mientras se espera. El inversor busca comprar con descuento si el precio cae."
+    },
+    {
+      "id": "m7-42",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Qué ocurre con el valor temporal de una opción a medida que se acerca el vencimiento?",
+      "options": [
+        "Aumenta, especialmente si está OTM.",
+        "Se mantiene constante si el precio del activo no se mueve.",
+        "Disminuye, acelerándose el efecto cerca del vencimiento (Theta negativa).",
+        "Se iguala al valor intrínseco."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El valor temporal disminuye con el paso del tiempo, y el efecto (medido por la Theta) se acelera cerca del vencimiento."
+    },
+    {
+      "id": "m7-43",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿En qué momento, y por qué razón, podría tener sentido ejercer una Call americana antes de tiempo?",
+      "options": [
+        "En cualquier momento para evitar el riesgo de contrapartida.",
+        "Justo antes de que se reparta el dividendo, si este compensa el valor temporal perdido.",
+        "Cuando la Call está OTM para limitar las pérdidas.",
+        "Cuando su Delta es cercana a 0."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La única justificación para el ejercicio anticipado de una Call americana es justo antes del dividendo, para convertirla en acciones y cobrar el dividendo, si este es mayor que el valor temporal que se pierde."
+    },
+    {
+      "id": "m7-44",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Por qué razón los futuros y los forwards tienen una delta cercana a 1, haciéndolos eficaces para la cobertura?",
+      "options": [
+        "Porque su valor es sensible a la Gamma.",
+        "Porque su valor se mueve casi igual que el precio del activo subyacente.",
+        "Porque se liquidan diariamente.",
+        "Porque se negocian en mercados OTC."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los futuros y forwards son eficaces para la cobertura porque tienen una Delta cercana a 1, lo que significa que el valor del contrato se mueve casi en la misma proporción que el precio del activo subyacente."
+    },
+    {
+      "id": "m7-45",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Cuál es el concepto que establece que el precio de un activo descontado sigue un camino neutral, sin tendencia clara?",
+      "options": [
+        "Riesgo de crédito.",
+        "Martingala.",
+        "Backwardation.",
+        "Convexidad."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El precio descontado del activo sigue un camino neutral, sin tendencia clara, un concepto conocido como martingala."
+    },
+    {
+      "id": "m7-46",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "En la Paridad Put-Call, ¿qué posición se crea al comprar una Call y vender una Put con el mismo Strike y vencimiento?",
+      "options": [
+        "Un Short Straddle.",
+        "Un Forward sintético.",
+        "Un Call Cubierta.",
+        "Un LEAPS."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combinar la compra de una Call y la venta de una Put (mismo strike/vencimiento) crea una posición que se comporta igual que un Forward sintético."
+    },
+    {
+      "id": "m7-47",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Qué indica el hecho de que un corredor de apuestas (o un market maker) ajuste continuamente las cuotas o precios de los derivados?",
+      "options": [
+        "Que buscan predecir el resultado final.",
+        "Que buscan fijar precios para que su P&L esperado esté cerca de cero o por encima (neutralizar el riesgo).",
+        "Que están usando las probabilidades reales de facto.",
+        "Que el mercado no es eficiente."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La función de los market makers es ajustar precios para neutralizar el riesgo, buscando que su beneficio o pérdida esperada (P&L) esté cerca de cero o por encima."
+    },
+    {
+      "id": "m7-48",
+      "block": "BLOQUE IX: Aplicaciones y Casos Especiales",
+      "question": "¿Cuál de las griegas te permite saber si la rentabilidad de tu posición en opciones se verá afectada si el mercado comienza a moverse de forma más violenta de lo esperado?",
+      "options": [
+        "Delta",
+        "Theta",
+        "Vega",
+        "Rho"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La Vega mide la sensibilidad al cambio en la volatilidad. Si el mercado se vuelve más violento, la volatilidad sube y el valor de las opciones (Call y Put) aumenta."
+    },
+    {
+      "id": "m7-49",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué es una opción call?",
+      "options": [
+        "Un contrato que da derecho a vender un activo",
+        "Un contrato que da derecho a comprar un activo",
+        "Un contrato que obliga a comprar un activo",
+        "Un derivado lineal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una opción call es un contrato que da derecho, pero no la obligación, a comprar un activo a un precio determinado."
+    },
+    {
+      "id": "m7-50",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué es una opción put?",
+      "options": [
+        "Un contrato que da derecho a vender un activo",
+        "Un contrato que da derecho a comprar un activo",
+        "Un contrato que obliga a vender un activo",
+        "Un contrato sobre tipos de interés"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una opción put es un contrato que da derecho, pero no la obligación, a vender un activo a un precio determinado."
+    },
+    {
+      "id": "m7-51",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué representa la prima de una opción?",
+      "options": [
+        "El valor nominal del contrato",
+        "El precio que paga el comprador por adquirir la opción",
+        "La diferencia entre el strike y el spot",
+        "El coste del margen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La prima es el precio que paga el comprador por adquirir la opción, es decir, el coste de obtener ese derecho."
+    },
+    {
+      "id": "m7-52",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué significa el precio de ejercicio (strike price)?",
+      "options": [
+        "El precio del activo hoy",
+        "El precio al que se puede comprar o vender el activo según el contrato",
+        "El precio máximo alcanzado por el activo",
+        "El precio mínimo de la opción"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El strike price o precio de ejercicio es el precio acordado al que se puede comprar o vender el activo subyacente según el contrato de la opción."
+    },
+    {
+      "id": "m7-53",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué significa que una call esté \"in the money\"?",
+      "options": [
+        "El precio del activo es mayor que el strike",
+        "El precio del activo es menor que el strike",
+        "El valor temporal es cero",
+        "La opción ha expirado"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una call está 'in the money' cuando el precio del activo subyacente es mayor que el strike, lo que significa que tiene valor intrínseco."
+    },
+    {
+      "id": "m7-54",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué significa que una put esté \"out of the money\"?",
+      "options": [
+        "El precio del activo es mayor que el strike",
+        "El precio del activo es menor que el strike",
+        "El precio del activo es igual al strike",
+        "La opción está en ejercicio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una put está 'out of the money' cuando el precio del activo es mayor que el strike, ya que no tendría sentido ejercer el derecho a vender a un precio menor."
+    },
+    {
+      "id": "m7-55",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué ocurre al vencimiento si una opción está \"out of the money\"?",
+      "options": [
+        "No se ejerce",
+        "Se ejerce automáticamente",
+        "El comprador recibe la prima",
+        "El vendedor devuelve la prima"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si una opción está 'out of the money' al vencimiento, no tiene valor intrínseco y por tanto no se ejerce, expirando sin valor."
+    },
+    {
+      "id": "m7-56",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué parte de la opción tiene el derecho, pero no la obligación?",
+      "options": [
+        "El comprador",
+        "El vendedor",
+        "Ambos",
+        "Ninguno"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El comprador de una opción tiene el derecho, pero no la obligación, de ejercerla. El vendedor, en cambio, tiene la obligación de cumplir si el comprador ejerce."
+    },
+    {
+      "id": "m7-57",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué representa el \"valor intrínseco\" de una opción?",
+      "options": [
+        "La ganancia si se ejerciera hoy",
+        "La prima total pagada",
+        "El valor temporal",
+        "El precio de mercado del subyacente"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El valor intrínseco representa la ganancia que se obtendría si la opción se ejerciera hoy, es decir, la diferencia favorable entre el precio del activo y el strike."
+    },
+    {
+      "id": "m7-58",
+      "block": "BLOQUE X: Opciones - Conceptos Básicos",
+      "question": "¿Qué factor aumenta el valor de una opción call, manteniendo todo lo demás constante?",
+      "options": [
+        "Un aumento del precio del activo subyacente",
+        "Una disminución de la volatilidad",
+        "Una caída del tipo de interés",
+        "Una menor vida al vencimiento"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un aumento del precio del activo subyacente aumenta el valor de una call, ya que incrementa la probabilidad de que termine 'in the money'."
+    },
+    {
+      "id": "m7-59",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué combinación forma un straddle?",
+      "options": [
+        "Una call y una put con mismo strike y vencimiento",
+        "Dos calls con distinto strike",
+        "Una call y una put con distinto vencimiento",
+        "Dos puts con distinto strike"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un straddle se forma comprando una call y una put con el mismo strike y vencimiento sobre el mismo activo subyacente."
+    },
+    {
+      "id": "m7-60",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué espera un inversor que compra un straddle?",
+      "options": [
+        "Alta volatilidad",
+        "Que el precio se mantenga estable",
+        "Que el precio suba lentamente",
+        "Que baje un poco"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un inversor que compra un straddle espera alta volatilidad, es decir, un movimiento significativo del precio en cualquier dirección."
+    },
+    {
+      "id": "m7-61",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia combina una call y una put con distinto strike, pero mismo vencimiento, para limitar pérdidas?",
+      "options": [
+        "Strangle",
+        "Straddle",
+        "Butterfly",
+        "Bull spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El strangle combina una call y una put con distinto strike pero mismo vencimiento, siendo más barato que el straddle pero requiriendo mayor movimiento del precio."
+    },
+    {
+      "id": "m7-62",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia usa tres strikes diferentes y busca aprovechar poca volatilidad?",
+      "options": [
+        "Butterfly spread",
+        "Straddle",
+        "Strangle",
+        "Bear spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El butterfly spread usa tres strikes diferentes y es una estrategia que busca beneficiarse cuando el precio del activo permanece estable cerca del strike central."
+    },
+    {
+      "id": "m7-63",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia se usa si se espera una subida moderada del precio del activo?",
+      "options": [
+        "Bull spread",
+        "Bear spread",
+        "Straddle",
+        "Butterfly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El bull spread es una estrategia alcista que se beneficia de una subida moderada del precio del activo, con riesgo y beneficio limitados."
+    },
+    {
+      "id": "m7-64",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia combina la venta de una call y una put sobre el mismo subyacente y vencimiento?",
+      "options": [
+        "Short straddle",
+        "Strangle",
+        "Butterfly",
+        "Bull spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El short straddle consiste en vender una call y una put con el mismo strike y vencimiento, apostando a que el precio permanecerá estable."
+    },
+    {
+      "id": "m7-65",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Cuál de estas estrategias se beneficia si el precio no se mueve mucho?",
+      "options": [
+        "Short straddle",
+        "Long straddle",
+        "Long strangle",
+        "Bull spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El short straddle se beneficia cuando el precio no se mueve mucho, ya que el vendedor cobra las primas y espera que las opciones expiren sin valor."
+    },
+    {
+      "id": "m7-66",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia se usa si se espera una bajada moderada del precio del activo?",
+      "options": [
+        "Bear spread",
+        "Bull spread",
+        "Straddle",
+        "Condor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El bear spread es una estrategia bajista que se beneficia de una bajada moderada del precio del activo, con riesgo y beneficio limitados."
+    },
+    {
+      "id": "m7-67",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Cuál de las siguientes estrategias tiene riesgo y beneficio limitados?",
+      "options": [
+        "Bull spread",
+        "Straddle",
+        "Short strangle",
+        "Naked call"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El bull spread tiene tanto riesgo como beneficio limitados, lo que lo hace una estrategia más conservadora que las posiciones descubiertas."
+    },
+    {
+      "id": "m7-68",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Cuál de estas estrategias puede generar pérdidas ilimitadas?",
+      "options": [
+        "Venta de una call descubierta (naked call)",
+        "Compra de una put",
+        "Compra de un straddle",
+        "Butterfly spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La venta de una call descubierta (naked call) puede generar pérdidas ilimitadas si el precio del activo sube sin límite, ya que el vendedor debe entregar el activo al precio de ejercicio."
+    },
+    {
+      "id": "m7-69",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Qué estrategia está diseñada para obtener beneficio cuando se espera que el precio del activo se mantenga dentro de un rango?",
+      "options": [
+        "Short strangle",
+        "Long straddle",
+        "Bull spread",
+        "Bear spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El short strangle se beneficia cuando el precio del activo se mantiene dentro de un rango, ya que las opciones vendidas expiran sin valor."
+    },
+    {
+      "id": "m7-70",
+      "block": "BLOQUE XI: Estrategias con Opciones",
+      "question": "¿Cuál es la diferencia principal entre un straddle y un strangle?",
+      "options": [
+        "En el strangle las opciones tienen distinto strike",
+        "En el straddle se usan futuros",
+        "El strangle solo usa calls",
+        "El straddle es más barato"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La diferencia principal es que en el strangle las opciones call y put tienen diferentes strikes (ambas OTM), mientras que en el straddle comparten el mismo strike (ATM)."
+    }
+  ]
+}

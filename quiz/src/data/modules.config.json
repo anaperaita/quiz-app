@@ -14,6 +14,16 @@
       "id": "modulo6",
       "name": "Módulo 6: Materias Primas",
       "file": "modulo6.json"
+    },
+    {
+      "id": "modulo7",
+      "name": "Módulo 7: Derivados Financieros",
+      "file": "modulo7.json"
+    },
+    {
+      "id": "modulo8",
+      "name": "Módulo 8: Bitcoin y Criptomonedas",
+      "file": "modulo8.json"
     }
   ]
 }
