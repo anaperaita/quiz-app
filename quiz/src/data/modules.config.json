@@ -24,6 +24,11 @@
       "id": "modulo8",
       "name": "Módulo 8: Bitcoin y Criptomonedas",
       "file": "modulo8.json"
+    },
+    {
+      "id": "modulo9",
+      "name": "Módulo 9: Inversión Inmobiliaria",
+      "file": "modulo9.json"
     }
   ]
 }

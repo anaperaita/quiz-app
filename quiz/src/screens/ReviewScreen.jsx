@@ -90,6 +90,18 @@ export default function ReviewScreen() {
     loadQuestions();
   }, [loadQuestions]);
 
+  // Reload questions when stats change (e.g., after answering a question)
+  // and adjust currentIndex if needed to prevent out-of-bounds
+  useEffect(() => {
+    if (questionsList.length > 0 && currentIndex >= questionsList.length) {
+      // Current index is out of bounds, adjust to last valid index
+      setCurrentIndex(questionsList.length - 1);
+    } else if (questionsList.length === 0 && currentIndex !== 0) {
+      // No questions left, reset index
+      setCurrentIndex(0);
+    }
+  }, [questionsList, currentIndex]);
+
   const currentQuestion = questionsList[currentIndex];
 
   const handleSubmit = () => {

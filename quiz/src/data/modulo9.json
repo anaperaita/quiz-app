@@ -1,0 +1,631 @@
+{
+  "module": "Módulo 9",
+  "title": "Inversión Inmobiliaria",
+  "totalQuestions": 48,
+  "questions": [
+    {
+      "id": "m9-1",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Por qué no se puede afirmar que la inversión inmobiliaria sea buena o mala en términos absolutos?",
+      "options": [
+        "Porque siempre depende del ciclo económico",
+        "Porque depende del perfil, objetivos y circunstancias del inversor",
+        "Porque el mercado inmobiliario es impredecible",
+        "Porque siempre requiere hipoteca"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La adecuación de la inversión depende de factores personales como edad, riesgo, recursos y objetivos."
+    },
+    {
+      "id": "m9-2",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Cuál es una ventaja diferencial del inmobiliario frente a otros activos de inversión?",
+      "options": [
+        "Su elevada liquidez",
+        "La ausencia total de riesgo",
+        "El alto grado de apalancamiento disponible",
+        "La garantía de rentabilidad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El acceso habitual a financiación del 70–80% permite invertir grandes importes con poco capital propio."
+    },
+    {
+      "id": "m9-3",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Cuál es uno de los principales inconvenientes estructurales del inmobiliario?",
+      "options": [
+        "La imposibilidad de generar ingresos",
+        "La elevada volatilidad diaria",
+        "La falta de control sobre el activo",
+        "La baja liquidez del mercado"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vender un inmueble rápidamente suele exigir descuentos, lo que penaliza la liquidez."
+    },
+    {
+      "id": "m9-4",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Cuál es la diferencia principal entre un ahorrador inmobiliario y un inversor inmobiliario?",
+      "options": [
+        "El tipo de inmueble que compra",
+        "El nivel de riesgo que asume",
+        "La visión estratégica y el uso activo del capital",
+        "La cantidad de impuestos que paga"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El inversor concibe el inmobiliario como un proceso estratégico de largo plazo, no como una compra puntual y pasiva."
+    },
+    {
+      "id": "m9-5",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Por qué la financiación bancaria actúa como filtro de acceso al mercado?",
+      "options": [
+        "Porque impide invertir con hipoteca",
+        "Porque obliga a aportar capital propio y asumir gastos iniciales",
+        "Porque garantiza rentabilidad",
+        "Porque elimina el riesgo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La necesidad de entrada, impuestos y gastos limita el acceso, pero también introduce disciplina financiera."
+    },
+    {
+      "id": "m9-6",
+      "block": "BLOQUE I: Fundamentos de la Inversión Inmobiliaria",
+      "question": "¿Cuál es una forma válida de acceder al mercado inmobiliario sin comprar un inmueble?",
+      "options": [
+        "Esperar a que suban los precios",
+        "Actuar como intermediario o mediante subarrendamiento",
+        "Comprar solo en zonas prime",
+        "Invertir únicamente en tu ciudad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Existen modelos como la intermediación o el subarrendamiento que permiten generar ingresos sin ser propietario."
+    },
+    {
+      "id": "m9-7",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿Por qué el urbanismo es clave en la inversión inmobiliaria?",
+      "options": [
+        "Porque fija directamente el precio de mercado",
+        "Porque determina qué se puede y qué no se puede hacer con un inmueble",
+        "Porque sustituye al análisis financiero",
+        "Porque elimina el riesgo de la inversión"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El urbanismo condiciona usos, reformas y viabilidad, afectando directamente a la rentabilidad."
+    },
+    {
+      "id": "m9-8",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿Qué papel cumple el Plan General de Ordenación Urbana (PGOU)?",
+      "options": [
+        "Regular exclusivamente los impuestos",
+        "Determinar quién puede comprar un inmueble",
+        "Actuar como manual de instrucciones de la ciudad",
+        "Fijar los precios del alquiler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El PGOU define usos, edificabilidad, protecciones y desarrollo urbano."
+    },
+    {
+      "id": "m9-9",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿Por qué es importante analizar Catastro, Registro y urbanismo antes de comprar?",
+      "options": [
+        "Para acelerar la firma",
+        "Para evitar pagar impuestos",
+        "Para comprobar solo la superficie útil",
+        "Para verificar titularidad, legalidad y compatibilidad normativa"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Solo el análisis conjunto permite saber qué se compra realmente y qué riesgos existen."
+    },
+    {
+      "id": "m9-10",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿De qué organismo depende el Catastro en España?",
+      "options": [
+        "De los ayuntamientos",
+        "Del Registro de la Propiedad",
+        "Del Ministerio de Hacienda",
+        "De las comunidades autónomas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El Catastro es un registro administrativo de carácter fiscal que depende del Ministerio de Hacienda."
+    },
+    {
+      "id": "m9-11",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿Qué implica que un edificio tenga un alto grado de protección urbanística?",
+      "options": [
+        "Que no puede venderse",
+        "Que no puede alquilarse",
+        "Que cualquier reforma está prohibida",
+        "Que las actuaciones sobre el inmueble están limitadas por la normativa"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Un mayor grado de protección no impide la inversión, pero sí limita reformas, usos y actuaciones permitidas."
+    },
+    {
+      "id": "m9-12",
+      "block": "BLOQUE II: Urbanismo, Registro y Catastro",
+      "question": "¿Cuál es la diferencia principal entre la ITE y el IEE?",
+      "options": [
+        "La ITE es voluntaria y el IEE no",
+        "La ITE solo analiza eficiencia energética",
+        "El IEE amplía la ITE incorporando accesibilidad y eficiencia energética",
+        "El IEE sustituye al urbanismo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El IEE (Informe de Evaluación del Edificio) es más completo: incluye estado de conservación, accesibilidad y eficiencia energética."
+    },
+    {
+      "id": "m9-13",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Por qué es importante analizar una zona antes que un inmueble concreto?",
+      "options": [
+        "Porque el inmueble siempre se puede reformar",
+        "Porque la zona condiciona la demanda, la liquidez y el potencial de revalorización",
+        "Porque reduce los impuestos",
+        "Porque elimina el riesgo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La ubicación determina en gran medida el comportamiento del activo a largo plazo."
+    },
+    {
+      "id": "m9-14",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Qué mide el concepto de rent gap?",
+      "options": [
+        "La diferencia entre alquiler y venta",
+        "La rentabilidad neta de un inmueble",
+        "La brecha entre el valor potencial de un barrio y su valor actual",
+        "El coste de la rehabilitación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El rent gap explica por qué el capital vuelve a barrios previamente desinvertidos."
+    },
+    {
+      "id": "m9-15",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Cuál es una señal temprana de gentrificación especialmente relevante para el inversor?",
+      "options": [
+        "Subida del precio de venta antes que del alquiler",
+        "Llegada de grandes fondos directamente",
+        "Subida del alquiler antes que del precio de venta",
+        "Saturación turística"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Indica que el mercado percibe potencial aún no reflejado en el precio de compra."
+    },
+    {
+      "id": "m9-16",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Cuál es el principio básico al analizar una vivienda desde el punto de vista inversor?",
+      "options": [
+        "Fijarse primero en el precio",
+        "Priorizar lo que se puede reformar fácilmente",
+        "Analizar aquello que no se puede cambiar",
+        "Elegir siempre viviendas grandes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La estructura, la orientación o la exposición al clima condicionan el valor y no son fácilmente modificables."
+    },
+    {
+      "id": "m9-17",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Por qué una estructura de pilares y vigas es preferible a una de muros de carga?",
+      "options": [
+        "Porque es más barata",
+        "Porque permite una mayor flexibilidad en la redistribución",
+        "Porque no necesita licencias",
+        "Porque elimina las bajantes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Facilita cambios de distribución y reduce costes y complejidad en reformas."
+    },
+    {
+      "id": "m9-18",
+      "block": "BLOQUE III: Análisis de Ubicación y Vivienda",
+      "question": "¿Qué tipo de humedad suele implicar mayores costes de reparación?",
+      "options": [
+        "Humedades por fugas en bajantes",
+        "Humedades por condensación puntual",
+        "Humedades por capilaridad",
+        "Humedades superficiales"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las humedades por capilaridad requieren intervenciones estructurales más complejas."
+    },
+    {
+      "id": "m9-19",
+      "block": "BLOQUE IV: Alquiler Tradicional",
+      "question": "¿Por qué suele ser preferible evitar los extremos entre valor y rentabilidad en el alquiler tradicional?",
+      "options": [
+        "Porque reducen el acceso a financiación",
+        "Porque los inmuebles caros no se alquilan",
+        "Porque los extremos suelen implicar más riesgo o menor estabilidad",
+        "Porque la ley limita las rentabilidades"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los inmuebles muy baratos suelen implicar más incidencias y los muy caros reducen demasiado la rentabilidad."
+    },
+    {
+      "id": "m9-20",
+      "block": "BLOQUE IV: Alquiler Tradicional",
+      "question": "¿Qué relación precio–alquiler se considera una referencia razonable en el alquiler tradicional?",
+      "options": [
+        "Que el precio sea 60 veces el alquiler mensual",
+        "Que el precio sea entre 80 y 100 veces el alquiler mensual",
+        "Que el precio sea entre 120 y 150 veces el alquiler mensual",
+        "Que el precio sea entre 150 a 200 veces el alquiler mensual"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Es una regla práctica para evitar operaciones con rentabilidades excesivamente bajas."
+    },
+    {
+      "id": "m9-21",
+      "block": "BLOQUE IV: Alquiler Tradicional",
+      "question": "¿Por qué es importante no asumir una ocupación del 100% en el alquiler tradicional?",
+      "options": [
+        "Porque la ley obliga a dejar el inmueble vacío",
+        "Porque siempre hay meses sin cobrar alquiler",
+        "Porque es prudente contemplar periodos de rotación, reformas o comercialización",
+        "Porque el alquiler tradicional es inestable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En un análisis realista hay que contemplar vacíos puntuales entre inquilinos o pequeñas intervenciones, para no sobreestimar la rentabilidad."
+    },
+    {
+      "id": "m9-22",
+      "block": "BLOQUE V: Modelos Alternativos de Alquiler",
+      "question": "¿Cuál es el objetivo principal del alquiler por espacios frente al alquiler tradicional?",
+      "options": [
+        "Reducir la gestión del inmueble",
+        "Disminuir el riesgo legal",
+        "Optimizar el uso del espacio para aumentar la rentabilidad",
+        "Eliminar la rotación de inquilinos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Al fragmentar el uso del inmueble, se incrementan los ingresos totales."
+    },
+    {
+      "id": "m9-23",
+      "block": "BLOQUE V: Modelos Alternativos de Alquiler",
+      "question": "¿Cuándo suele compensar el alquiler por espacios frente al alquiler tradicional?",
+      "options": [
+        "Cuando la rentabilidad es similar",
+        "Cuando permite alcanzar rentabilidades en torno al 20%",
+        "Cuando hay menos inquilinos",
+        "Cuando no existe normativa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El mayor esfuerzo de gestión exige una mejora clara de la rentabilidad."
+    },
+    {
+      "id": "m9-24",
+      "block": "BLOQUE V: Modelos Alternativos de Alquiler",
+      "question": "¿Cuál es la principal característica del modelo rent to rent?",
+      "options": [
+        "Genera patrimonio inmobiliario",
+        "Requiere una gran inversión inicial",
+        "Permite operar con bajo capital pero sin ser propietario",
+        "Elimina la necesidad de contratos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El inversor explota el inmueble sin comprarlo, siempre con autorización del propietario."
+    },
+    {
+      "id": "m9-25",
+      "block": "BLOQUE VI: House Flipping y CRV",
+      "question": "¿Cuál es el factor que más determina la eficiencia del house flipping?",
+      "options": [
+        "El nivel de calidades de la reforma",
+        "La rapidez de rotación de la operación",
+        "El tamaño del inmueble",
+        "La ciudad donde se invierte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El tiempo es clave: una rentabilidad moderada en pocos meses puede ser excelente."
+    },
+    {
+      "id": "m9-26",
+      "block": "BLOQUE VI: House Flipping y CRV",
+      "question": "¿Dónde se genera principalmente el beneficio en el modelo CRV?",
+      "options": [
+        "En la financiación",
+        "En la reforma de alto nivel",
+        "En la compra por debajo de mercado",
+        "En la negociación con la agencia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El margen nace al comprar con descuento; la reforma solo hace visible ese valor."
+    },
+    {
+      "id": "m9-27",
+      "block": "BLOQUE VI: House Flipping y CRV",
+      "question": "¿Por qué el CRV no depende totalmente del ciclo de mercado?",
+      "options": [
+        "Porque siempre hay compradores",
+        "Porque no utiliza financiación",
+        "Porque se apoya en operaciones rápidas y en comprar con margen",
+        "Porque elimina el riesgo de precio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El corto plazo y el margen de compra reducen la exposición al ciclo; además, existe la alternativa del alquiler."
+    },
+    {
+      "id": "m9-28",
+      "block": "BLOQUE VII: Promoción Inmobiliaria",
+      "question": "¿Cuál es la diferencia fundamental entre un inversor inmobiliario y un promotor?",
+      "options": [
+        "El tamaño del proyecto",
+        "El tipo de financiación utilizada",
+        "Que el promotor crea el producto y asume el riesgo completo del proyecto",
+        "Que el promotor ejecuta la obra personalmente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El promotor diseña, coordina y asume el riesgo económico del proyecto desde el suelo hasta la venta."
+    },
+    {
+      "id": "m9-29",
+      "block": "BLOQUE VII: Promoción Inmobiliaria",
+      "question": "¿Por qué suele ser más difícil financiar una autopromoción que una promoción para venta?",
+      "options": [
+        "Porque la autopromoción no genera beneficios",
+        "Porque el banco no puede subrogar la deuda a compradores finales",
+        "Porque no requiere licencias",
+        "Porque siempre es más cara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al no existir un comprador final, el banco asume mayor riesgo de liquidez."
+    },
+    {
+      "id": "m9-30",
+      "block": "BLOQUE VII: Promoción Inmobiliaria",
+      "question": "¿Cuál es uno de los riesgos más críticos en promoción inmobiliaria?",
+      "options": [
+        "La falta de rentabilidad teórica",
+        "La inexistencia de demanda",
+        "La falta de liquidez durante la ejecución",
+        "La imposibilidad de vender sobre plano"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Muchos proyectos fallan por quedarse sin caja, no por falta de margen."
+    },
+    {
+      "id": "m9-31",
+      "block": "BLOQUE VII: Promoción Inmobiliaria",
+      "question": "¿Cuál es la función principal de la Ley de Ordenación de la Edificación (LOE)?",
+      "options": [
+        "Regular los precios de la construcción",
+        "Definir los agentes de la obra y sus responsabilidades",
+        "Determinar el valor catastral",
+        "Establecer el precio del suelo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La LOE identifica quién interviene en la obra y quién responde ante problemas."
+    },
+    {
+      "id": "m9-32",
+      "block": "BLOQUE VII: Promoción Inmobiliaria",
+      "question": "¿Qué diferencia fundamental existe entre el PEM y el PEC?",
+      "options": [
+        "El PEM incluye el IVA y el PEC no",
+        "El PEC es solo orientativo",
+        "El PEC refleja el coste real que paga el promotor",
+        "No existe ninguna diferencia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El PEC incluye gastos generales, beneficio industrial e IVA, y es el coste efectivo de la obra."
+    },
+    {
+      "id": "m9-33",
+      "block": "BLOQUE VIII: Reforma y Rehabilitación",
+      "question": "¿Cuándo tiene sentido reformar una vivienda desde el punto de vista inversor?",
+      "options": [
+        "Siempre que la vivienda sea antigua",
+        "Cuando la reforma aporta valor que el mercado reconoce y paga",
+        "Cuando se dispone de liquidez",
+        "Cuando el arquitecto lo recomienda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reformar solo tiene sentido si incrementa el valor potencial del activo de forma rentable."
+    },
+    {
+      "id": "m9-34",
+      "block": "BLOQUE IX: Financiación y Apalancamiento",
+      "question": "¿Qué distingue el apalancamiento productivo de una deuda mal utilizada?",
+      "options": [
+        "El tipo de interés aplicado",
+        "Que la deuda se use para generar rendimientos superiores a su coste",
+        "La duración del préstamo",
+        "Que la deuda sea bancaria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El apalancamiento es productivo cuando la rentabilidad del activo supera el coste de la deuda."
+    },
+    {
+      "id": "m9-35",
+      "block": "BLOQUE IX: Financiación y Apalancamiento",
+      "question": "¿Por qué es especialmente importante negociar las comisiones de amortización y cancelación?",
+      "options": [
+        "Porque sustituyen al tipo de interés",
+        "Porque afectan al valor catastral",
+        "Porque encarecen siempre la compra inicial",
+        "Porque condicionan la flexibilidad futura de la inversión"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Estas comisiones determinan la capacidad de reducir deuda o cambiar de banco en el futuro."
+    },
+    {
+      "id": "m9-36",
+      "block": "BLOQUE IX: Financiación y Apalancamiento",
+      "question": "Al comparar hipotecas, ¿qué factor es más relevante desde el punto de vista inversor?",
+      "options": [
+        "El banco que concede la hipoteca",
+        "La duración máxima del préstamo",
+        "El ahorro total al final del préstamo",
+        "El tipo de interés aplicado en los primeros años"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La mayor carga de intereses se concentra al inicio y condiciona la rentabilidad real."
+    },
+    {
+      "id": "m9-37",
+      "block": "BLOQUE X: Análisis de Rentabilidad",
+      "question": "¿Por qué la rentabilidad bruta es insuficiente para evaluar una inversión en alquiler?",
+      "options": [
+        "Porque no tiene en cuenta el precio de compra",
+        "Porque no considera gastos, vacantes ni fiscalidad",
+        "Porque solo se usa en empresas",
+        "Porque no sirve para comparar inmuebles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La rentabilidad bruta es orientativa, pero no refleja el resultado económico real."
+    },
+    {
+      "id": "m9-38",
+      "block": "BLOQUE X: Análisis de Rentabilidad",
+      "question": "En el modelo de compra-venta, ¿qué variable es especialmente crítica para la rentabilidad?",
+      "options": [
+        "El tamaño del inmueble",
+        "El tipo de comprador",
+        "El tiempo necesario para cerrar la operación",
+        "El barrio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El beneficio debe analizarse siempre en relación con el tiempo invertido."
+    },
+    {
+      "id": "m9-39",
+      "block": "BLOQUE X: Análisis de Rentabilidad",
+      "question": "¿Por qué es importante trabajar con escenarios (optimista, realista y pesimista)?",
+      "options": [
+        "Para justificar la inversión",
+        "Para maximizar la rentabilidad",
+        "Para cumplir con la normativa",
+        "Para evaluar si la inversión sigue siendo viable cuando las cosas no salen como se esperaba"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Los escenarios permiten medir el riesgo real y evitar decisiones forzadas."
+    },
+    {
+      "id": "m9-40",
+      "block": "BLOQUE X: Análisis de Rentabilidad",
+      "question": "¿Por qué los inversores con gran patrimonio suelen aceptar rentabilidades del 4%–8% en alquiler tradicional?",
+      "options": [
+        "Porque no conocen otras estrategias",
+        "Porque priorizan estabilidad y preservación de capital",
+        "Porque el alquiler tradicional no tiene riesgo",
+        "Porque la ley limita la rentabilidad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En este modelo se busca seguridad y estabilidad más que maximizar el retorno."
+    },
+    {
+      "id": "m9-41",
+      "block": "BLOQUE XI: Comparativa de Modelos",
+      "question": "¿Qué factor explica que el house flipping pueda ofrecer altas rentabilidades en poco tiempo?",
+      "options": [
+        "La subida general del mercado",
+        "La financiación bancaria",
+        "La compra por debajo de mercado y la rotación rápida",
+        "La ausencia de gastos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El margen se genera al comprar bien y ejecutar la operación en plazos cortos."
+    },
+    {
+      "id": "m9-42",
+      "block": "BLOQUE XI: Comparativa de Modelos",
+      "question": "¿Por qué la promoción inmobiliaria no es un modelo adecuado para principiantes?",
+      "options": [
+        "Porque no permite financiación",
+        "Porque ofrece baja rentabilidad",
+        "Porque requiere licencias urbanísticas",
+        "Porque implica alto riesgo, capital elevado y gran complejidad operativa"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Es el modelo con mayor potencial, pero también el más exigente en experiencia y gestión."
+    },
+    {
+      "id": "m9-43",
+      "block": "BLOQUE XI: Comparativa de Modelos",
+      "question": "¿Dónde se genera principalmente el beneficio en una inversión inmobiliaria bien ejecutada?",
+      "options": [
+        "En la reforma",
+        "En la venta",
+        "En la compra",
+        "En la financiación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El margen real se construye al comprar por debajo del valor."
+    },
+    {
+      "id": "m9-44",
+      "block": "BLOQUE XII: Negociación y Prevención de Fraude",
+      "question": "¿Qué actitud suele perjudicar más una negociación inmobiliaria?",
+      "options": [
+        "Hacer preguntas",
+        "Mostrar prisa por cerrar",
+        "Justificar la oferta con datos",
+        "Mantener el silencio tras una propuesta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La prisa transmite necesidad y debilita la posición negociadora."
+    },
+    {
+      "id": "m9-45",
+      "block": "BLOQUE XII: Negociación y Prevención de Fraude",
+      "question": "¿Cuál es una señal clara de alerta ante una posible estafa inmobiliaria?",
+      "options": [
+        "Solicitar una nota simple",
+        "Proponer arras condicionadas",
+        "Presionar para pagar de inmediato sin verificación documental",
+        "Negociar el precio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La urgencia sin comprobaciones es uno de los patrones más habituales de fraude."
+    },
+    {
+      "id": "m9-46",
+      "block": "BLOQUE XIII: Burbujas y Ciclos de Mercado",
+      "question": "¿Qué característica distingue a una burbuja de una simple subida de precios?",
+      "options": [
+        "Que el precio suba rápidamente",
+        "Que el activo sea financiero",
+        "Que exista una desviación grande y sostenida respecto al valor fundamental",
+        "Que haya especulación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La clave es la separación persistente entre precio y valor real."
+    },
+    {
+      "id": "m9-47",
+      "block": "BLOQUE XIII: Burbujas y Ciclos de Mercado",
+      "question": "Según Minsky, ¿por qué los periodos de estabilidad pueden generar crisis futuras?",
+      "options": [
+        "Porque reducen el crecimiento económico",
+        "Porque incentivan una percepción de riesgo menor y más apalancamiento",
+        "Porque eliminan la competencia",
+        "Porque bajan los precios de los activos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La tranquilidad fomenta estructuras financieras cada vez más frágiles."
+    },
+    {
+      "id": "m9-48",
+      "block": "BLOQUE XIII: Burbujas y Ciclos de Mercado",
+      "question": "¿Por qué el caso inmobiliario chino presenta señales claras de burbuja?",
+      "options": [
+        "Porque los precios han subido mucho",
+        "Porque existe alta demanda residencial",
+        "Porque la vivienda se ha convertido en un activo financiero desconectado de la demografía",
+        "Porque no hay intervención estatal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El precio no se justifica por utilidad ni población futura, sino por expectativas y crédito."
+    }
+  ]
+}

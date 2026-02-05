@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useCallback } from 'react';
 import modulesConfig from '../data/modules.config.json';
 import * as storage from '../services/storage';
 import * as questionService from '../services/questionService';
@@ -124,24 +124,24 @@ export const QuizProvider = ({ children }) => {
   };
 
   // Obtener preguntas con peso según fallos y frecuencia
-  const getWeightedRandomQuestion = (excludeIds = []) => {
+  const getWeightedRandomQuestion = useCallback((excludeIds = []) => {
     return questionService.getWeightedRandomQuestion(questions, stats, excludeIds);
-  };
+  }, [questions, stats]);
 
   // Obtener preguntas incorrectas
-  const getIncorrectQuestions = () => {
+  const getIncorrectQuestions = useCallback(() => {
     return questionService.getIncorrectQuestions(questions, stats);
-  };
+  }, [questions, stats]);
 
   // Obtener preguntas marcadas
-  const getBookmarkedQuestions = () => {
+  const getBookmarkedQuestions = useCallback(() => {
     return questionService.getBookmarkedQuestions(questions, bookmarks);
-  };
+  }, [questions, bookmarks]);
 
   // Obtener preguntas por bloque
-  const getQuestionsByBlock = (blockName) => {
+  const getQuestionsByBlock = useCallback((blockName) => {
     return questionService.getQuestionsByBlock(questions, blockName);
-  };
+  }, [questions]);
 
   // Calcular estadísticas globales (solo para el módulo actual)
   const getGlobalStats = () => {

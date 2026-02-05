@@ -8,8 +8,8 @@ export default function HomeScreen() {
   const {
     getGlobalStats,
     loading,
-    bookmarks,
     getIncorrectQuestions,
+    getBookmarkedQuestions,
   } = useQuiz();
 
   if (loading) {
@@ -22,6 +22,7 @@ export default function HomeScreen() {
 
   const globalStats = getGlobalStats();
   const incorrectCount = getIncorrectQuestions().length;
+  const bookmarkedCount = getBookmarkedQuestions().length;
 
   return (
     <div className="container">
@@ -109,13 +110,13 @@ export default function HomeScreen() {
               <button
                 className="button secondary-button"
                 onClick={() => navigate('/review/bookmarked')}
-                disabled={bookmarks.length === 0}
+                disabled={bookmarkedCount === 0}
               >
-                <span className={`button-text ${bookmarks.length === 0 ? 'disabled' : ''}`}>
-                  ⭐ Marcadas ({bookmarks.length})
+                <span className={`button-text ${bookmarkedCount === 0 ? 'disabled' : ''}`}>
+                  ⭐ Marcadas ({bookmarkedCount})
                 </span>
-                <span className={`button-subtext ${bookmarks.length === 0 ? 'disabled' : ''}`}>
-                  {bookmarks.length === 0
+                <span className={`button-subtext ${bookmarkedCount === 0 ? 'disabled' : ''}`}>
+                  {bookmarkedCount === 0
                     ? 'No has marcado preguntas'
                     : 'Repasa preguntas marcadas'}
                 </span>
