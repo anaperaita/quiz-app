@@ -1,0 +1,488 @@
+{
+  "module": "Módulo 10",
+  "title": "Análisis Geopolítico para la Inversión",
+  "totalQuestions": 37,
+  "questions": [
+    {
+      "id": "m10-1",
+      "block": "BLOQUE I: Análisis Macroeconómico y Riesgo País",
+      "question": "Un inversor observa que el PIB de un país creció un 3% el último trimestre debido exclusivamente al adelanto de importaciones antes de aranceles. ¿Qué debería concluir?",
+      "options": [
+        "La economía está sólida y es momento ideal para invertir masivamente",
+        "Es una distorsión temporal que no refleja la tendencia estructural real",
+        "El consumo privado está impulsando un crecimiento sostenible a largo plazo",
+        "La política comercial del país está mejorando su competitividad internacional permanentemente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El adelanto distorsiona temporalmente el PIB cuando importadores anticipan compras masivas antes de aranceles. No refleja demanda real sino una anomalía coyuntural. El trimestre siguiente mostrará probablemente un rebote artificial. Es fundamental contextualizar datos macro y distinguir entre cambios estructurales y ruido temporal generado por eventos políticos puntuales."
+    },
+    {
+      "id": "m10-2",
+      "block": "BLOQUE I: Análisis Macroeconómico y Riesgo País",
+      "question": "Una empresa cotiza en Europa pero genera 60% de ventas en Estados Unidos y 40% en mercados emergentes de alto riesgo. ¿Cómo calcular su coste de capital correctamente?",
+      "options": [
+        "Usar solo el CRP del país donde tiene la sede fiscal registrada",
+        "Aplicar el CRP más elevado de todos los mercados donde opera por precaución",
+        "Usar una prima ponderada por exposición geográfica real de operaciones",
+        "Ignorar completamente el riesgo geográfico en el cálculo del WACC"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El coste de capital debe reflejar dónde la empresa genera realmente sus ingresos, no solo dónde cotiza. Si el 40% de ventas provienen de mercados de alto riesgo, esa exposición requiere una prima. Se calcula un CRP ponderado: 60% × CRP(USA) + 40% × CRP(emergentes), reflejando el riesgo real del negocio."
+    },
+    {
+      "id": "m10-3",
+      "block": "BLOQUE I: Análisis Macroeconómico y Riesgo País",
+      "question": "Un país muestra simultáneamente: spread bid-ask amplio, skew bajista en opciones y bid-to-cover bajo en subastas. ¿Qué indica esto?",
+      "options": [
+        "Expectativas de crecimiento acelerado y optimismo del mercado",
+        "Mejora de liquidez y confianza inversora creciente",
+        "Deterioro de liquidez, miedo y desconfianza en deuda soberana",
+        "Estabilidad y condiciones normales de mercado"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spread bid-ask amplio indica menor liquidez. Skew bajista significa que inversores pagan más por protección (puts) que por apuestas alcistas, reflejando miedo. Bid-to-cover bajo muestra escasa demanda en subastas de deuda, señal de desconfianza. Los tres indicadores juntos confirman deterioro severo de confianza del mercado."
+    },
+    {
+      "id": "m10-4",
+      "block": "BLOQUE I: Análisis Macroeconómico y Riesgo País",
+      "question": "¿Por qué Singapur sin recursos naturales puede ser más desarrollado que países ricos en petróleo y minerales?",
+      "options": [
+        "Porque Singapur recibe ayuda internacional masiva constantemente",
+        "Porque los países con recursos siempre tienen corrupción inevitable",
+        "Porque el tamaño geográfico pequeño es ventaja absoluta automática",
+        "Porque lo decisivo es la capacidad institucional y eficiencia, no la posesión de recursos"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La historia demuestra que abundancia de recursos no garantiza desarrollo. Lo crítico son instituciones sólidas, marcos legales predecibles, capital humano y eficiencia en explotación y distribución. Singapur prosperó sin recursos mediante instituciones eficientes, apertura comercial y rule of law. La riqueza natural sin capacidad institucional raramente se traduce en bienestar."
+    },
+    {
+      "id": "m10-5",
+      "block": "BLOQUE I: Análisis Macroeconómico y Riesgo País",
+      "question": "Una empresa similar cotiza con PER 25 en EE.UU. y PER 12 en un mercado emergente. ¿Qué explica esta diferencia?",
+      "options": [
+        "El Country Risk Premium diferente afecta la tasa de descuento y justifica múltiplos distintos",
+        "La empresa americana siempre es mejor gestionada objetivamente",
+        "Los mercados emergentes están siempre infravalorados por definición estructural",
+        "Es pura especulación sin fundamento económico real subyacente"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El PER está inversamente relacionado con el coste de capital. Riesgo geopolítico elevado aumenta el CRP, elevando la tasa de descuento y reduciendo el valor presente de flujos futuros. EE.UU. con CRP=0 justifica PER más alto; emergentes con CRP elevado justifican PER menores. No es que estén 'baratos', sino que reflejan el riesgo correctamente."
+    },
+    {
+      "id": "m10-6",
+      "block": "BLOQUE II: Geopolítica, Mercados y Política Monetaria",
+      "question": "Tras una invasión militar, el petróleo sube bruscamente, luego se estabiliza y finalmente se ajusta a un nuevo nivel permanente. ¿Qué explica este patrón?",
+      "options": [
+        "Shock inicial por incertidumbre, estabilización al procesar info y ajuste estructural si el cambio es duradero",
+        "Los mercados son completamente ineficientes y reaccionan aleatoriamente siempre",
+        "La OPEP manipula artificialmente los precios globales del petróleo en tres fases",
+        "Es coincidencia sin patrón predecible ni explicación económica válida"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las crisis geopolíticas siguen un patrón sistemático. Primero, el shock inicial genera reacción violenta por máxima incertidumbre. Luego viene estabilización cuando los agentes procesan información y encuentran un equilibrio temporal. Finalmente, si el cambio es permanente (sanciones duraderas, bloqueos), el precio se ajusta a un nuevo nivel estructural diferente. Este patrón se observó con petróleo, rublo y trigo durante la invasión de Ucrania."
+    },
+    {
+      "id": "m10-7",
+      "block": "BLOQUE II: Geopolítica, Mercados y Política Monetaria",
+      "question": "El BCE ve inflación al 1% y recesión. Según regla de Taylor, ¿qué haría?",
+      "options": [
+        "Subir tipos para controlar la economía débil",
+        "Implementar directamente estímulo fiscal expansivo",
+        "Bajar tipos porque inflación está bajo objetivo (~2%)",
+        "Mantener tipos invariables esperando recuperación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La regla de Taylor indica que bancos centrales ajustan tipos según desviación de inflación del objetivo. Si el BCE tiene mandato de ~2% y observa 1%, existe desviación negativa. La respuesta es bajar tipos para estimular economía y presionar inflación al alza hacia el objetivo, cumpliendo su mandato de estabilidad de precios."
+    },
+    {
+      "id": "m10-8",
+      "block": "BLOQUE II: Geopolítica, Mercados y Política Monetaria",
+      "question": "¿Por qué la neutralidad de Suiza desde 1815 ha sido clave para su éxito económico más allá del ahorro militar?",
+      "options": [
+        "Otros países están obligados a darle ayudas económicas permanentes regularmente",
+        "No paga impuestos ni contribuciones a organizaciones internacionales",
+        "Le permite ser sede neutral, centro financiero, divisa refugio y mantener CRP cero",
+        "Tiene acceso exclusivo a recursos naturales estratégicos vedados a otros"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La neutralidad suiza creó un ecosistema único: espacio seguro para organizaciones internacionales (Cruz Roja, OMS, OMC), centro financiero confiable donde el capital está protegido de guerras y confiscaciones, franco como divisa refugio global, y prima de riesgo cero. Este círculo virtuoso donde estabilidad geopolítica genera prosperidad económica es la clave de su éxito."
+    },
+    {
+      "id": "m10-9",
+      "block": "BLOQUE II: Geopolítica, Mercados y Política Monetaria",
+      "question": "Un país exportador exige que su petróleo solo se pague en su moneda nacional. ¿Efecto sobre tipo de cambio?",
+      "options": [
+        "Depreciación por aumento de oferta monetaria doméstica",
+        "Apreciación por demanda forzosa de la divisa",
+        "Sin efecto relevante en mercados cambiarios",
+        "Volatilidad aleatoria sin dirección predecible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exigir pago en moneda nacional crea demanda artificial. Compradores internacionales deben adquirir esa divisa obligatoriamente para comprar el commodity, generando presión compradora y apreciación. Exactamente lo que pasó con el rublo: tras la invasión de Ucrania, Putin exigió pagos en rublos por energía, y la moneda se recuperó porque Europa necesitaba comprar rublos para pagar el gas."
+    },
+    {
+      "id": "m10-10",
+      "block": "BLOQUE II: Geopolítica, Mercados y Política Monetaria",
+      "question": "¿Por qué el análisis geopolítico rechaza el determinismo 'centro-periferia' que fija jerarquías permanentes entre países?",
+      "options": [
+        "Porque todos los países tienen exactamente las mismas capacidades naturales",
+        "Porque la geografía física nunca ha importado en historia económica",
+        "Porque ya no existe el concepto de tercer mundo actualmente",
+        "Porque las posiciones son dinámicas y cambian con ideas, tecnología y políticas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las teorías deterministas asumen jerarquías permanentes, pero la historia las contradice. Corea del Sur, Singapur y China ascendieron; otras potencias declinaron. La geopolítica depende de variables humanas que cambian: ideas políticas, demografía, tecnología que redefine ventajas, decisiones institucionales. Cuba pasó de aliado a enemigo tras la revolución. Las posiciones no son fijas sino dinámicas y contingentes."
+    },
+    {
+      "id": "m10-11",
+      "block": "BLOQUE III: Estructura de Capital, Crisis Financieras y Recursos Estratégicos",
+      "question": "Una empresa tiene una estructura de capital con 90% de capital propio (equity) y 10% de deuda. Durante una crisis geopolítica, el coste de la deuda (Rd) aumenta del 3% al 8%. ¿Cuál será el impacto de este aumento en el WACC de la empresa?",
+      "options": [
+        "Muy significativo porque el coste de la deuda siempre domina el cálculo del WACC",
+        "Limitado porque la deuda solo representa el 10% del peso en la estructura de capital",
+        "Nulo porque el WACC no se ve afectado por el riesgo geopolítico",
+        "Depende exclusivamente del coste del equity, sin relación con la deuda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El WACC pondera cada componente según su peso en la estructura de capital. Si la deuda representa solo el 10%, incluso un aumento dramático del coste de deuda del 3% al 8% (+5 puntos porcentuales) tendrá un impacto ponderado limitado: 10% × 5% = 0.5 puntos porcentuales en el WACC total. Si la estructura fuera inversa (90% deuda, 10% equity), ese mismo aumento generaría un impacto de 4.5 puntos porcentuales, mucho más significativo."
+    },
+    {
+      "id": "m10-12",
+      "block": "BLOQUE III: Estructura de Capital, Crisis Financieras y Recursos Estratégicos",
+      "question": "Durante crisis hay flight-to-quality hacia bonos USA. ¿Qué pasa en mercados emergentes?",
+      "options": [
+        "También reciben flujos positivos de capital por diversificación",
+        "No les afecta porque son mercados totalmente independientes",
+        "Mejoran su posición relativa frente a mercados desarrollados",
+        "Sufren ampliación de spreads, salida de capitales y encarecimiento de financiación"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Flight-to-quality provoca que inversores abandonen activos riesgosos (emergentes) hacia seguros (bonos USA). Esto causa salida masiva de capitales de emergentes, depreciación de sus monedas, caída de bonos y acciones, ampliación de spreads y encarecimiento de financiación. Es un círculo vicioso: mayor percepción de riesgo global perjudica a emergentes incluso si la crisis no los afecta directamente."
+    },
+    {
+      "id": "m10-13",
+      "block": "BLOQUE III: Estructura de Capital, Crisis Financieras y Recursos Estratégicos",
+      "question": "La 'trampa de Tucídides' analiza rivalidad potencia dominante vs emergente. ¿Por qué NO es determinista?",
+      "options": [
+        "Porque nunca en la historia ha habido guerras entre grandes potencias",
+        "Porque la geopolítica moderna ha eliminado completamente los conflictos armados",
+        "Porque no siempre desemboca en guerra; depende de decisiones humanas y políticas",
+        "Porque las potencias emergentes siempre terminan perdiendo inevitablemente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La trampa de Tucídides describe el dilema de una potencia dominante ante el ascenso de otra emergente. Históricamente genera tensiones que a veces terminan en guerra (Esparta-Atenas, UK-Alemania), pero NO es inevitable. Depende de liderazgos, diplomacia, interdependencia económica y factores culturales. EE.UU.-China ilustra esta trampa, pero el resultado no está predeterminado; las variables humanas mantienen contingencia."
+    },
+    {
+      "id": "m10-14",
+      "block": "BLOQUE III: Estructura de Capital, Crisis Financieras y Recursos Estratégicos",
+      "question": "Un analista evalúa un país que presenta excelentes indicadores macroeconómicos (PIB creciente, inflación controlada, deuda baja), pero al mismo tiempo observa alta fragmentación étnica, polarización política extrema y debilidad en sus instituciones. ¿Cómo debería evaluar el riesgo país?",
+      "options": [
+        "Es un país de bajo riesgo porque los indicadores macroeconómicos cuantitativos son excelentes",
+        "Existe riesgo significativo porque los factores cualitativos son tan críticos como los cuantitativos",
+        "Debería invertir inmediatamente aprovechando la oportunidad que ofrecen los buenos datos macro",
+        "Solo hay riesgo moderado si posteriormente empeoran los indicadores económicos cuantitativos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El análisis de riesgo país no puede limitarse únicamente a indicadores macroeconómicos cuantitativos. Los factores cualitativos como cohesión social, estabilidad política y calidad institucional son igualmente críticos. Un país puede tener magníficas cifras económicas, pero si existe alta fragmentación étnica, polarización extrema o instituciones débiles, puede colapsar súbitamente. El análisis debe combinar metodologías cuantitativas con análisis cualitativos profundos."
+    },
+    {
+      "id": "m10-15",
+      "block": "BLOQUE III: Estructura de Capital, Crisis Financieras y Recursos Estratégicos",
+      "question": "¿Por qué el concepto de 'recursos estratégicos' es dinámico según el análisis geopolítico?",
+      "options": [
+        "Porque los precios internacionales fluctúan constantemente con volatilidad",
+        "Porque los gobiernos cambian sus preferencias políticas regularmente",
+        "Porque la tecnología redefine constantemente qué recursos son valiosos",
+        "Porque los recursos naturales se agotan progresivamente con el tiempo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El concepto de recurso estratégico es dinámico. Hace un siglo era carbón; luego petróleo; ahora litio para baterías. Los semiconductores, irrelevantes hace 70 años, hoy son críticos, convirtiendo a Taiwán en punto geopolítico clave. Las tierras raras pasaron de ignoradas a estratégicas. La innovación tecnológica constantemente redefine qué recursos importan, transformando la relevancia geopolítica de territorios y países."
+    },
+    {
+      "id": "m10-16",
+      "block": "BLOQUE IV: Energía, Sistema Monetario y Datos Clave",
+      "question": "Según la escala de Kardashev, la humanidad se sitúa actualmente en un nivel aproximado de 0,73 en términos de aprovechamiento energético. Las necesidades energéticas actuales ya superan la energía que puede obtenerse de forma eficiente en la Tierra. ¿Qué transición energética fundamental está ocurriendo en este contexto?",
+      "options": [
+        "De energía centralizada a descentralizada",
+        "De moléculas (combustibles fósiles) a electrones (electrificación)",
+        "De energía no renovable a 100% renovable",
+        "De combustibles líquidos a gaseosos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes explican que el proceso actual consiste en sustituir progresivamente el sistema energético basado en moléculas (fundamentalmente carbón y combustibles fósiles) por una nueva fuente centrada en la electricidad generada a partir de energías renovables y procesos de electrificación. Esta transición hacia la 'era de la electrificación' representa el cambio de un sistema basado en electrones, condicionado por el cuello de botella estructural al haber alcanzado casi las tres cuartas partes de la energía aprovechable en la Tierra."
+    },
+    {
+      "id": "m10-17",
+      "block": "BLOQUE IV: Energía, Sistema Monetario y Datos Clave",
+      "question": "El dólar estadounidense dejó de estar respaldado por oro en 1971, convirtiéndose en una moneda fiduciaria. Una de las principales ventajas que esto otorga a Estados Unidos es que gran parte del dinero emitido circula por el resto del mundo sin regresar para reclamar bienes y servicios. ¿Qué consecuencia económica directa tiene esto para la economía estadounidense?",
+      "options": [
+        "Elimina completamente el riesgo de inflación doméstica",
+        "La inflación derivada de la emisión monetaria se exporta al resto del mundo",
+        "Obliga a mantener mayores reservas de oro que otros países",
+        "Reduce la competitividad de las exportaciones estadounidenses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Según los apuntes, el uso del dólar en el comercio internacional permite a Estados Unidos beneficiarse de un tipo de interés implícito. Al tratarse de una moneda no vinculada al oro, gran parte del dinero emitido circula por el resto del mundo sin regresar para reclamar bienes y servicios. Esto implica que la inflación derivada de la emisión monetaria se exporta al resto del mundo en lugar de concentrarse en la economía estadounidense. Este es uno de los componentes clave del 'privilegio exorbitante' del dólar."
+    },
+    {
+      "id": "m10-18",
+      "block": "BLOQUE IV: Energía, Sistema Monetario y Datos Clave",
+      "question": "El análisis del trilema energético que domina a partir de 2025 muestra un cambio fundamental en las prioridades políticas globales. La sostenibilidad deja de situarse por encima de todo y debe equilibrarse con otros factores. ¿Cuáles son las tres dimensiones que componen este trilema energético?",
+      "options": [
+        "Producción, distribución y consumo",
+        "Fósiles, renovables y nuclear",
+        "Sostenibilidad, seguridad y asequibilidad",
+        "Independencia, comercio y reservas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los apuntes identifican que a partir de 2025, el enfoque dominante pasa a ser el trilema energético, que equilibra tres dimensiones: sostenibilidad (objetivos ambientales), seguridad (garantizar suministro y resiliencia) y asequibilidad (precios razonables). Se observa un cambio en las prioridades políticas donde la sostenibilidad cede terreno frente a la seguridad y la resiliencia, acelerado por la crisis energética europea derivada de la invasión rusa de Ucrania."
+    },
+    {
+      "id": "m10-19",
+      "block": "BLOQUE IV: Energía, Sistema Monetario y Datos Clave",
+      "question": "Los apuntes identifican que la demanda estimada de cobre para toda la humanidad en los próximos dieciocho años equivale a una cantidad histórica extraordinaria, mientras que las grandes minas actualmente en explotación están maduras o próximas al agotamiento. ¿A cuántos años de extracción histórica equivale esta demanda proyectada de cobre?",
+      "options": [
+        "A los últimos 1.000 años de extracción",
+        "A los últimos 5.000 años de extracción",
+        "A los últimos 10.000 años de extracción",
+        "A los últimos 20.000 años de extracción"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los apuntes señalan que en los próximos dieciocho años, la demanda estimada de cobre para toda la humanidad equivale a la cantidad extraída en los últimos diez mil años. Esta cifra extraordinaria se debe a que el cobre es el mínimo estándar imprescindible para la electrificación de la economía. Las grandes minas actualmente en explotación están maduras o próximas al agotamiento, y las previsiones apuntan a que a partir de 2030 se entra en un terreno desconocido."
+    },
+    {
+      "id": "m10-20",
+      "block": "BLOQUE IV: Energía, Sistema Monetario y Datos Clave",
+      "question": "El índice IG4 creado por Javier Wrana mide la 'globalidad' de un país, es decir, hasta qué punto un Estado es global en términos absolutos. Este índice utiliza cuatro variables sencillas y relevantes, caracterizadas por la coherencia y comparabilidad de los datos entre países. ¿Cuáles son estas cuatro variables?",
+      "options": [
+        "PIB, educación, tecnología y comercio exterior",
+        "Población, superficie, PIB y gasto militar",
+        "Democracia, PIB per cápita, ejército y territorio",
+        "Recursos naturales, industria, población y PIB"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El índice IG4 utiliza cuatro variables fundamentales: (1) Población, un dato básico disponible para todos los países; (2) Superficie territorial, ya que para tener relevancia global resulta necesario disponer de un territorio amplio; (3) PIB en términos directos (no en paridad de poder adquisitivo), para evitar problemas metodológicos; y (4) Gasto militar como proxy del poder militar, dado que los datos reales de capacidad militar no suelen facilitarse de forma transparente."
+    },
+    {
+      "id": "m10-21",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "Según las estimaciones del FMI para 2025 presentadas en los apuntes, los cinco mayores PIB del mundo en términos nominales (no en paridad de poder adquisitivo) muestran una clara jerarquía económica global. ¿Cuáles son los tres primeros países en este ranking?",
+      "options": [
+        "Estados Unidos, China y Alemania",
+        "Estados Unidos, China y Japón",
+        "China, Estados Unidos e India",
+        "Estados Unidos, China e India"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A partir de 2024, Alemania superó a Japón como la tercera economía mundial en términos de PIB nominal. Este cambio estructural se debe principalmente a la fuerte depreciación del yen japonés frente al euro y al dólar, junto con un crecimiento nominal alemán impulsado por la inflación. El ranking actual sitúa a EE.UU. y China en los dos primeros puestos, seguidos de Alemania en tercer lugar y Japón relegado al cuarto."
+    },
+    {
+      "id": "m10-22",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "Los BRICS representan un Foro Intergubernamental orientado al fomento de la cooperación y el desarrollo. La primera cumbre tuvo lugar en 2009 en Ekaterimburgo, Rusia, con cuatro países fundadores. ¿Cuáles fueron estos países fundadores originales?",
+      "options": [
+        "Brasil, Rusia, India, China y Sudáfrica",
+        "Brasil, Rusia, India y China",
+        "Brasil, Rusia, Indonesia, China y Sudáfrica",
+        "Brasil, Rusia, India, China e Irán"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los países fundadores originales de los BRICS fueron Brasil, Rusia, India y China (de ahí el acrónimo BRIC). Sudáfrica se incorporó posteriormente, convirtiéndose en BRICS. Más recientemente se han incorporado Arabia Saudí, Egipto, Emiratos Árabes Unidos, Etiopía, Irán e Indonesia. Tras la última ampliación, los BRICS representan aproximadamente el 51% de la población mundial, el 40% del PIB mundial medido en PPA."
+    },
+    {
+      "id": "m10-23",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "Para que una moneda pueda desempeñar el papel de reserva internacional debe cumplir una serie de condiciones fundamentales. El dólar cumple estas condiciones, mientras que el yuan chino no puede ofrecer una alternativa real. ¿Qué porcentaje de los pagos internacionales se realizaron en dólares según datos de SWIFT en 2024?",
+      "options": [
+        "35%",
+        "45%",
+        "59%",
+        "78%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Según datos de SWIFT en 2024, el 59% de los pagos internacionales se realizaron en dólares, lo que demuestra el cumplimiento de la condición de 'gran número de usuarios' que genera un efecto red. Las tres condiciones que debe cumplir una moneda de reserva son: (1) valor predecible y estable; (2) oferta elástica que garantice liquidez; y (3) amplio número de usuarios. En contraste, el yuan es apenas la cuarta moneda más utilizada globalmente con solo un 4% de cuota."
+    },
+    {
+      "id": "m10-24",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "China es el segundo mayor tenedor de deuda estadounidense, aunque ha reducido significativamente sus tenencias desde su pico máximo entre 2013 y 2016. Los apuntes analizan si China tiene realmente capacidad para desestabilizar el dólar mediante la venta masiva de esta deuda. ¿Cuántos billones de dólares en bonos del Tesoro llegó a tener China en su punto máximo?",
+      "options": [
+        "760 mil millones de dólares",
+        "1,0 billones de dólares",
+        "1,3 billones de dólares",
+        "2,5 billones de dólares"
+      ],
+      "correctAnswer": 2,
+      "explanation": "China llegó a tener cerca de 1,3 billones de dólares en bonos del Tesoro estadounidense en su pico máximo entre 2013 y 2016. Desde entonces ha vendido buena parte de esa deuda y actualmente se sitúa en torno a los 760 mil millones de dólares. Los apuntes concluyen que China no puede desestabilizar el dólar mediante la venta masiva: cuando se produjo una gran venta en 2014, el repunte de los rendimientos fue temporal y los bonos fueron rápidamente reasignados en el mercado."
+    },
+    {
+      "id": "m10-25",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "Los apuntes explican que buena parte de la aparente reducción de tenencias chinas de deuda estadounidense puede explicarse por un cambio en su localización geográfica. A través de intermediarios financieros europeos, las compras aparecen registradas bajo otros países. ¿Qué correlación casi perfecta han documentado analistas como Brad Setser del Council on Foreign Relations?",
+      "options": [
+        "Correlación directa entre ventas chinas y compras japonesas",
+        "Correlación inversa entre caída de tenencias chinas y aumento atribuido a Bélgica",
+        "Correlación directa entre tenencias chinas y precio del yuan",
+        "Correlación inversa entre deuda china y reservas de oro estadounidenses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A través de intermediarios como Euroclear (con sede en Bruselas) o Clearstream (en Luxemburgo), las compras de deuda estadounidense aparecen registradas como tenencias de Bélgica o Luxemburgo, no de China. Existe una correlación inversa casi perfecta entre la caída de las tenencias reportadas por China desde 2014 y el aumento inexplicable de las atribuidas a Bélgica. Esto significa que China no ha reducido tanto su exposición a deuda estadounidense como parece en las estadísticas oficiales, simplemente ha cambiado la forma de registrarla."
+    },
+    {
+      "id": "m10-26",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "El crecimiento económico de China durante los últimos treinta años ha sido extraordinario, con tasas cercanas al 9% anual. Sin embargo, este crecimiento no se ha reflejado de forma equivalente en su mercado bursátil. ¿Qué ha ocurrido con el mercado bursátil chino desde los años 2000?",
+      "options": [
+        "Ha crecido al mismo ritmo que el PIB",
+        "Ha crecido al doble de velocidad que el PIB",
+        "Apenas ha avanzado desde los años 2000",
+        "Ha caído un 50% en términos reales"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Los apuntes señalan que China ha crecido durante los últimos treinta años a tasas casi al 9% anual, sin embargo, este crecimiento no se ha reflejado de forma equivalente en su mercado bursátil, que apenas ha avanzado desde los años 2000. Esto se explica porque durante décadas el crecimiento ha estado impulsado fundamentalmente por la inversión, generando una elevada sobrecapacidad en numerosos sectores y una caída de la rentabilidad sobre el capital. El mercado de valores chino es relativamente pequeño y aporta poco al PIB."
+    },
+    {
+      "id": "m10-27",
+      "block": "BLOQUE V: Economía Global, BRICS y el Dólar",
+      "question": "Según los apuntes, el verdadero peso de China en la economía global no reside en su capacidad de influir en el orden monetario internacional, sino en otro ámbito muy específico. ¿En qué ámbito reside realmente la relevancia económica global de China?",
+      "options": [
+        "En su capacidad de fijar tipos de interés globales",
+        "En su papel como gran consumidor de materias primas",
+        "En su dominio de las criptomonedas y fintech",
+        "En su control de los mercados de bonos soberanos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes concluyen que el verdadero peso de China en la economía global reside en su papel como gran consumidor de materias primas. El país concentra más de la mitad del consumo mundial de hierro, consume entre el 40% y el 60% del cobre refinado y se sitúa entre los principales consumidores de prácticamente cualquier recurso. Una desaceleración genera colapsos de demanda, mientras que una expansión provoca presiones al alza. China ha demostrado su capacidad para modificar los precios mundiales de las materias primas mediante decisiones administrativas."
+    },
+    {
+      "id": "m10-28",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "El concepto de 'nuevas fronteras económicas' presentado en los apuntes no se refiere únicamente a nuevos sectores productivos o espacios geográficos, sino a territorios de actividad económica que comparten rasgos estructurales específicos. ¿Cuáles son las dos características estructurales principales que definen estas fronteras?",
+      "options": [
+        "Alto rendimiento garantizado y bajo riesgo regulatorio",
+        "Elevada incertidumbre e instituciones incompletas",
+        "Saturación de mercado y competencia perfecta",
+        "Estabilidad jurídica y marcos regulatorios maduros"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes definen que las nuevas fronteras económicas se caracterizan, en primer lugar, por un elevado grado de incertidumbre (que puede adoptar formas tecnológicas, regulatorias o geopolíticas), y en segundo término, por ser ámbitos en los que las instituciones están incompletas, es decir, donde las reglas del juego se encuentran aún en formación o existen vacíos legales significativos. A ello se suman claras ventajas de pionero para quienes actúan tempranamente."
+    },
+    {
+      "id": "m10-29",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "Los apuntes identifican cuatro grandes espacios de actuación que dan forma a las nuevas fronteras económicas. La inteligencia artificial se presenta como un caso paradigmático dentro de uno de estos espacios porque actúa como una tecnología de propósito general. ¿Cuáles son estos cuatro grandes espacios?",
+      "options": [
+        "Industrial, comercial, financiero y digital",
+        "Tecnológico, energético/ambiental, geográfico e institucional",
+        "Nacional, regional, continental y global",
+        "Público, privado, mixto y cooperativo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes identifican cuatro grandes espacios: (1) La frontera tecnológica (IA, biotecnología, etc.); (2) La frontera energética y ambiental (transición energética, hidrógeno verde, economía circular); (3) Las fronteras geográficas abiertas (Ártico, espacio ultraterrestre, océanos profundos); y (4) La frontera institucional y organizativa (nuevas formas de empresa, plataformas digitales, organizaciones autónomas descentralizadas). La IA constituye una nueva frontera tecnológica porque actúa como una tecnología de propósito general, integrándose en prácticamente todos los sectores."
+    },
+    {
+      "id": "m10-30",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "Según el análisis sobre 'faros de prosperidad', estos territorios comparten factores comunes que explican su éxito. El concepto de 'nivel' propuesto por Javier Wrana es fundamental para entenderlos. ¿Qué representa este concepto de 'nivel' de un país, región o ciudad?",
+      "options": [
+        "Una medida objetiva basada en PIB per cápita ajustado",
+        "Una percepción subjetiva y comparativa construida por cada persona",
+        "Un índice oficial publicado por organismos internacionales",
+        "Una clasificación por sectores económicos dominantes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El 'nivel' no es una medida objetiva, sino una percepción subjetiva que una persona construye al comparar un territorio con otros que conoce. Se trata de una medida ordinal y siempre relativa, basada en comparaciones personales. Los faros de prosperidad son territorios que presentan un 'nivel subjetivo elevado para una mayoría de individuos', sustentado en elementos objetivos como seguridad jurídica, protección de la propiedad, conectividad física y digital, capital humano y políticas fiscales y regulatorias estables y competitivas."
+    },
+    {
+      "id": "m10-31",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "Los faros de prosperidad incluyen ejemplos muy diversos a escala global. Los apuntes mencionan varios casos paradigmáticos en diferentes regiones. ¿Cuáles son los dos principales hubs asiáticos de finanzas, comercio y gestión patrimonial mencionados?",
+      "options": [
+        "Tokio y Seúl",
+        "Shanghái y Pekín",
+        "Singapur y Hong Kong",
+        "Dubái y Abu Dabi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Singapur y Hong Kong destacan como los principales hubs asiáticos de finanzas, comercio y gestión patrimonial. Singapur, por ejemplo, aparece como el país con mayor libertad económica según la Heritage Foundation en 2025 y es uno de los principales centros financieros internacionales según el Global Financial Centres Index, junto con Nueva York, Londres y Hong Kong. Los apuntes también mencionan que países europeos de pequeña escala como Suiza, Irlanda, Países Bajos o Luxemburgo han logrado un impacto financiero desproporcionado en relación a su tamaño."
+    },
+    {
+      "id": "m10-32",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "El análisis sobre oportunidades en las nuevas fronteras económicas por regiones identifica a América Latina como una región con abundantes recursos naturales estratégicos y potencial energético. Sin embargo, convive con cuellos de botella estructurales persistentes. ¿Cuál es el principal problema institucional identificado?",
+      "options": [
+        "Falta de recursos naturales y escasa biodiversidad",
+        "Inestabilidad regulatoria y captura del Estado por élites extractivas",
+        "Exceso de regulación europea que frena la inversión",
+        "Ausencia total de marcos legales y sistemas judiciales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes señalan que América Latina se caracteriza por una elevada inestabilidad regulatoria y una marcada discrecionalidad política, así como por la captura del Estado por élites extractivas y coaliciones rentistas. Este fenómeno hunde sus raíces en un proceso histórico iniciado en el siglo XX, en el que se consolidó una casta rentista que continúa condicionando el desarrollo económico. En este contexto, la frontera económica tiende a convertirse en un asunto político más que en un sistema productivo."
+    },
+    {
+      "id": "m10-33",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "El análisis de las oportunidades en nuevas fronteras económicas por regiones caracteriza a la Unión Europea de una manera específica que contrasta con otras regiones. Aunque enfrenta una situación de decadencia, existen oportunidades vinculadas a la transición energética y la economía digital regulada. ¿Cómo se define a la UE en términos de su tipo de frontera?",
+      "options": [
+        "Frontera cerrada y proteccionista",
+        "Frontera regulada, innovadora pero lenta",
+        "Frontera abierta y experimental",
+        "Frontera extractiva y rentista"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La Unión Europea representa un modelo distinto: una frontera regulada, innovadora, pero lenta. Sus problemas estructurales son significativos: la hiperregulación ex ante conduce a regular los mercados antes incluso de que emerjan plenamente, lo que dificulta la creación de campeones globales. El resultado es un entorno caracterizado por una innovación incremental, segura, pero con escasa disrupción. La UE tiende a convertir las fronteras en estándares, pero no siempre en crecimiento."
+    },
+    {
+      "id": "m10-34",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "Asia, según el análisis de oportunidades en nuevas fronteras económicas, encarna un tipo de frontera muy particular. Las oportunidades se concentran en tecnología avanzada, semiconductores, IA y robótica. El rasgo institucional distintivo de esta región es específico. ¿Cómo se caracteriza el tipo de frontera asiática?",
+      "options": [
+        "Frontera liberal con mínima intervención estatal",
+        "Frontera caótica sin estructura institucional",
+        "Frontera disciplinada y altamente productiva",
+        "Frontera subsidiada por organismos internacionales"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asia encarna una frontera disciplinada y altamente productiva. El rasgo institucional distintivo de esta región es la presencia de Estados fuertes pero pragmáticos, con capacidad para facilitar la inversión, disciplinar las rentas y corregir errores. El resultado ha sido la conversión de las fronteras en productividad real. No obstante, también hay problemas, especialmente en el caso chino, donde la politización de la economía, el control del partido y la incertidumbre jurídica se intensifican."
+    },
+    {
+      "id": "m10-35",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "Norteamérica, según el análisis de nuevas fronteras económicas, se presenta como una frontera económica con características distintivas. Las oportunidades se concentran en sectores de alto contenido tecnológico como IA, biotecnología, espacio y defensa. ¿Cuál es la principal ventaja estructural identificada para Norteamérica?",
+      "options": [
+        "Planificación centralizada y control estatal riguroso",
+        "Elevada tolerancia al fracaso y enfoque regulatorio ex post",
+        "Subsidios masivos garantizados sin condiciones",
+        "Protección total contra la competencia internacional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una de las principales ventajas estructurales de Norteamérica es la elevada tolerancia al fracaso, combinada con un enfoque regulatorio ex post (que regula después de que surjan los problemas, no antes) y con la existencia de mercados de capitales dinámicos y líquidos. Esto se apoya en ecosistemas empresariales especialmente profundos, un mercado de capital riesgo muy desarrollado, universidades de primer nivel y un marco sólido de protección de los derechos de propiedad intelectual."
+    },
+    {
+      "id": "m10-36",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "El análisis sobre quién gana y quién pierde con las nuevas fronteras económicas identifica factores institucionales clave. Los apuntes concluyen que las nuevas fronteras no recompensan a quienes disponen de más recursos, sino a otro tipo de actores. ¿A quiénes recompensan las nuevas fronteras económicas?",
+      "options": [
+        "A quienes tienen mayores reservas de recursos naturales",
+        "A quienes son capaces de transformar la incertidumbre en reglas creíbles",
+        "A quienes invierten más capital financiero inicial",
+        "A quienes cuentan con mayor población y territorio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los apuntes concluyen que las nuevas fronteras económicas no recompensan a quienes disponen de más recursos, sino a quienes son capaces de transformar la incertidumbre en reglas creíbles. Las fronteras no constituyen un problema fundamentalmente tecnológico, sino un examen institucional que pone a prueba la capacidad de las sociedades para generar marcos estables, inclusivos y adaptativos. Tienden a beneficiarse más fácilmente aquellas sociedades que cuentan con un Estado de derecho sólido, compromiso creíble con la protección de los derechos de propiedad y apertura efectiva al comercio y al talento."
+    },
+    {
+      "id": "m10-37",
+      "block": "BLOQUE VI: Nuevas Fronteras Económicas",
+      "question": "El análisis sobre Europa en el contexto de 2026 presenta un patrón de comportamiento que Donald Trump ha seguido en varias ocasiones al negociar mediante amenazas arancelarias. Este patrón consta de doce pasos identificables. ¿Cuál es el resultado final típico de este patrón según los apuntes?",
+      "options": [
+        "Colapso total de las relaciones comerciales y guerra económica",
+        "Se anuncia un acuerdo y los mercados reaccionan con fuertes subidas",
+        "Europa impone contramedidas permanentes y cierre de fronteras",
+        "Las amenazas se cumplen íntegramente sin negociación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El patrón identificado de Trump sigue doce pasos que comienzan con el aumento progresivo de tensión y amenazas, continúan con anuncios de medidas agresivas cuando los mercados están cerrados, generan caídas iniciales en los futuros, provocan respuestas negociadoras de los países afectados, y finalmente concluyen con el anuncio de un acuerdo y los mercados reaccionando con fuertes subidas. Los apuntes mencionan que la última vez que se observó este juego fue el 10 de octubre cuando Trump amenazó a China con un arancel del 100% por tierras raras, y el S&P 500 terminó batiendo máximos pocas semanas después."
+    }
+  ]
+}

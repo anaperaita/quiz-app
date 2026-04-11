@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "modulo.schema.json",
+  "title": "Módulo de Quiz",
+  "description": "Schema for investment module quiz files used in the quizz-app",
+  "type": "object",
+  "required": ["module", "title", "totalQuestions", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "module": {
+      "type": "string",
+      "description": "Module identifier, e.g. 'Módulo 4'",
+      "pattern": "^Módulo \\d+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable module title, e.g. 'Renta Variable'"
+    },
+    "totalQuestions": {
+      "type": "integer",
+      "description": "Total number of questions in the module. Must match the length of the questions array.",
+      "minimum": 1
+    },
+    "questions": {
+      "type": "array",
+      "description": "List of quiz questions",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Question"
+      }
+    }
+  },
+  "$defs": {
+    "Question": {
+      "type": "object",
+      "required": ["id", "block", "question", "options", "correctAnswer", "explanation"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique question identifier across all modules, e.g. 'm4-1'",
+          "pattern": "^m\\d+-\\d+$"
+        },
+        "block": {
+          "type": "string",
+          "description": "Thematic block the question belongs to, e.g. 'BLOQUE I: Introducción a las materias primas'"
+        },
+        "question": {
+          "type": "string",
+          "description": "The question text"
+        },
+        "options": {
+          "type": "array",
+          "description": "Exactly 4 answer options",
+          "items": { "type": "string" },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "correctAnswer": {
+          "type": "integer",
+          "description": "Zero-based index of the correct option (0–3)",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Explanation shown to the user after answering"
+        }
+      }
+    }
+  }
+}

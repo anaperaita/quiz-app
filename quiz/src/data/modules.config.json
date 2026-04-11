@@ -29,6 +29,11 @@
       "id": "modulo9",
       "name": "Módulo 9: Inversión Inmobiliaria",
       "file": "modulo9.json"
+    },
+    {
+      "id": "modulo10",
+      "name": "Módulo 10: Análisis Geopolítico para la Inversión",
+      "file": "modulo10.json"
     }
   ]
 }
