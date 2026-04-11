@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useQuiz } from '../hooks/useQuiz';
 import { useToast } from '../hooks/useToast';
@@ -25,6 +25,7 @@ export default function ReviewScreen() {
   const {
     selectedAnswer,
     showResult,
+    navEnabled,
     handleAnswerSelect,
     handleSubmit: submitAnswer,
     resetInteraction,
@@ -37,15 +38,13 @@ export default function ReviewScreen() {
   const [questionsList, setQuestionsList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  /**
-   * Load questions based on review mode
-   * Wrapped in useCallback with all dependencies
-   */
-  const loadQuestions = useCallback(() => {
+  // Load questions only once on mount — NOT reactively on stats changes.
+  // Re-loading on stats changes caused the list to reshuffle mid-session,
+  // making the current question change under the user after answering.
+  useEffect(() => {
     let questionList;
 
     if (isSequentialMode) {
-      // Get all questions in their original order
       questionList = [...questions];
     } else if (isBlockMode) {
       const decodedBlockName = decodeURIComponent(blockName);
@@ -73,34 +72,8 @@ export default function ReviewScreen() {
     }
 
     setQuestionsList(questionList);
-  }, [
-    isSequentialMode,
-    isBlockMode,
-    isBookmarkedMode,
-    blockName,
-    questions,
-    getQuestionsByBlock,
-    getBookmarkedQuestions,
-    getIncorrectQuestions,
-    navigate,
-    showInfo
-  ]);
-
-  useEffect(() => {
-    loadQuestions();
-  }, [loadQuestions]);
-
-  // Reload questions when stats change (e.g., after answering a question)
-  // and adjust currentIndex if needed to prevent out-of-bounds
-  useEffect(() => {
-    if (questionsList.length > 0 && currentIndex >= questionsList.length) {
-      // Current index is out of bounds, adjust to last valid index
-      setCurrentIndex(questionsList.length - 1);
-    } else if (questionsList.length === 0 && currentIndex !== 0) {
-      // No questions left, reset index
-      setCurrentIndex(0);
-    }
-  }, [questionsList, currentIndex]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const currentQuestion = questionsList[currentIndex];
 
@@ -113,13 +86,27 @@ export default function ReviewScreen() {
   };
 
   const handleNext = () => {
-    if (currentIndex < questionsList.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      resetInteraction();
-    } else {
-      showSuccess(`¡Has completado la revisión de ${questionsList.length} preguntas!`, 3000);
-      setTimeout(() => navigate('/'), 1500);
+    const wasCorrect = selectedAnswer === currentQuestion.correctAnswer;
+
+    // In failures mode, remove correctly answered questions from the list
+    // on navigation (not reactively) to avoid mid-session jumps.
+    let updatedList = questionsList;
+    let nextIndex = currentIndex + 1;
+
+    if (wasCorrect && !isSequentialMode && !isBlockMode) {
+      updatedList = questionsList.filter((_, idx) => idx !== currentIndex);
+      nextIndex = currentIndex; // same index now points to the next question
+      setQuestionsList(updatedList);
     }
+
+    if (updatedList.length === 0 || nextIndex >= updatedList.length) {
+      showSuccess(`¡Has completado la revisión!`, 3000);
+      setTimeout(() => navigate('/'), 1500);
+      return;
+    }
+
+    setCurrentIndex(nextIndex);
+    resetInteraction();
   };
 
   const handlePrevious = () => {
@@ -222,14 +209,14 @@ export default function ReviewScreen() {
           ) : (
             <div className="navigation-buttons">
               <button
-                className={`nav-button ${currentIndex === 0 ? 'disabled' : ''}`}
+                className={`nav-button ${currentIndex === 0 || !navEnabled ? 'disabled' : ''}`}
                 onClick={handlePrevious}
-                disabled={currentIndex === 0}
+                disabled={currentIndex === 0 || !navEnabled}
               >
                 ← Anterior
               </button>
 
-              <button className="next-button-nav" onClick={handleNext}>
+              <button className="next-button-nav" onClick={handleNext} disabled={!navEnabled}>
                 {currentIndex < questionsList.length - 1 ? 'Siguiente →' : 'Finalizar'}
               </button>
             </div>

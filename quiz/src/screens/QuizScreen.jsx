@@ -22,6 +22,7 @@ export default function QuizScreen() {
   const {
     selectedAnswer,
     showResult,
+    navEnabled,
     handleAnswerSelect,
     handleSubmit: submitAnswer,
     resetInteraction,
@@ -149,7 +150,7 @@ export default function QuizScreen() {
               Validar Respuesta
             </button>
           ) : (
-            <button className="next-button" onClick={handleNext}>
+            <button className="next-button" onClick={handleNext} disabled={!navEnabled}>
               Siguiente Pregunta →
             </button>
           )}

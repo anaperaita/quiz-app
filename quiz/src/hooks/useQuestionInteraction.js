@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 /**
  * Custom hook for question interaction logic
@@ -11,6 +11,14 @@ import { useState } from 'react';
 export const useQuestionInteraction = (onAnswerSubmit) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
+  const [navEnabled, setNavEnabled] = useState(false);
+  const navTimerRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (navTimerRef.current) clearTimeout(navTimerRef.current);
+    };
+  }, []);
 
   /**
    * Handle answer selection
@@ -39,7 +47,9 @@ export const useQuestionInteraction = (onAnswerSubmit) => {
       onAnswerSubmit(currentQuestion.id, isCorrect);
     }
 
+    setNavEnabled(false);
     setShowResult(true);
+    navTimerRef.current = setTimeout(() => setNavEnabled(true), 400);
 
     // Call optional success callback
     if (onSuccess) {
@@ -55,6 +65,7 @@ export const useQuestionInteraction = (onAnswerSubmit) => {
   const resetInteraction = () => {
     setSelectedAnswer(null);
     setShowResult(false);
+    setNavEnabled(false);
   };
 
   /**
@@ -82,6 +93,7 @@ export const useQuestionInteraction = (onAnswerSubmit) => {
   return {
     selectedAnswer,
     showResult,
+    navEnabled,
     handleAnswerSelect,
     handleSubmit,
     resetInteraction,
