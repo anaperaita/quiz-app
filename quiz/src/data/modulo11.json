@@ -1,0 +1,1380 @@
+{
+    "module": "Módulo 11",
+    "title": "Microeconomía",
+    "totalQuestions": 110,
+    "questions": [
+        {
+            "id": "m11-1",
+            "block": "Las grandes ideas económicas",
+            "question": "¿Qué es la microeconomía?",
+            "options": [
+                "Todas las respuestas anteriores son incorrectas.",
+                "Es la parte de la economía que se centra en el estudio de los mercados pequeños.",
+                "Es la rama de la economía que se centra en el estudio de la respuesta de las variables económicas a la política pública.",
+                "Es la rama de la economía que se ocupa de estudiar las variables económicas en ausencia de política económica."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La microeconomía estudia las variables económicas en ausencia de política económica."
+        },
+        {
+            "id": "m11-2",
+            "block": "Las grandes ideas económicas",
+            "question": "El análisis económico es un análisis marginal y la forma económica de pensar rechaza el enfoque de todo o nada a favor de la atención a los beneficios y costos marginales.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El análisis económico es efectivamente marginalista."
+        },
+        {
+            "id": "m11-3",
+            "block": "Las grandes ideas económicas",
+            "question": "¿Qué es la macroeconomía?",
+            "options": [
+                "Es la parte de la economía que se centra en el estudio de los mercados globales.",
+                "Es la rama de la economía que se centra en el estudio de la respuesta de las variables económicas a la política pública.",
+                "Es la rama de la economía que se ocupa de estudiar las variables económicas en ausencia de política económica.",
+                "Todas las respuestas anteriores son incorrectas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La macroeconomía estudia la respuesta de las variables económicas a la política pública."
+        },
+        {
+            "id": "m11-4",
+            "block": "Las grandes ideas económicas",
+            "question": "La riqueza es muy importante y comprender el crecimiento económico es una de las tareas más importantes de la economía.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La riqueza y el crecimiento económico son centrales en economía."
+        },
+        {
+            "id": "m11-5",
+            "block": "Las grandes ideas económicas",
+            "question": "La inflación es un fenómeno económico que incrementa los precios pero no dificulta el crecimiento económico. La inflación, además, es ajena a políticas estatales.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La inflación sí dificulta el crecimiento y está relacionada con las políticas estatales."
+        },
+        {
+            "id": "m11-6",
+            "block": "Las grandes ideas económicas",
+            "question": "El análisis económico es un análisis maximalista y la forma económica de pensar rechaza el enfoque de los beneficios y costos marginales.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El análisis económico es marginalista, no maximalista."
+        },
+        {
+            "id": "m11-7",
+            "block": "Las grandes ideas económicas",
+            "question": "Gracias al libre intercambio podemos especializarnos e incrementar nuestra producción. De esta manera, las personas se convierten en productores especializados y consumidores generalistas.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El libre intercambio permite la especialización y el incremento de producción."
+        },
+        {
+            "id": "m11-8",
+            "block": "Las grandes ideas económicas",
+            "question": "La inflación puede tener las siguientes causas:",
+            "options": [
+                "No monetaria o real de la inflación.",
+                "Monetaria.",
+                "No monetaria o real de la inflación y monetaria.",
+                "Todos las otras respuestas son incorrectas."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La inflación puede tener causas tanto monetarias como no monetarias."
+        },
+        {
+            "id": "m11-9",
+            "block": "Las grandes ideas económicas",
+            "question": "Las instituciones no son esenciales para que pueda haber crecimiento económico, riqueza y bienestar social. Lo esencial son los recursos naturales.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las instituciones SÍ son esenciales para el crecimiento económico."
+        },
+        {
+            "id": "m11-10",
+            "block": "Las grandes ideas económicas",
+            "question": "Los bancos centrales controlan la cantidad de dinero en circulación y establecen los tipos de interés entre los bancos centrales y los bancos comerciales.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los bancos centrales controlan la cantidad de dinero y establecen los tipos de interés."
+        },
+        {
+            "id": "m11-11",
+            "block": "Las grandes ideas económicas",
+            "question": "¿Qué es la economía?",
+            "options": [
+                "La ciencia que estudia la asignación de medios escasos para fines alternativos.",
+                "Todas las respuestas son correctas.",
+                "La economía es la ciencia social que estudia los procesos de interacción humana dirigidos a crear riqueza.",
+                "La economía es la ciencia que estudia las relaciones libres de intercambio de individuos en el mercado."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La economía se define de múltiples formas complementarias."
+        },
+        {
+            "id": "m11-12",
+            "block": "Las grandes ideas económicas",
+            "question": "Las economías varían en el largo plazo, pueden haber tanto auges como recesiones y las políticas fiscales y monetarias para corregir estas fluctuaciones tienen limitaciones.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las políticas fiscales y monetarias tienen limitaciones para corregir ciclos económicos."
+        },
+        {
+            "id": "m11-13",
+            "block": "Las grandes ideas económicas",
+            "question": "¿Por qué actúan las personas?",
+            "options": [
+                "Las personas se mueven por su propio interés, pero para poder lograrlo necesitan cooperar con los demás, o lo que es lo mismo, satisfacer los intereses de otros.",
+                "Ninguna respuesta es correcta.",
+                "Las personas se mueven por los intereses de los demás.",
+                "Las personas se mueven por su propio interés, pero para poder lograrlo no necesitan satisfacer los intereses de otros."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las personas actúan por interés propio cooperando con los demás."
+        },
+        {
+            "id": "m11-14",
+            "block": "Las grandes ideas económicas",
+            "question": "Las buenas instituciones como, por ejemplo, la propiedad privada, la libertad contractual, la libre competencia y el imperio de la ley son esenciales para alinear el interés personal con el interés social.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las instituciones son esenciales para alinear el interés personal y social."
+        },
+        {
+            "id": "m11-15",
+            "block": "Las grandes ideas económicas",
+            "question": "Para comprender las decisiones económicas de las personas no es necesario tener en cuenta el costo de oportunidad de las mismas.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El costo de oportunidad es fundamental para comprender las decisiones económicas."
+        },
+        {
+            "id": "m11-16",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "¿Cuáles son las características de la acción humana?",
+            "options": [
+                "Voluntaria, consciente, costumbres o hábitos, creativa y no es observable.",
+                "Voluntaria o involuntaria, no consciente, costumbres o hábitos, creativa y es observable.",
+                "Voluntaria, no consciente, costumbres o hábitos, creativa y es observable.",
+                "Voluntaria, consciente, costumbres o hábitos, creativa y es observable."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La acción humana es voluntaria, consciente, habitual, creativa y no directamente observable."
+        },
+        {
+            "id": "m11-17",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "La división del trabajo es:",
+            "options": [
+                "Consecuencia de la legislación.",
+                "Consecuencia lógica del intercambio.",
+                "Consecuencia de un plan centralista.",
+                "Consecuencia de las leyes."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La división del trabajo es una consecuencia lógica del intercambio voluntario."
+        },
+        {
+            "id": "m11-18",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "¿Qué es un bien económico?",
+            "options": [
+                "Todo lo que el 'actor' considera útil para satisfacer sus necesidades, siempre que los bienes no sean escasos.",
+                "Todo lo que el 'actor' considera útil para satisfacer sus necesidades, siempre que los bienes sean escasos.",
+                "Todo lo que el 'actor' no considera útil para satisfacer sus necesidades, siempre que los bienes no sean escasos.",
+                "Todo lo que el 'actor' no considera útil para satisfacer sus necesidades, siempre que los bienes sean escasos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Un bien económico es útil y escaso."
+        },
+        {
+            "id": "m11-19",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "Si una cosa se convierte en un bien o, en otras palabras, si adquiere las características de un bien, las siguientes cuatro premisas se tienen que cumplir simultáneamente:",
+            "options": [
+                "1. Una necesidad humana; 2. Propiedades que hacen que la cosa sea capaz de ponerse en conexión causal con la satisfacción de esta necesidad; 3. Conocimiento humano de esta conexión causal; 4. No suficiente dominio de la cosa para dirigirla hacia la satisfacción de la necesidad.",
+                "1. Una necesidad humana; 2. Propiedades que hacen que la cosa sea capaz de ponerse en conexión causal con la satisfacción de esta necesidad; 3. Conocimiento humano de esta conexión causal; 4. Suficiente dominio de la cosa para dirigirla hacia la satisfacción de la necesidad.",
+                "1. Una necesidad humana; 2. Propiedades que hacen que la cosa sea capaz de ponerse en conexión causal con la satisfacción de esta necesidad; 3. No conocimiento humano de esta conexión causal; 4. No suficiente dominio de la cosa para dirigirla hacia la satisfacción de la necesidad.",
+                "1. Una necesidad humana; 2. Propiedades que hacen que la cosa sea capaz de ponerse en conexión causal con la satisfacción de esta necesidad; 3. No conocimiento humano de esta conexión causal; 4. Suficiente dominio de la cosa para dirigirla hacia la satisfacción de la necesidad."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Para ser bien se requiere: necesidad humana, propiedades causales, conocimiento de esa causalidad y dominio suficiente."
+        },
+        {
+            "id": "m11-20",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "El valor económico es determinado por:",
+            "options": [
+                "La escasez económica.",
+                "La utilidad humana y escasez física.",
+                "Utilidad humana.",
+                "La utilidad humana y la escasez económica."
+            ],
+            "correctAnswer": 3,
+            "explanation": "El valor económico viene determinado por la utilidad humana y la escasez económica."
+        },
+        {
+            "id": "m11-21",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "La utilidad marginal es la utilidad (derivada del fin que satisface) de la primera unidad relevante e intercambiable de un medio en una escala valorativa en un determinado tiempo y lugar.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La utilidad marginal corresponde a la ÚLTIMA unidad, no la primera."
+        },
+        {
+            "id": "m11-22",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "El valor de cualquier unidad relevante e intercambiable de un bien económico en el contexto de cualquier acción es determinado por su utilidad marginal.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El valor de cualquier unidad de un bien se determina por su utilidad marginal."
+        },
+        {
+            "id": "m11-23",
+            "block": "Oferta y demanda",
+            "question": "¿Cuándo van a buscar más intensamente las personas sustitutos del petróleo? ¿Cuándo el precio del petróleo es bajo o es alto?",
+            "options": [
+                "Alto",
+                "Bajo",
+                "Es indiferente que esté bajo o alto el precio del petróleo.",
+                "—"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las personas buscan sustitutos con más intensidad cuando el precio del petróleo es alto."
+        },
+        {
+            "id": "m11-24",
+            "block": "Oferta y demanda",
+            "question": "¿Qué pasará con la demanda de los portátiles que usan Windows si el precio de los MacBooks cae?",
+            "options": [
+                "Bajará",
+                "Subirá",
+                "Se mantendrá constante",
+                "—"
+            ],
+            "correctAnswer": 0,
+            "explanation": "MacBooks y portátiles Windows son sustitutos; si baja el precio de MacBooks, la demanda de Windows baja."
+        },
+        {
+            "id": "m11-25",
+            "block": "Oferta y demanda",
+            "question": "Si el precio del petróleo sube, ¿qué pasará con la demanda de gas, del carbón o de la energía solar?",
+            "options": [
+                "serán más altas todas las demandas.",
+                "serán más bajas todas las demandas.",
+                "serán más altas las demandas de carbón y gas pero bajará la de la energía solar.",
+                "serán más bajas las demandas de carbón y gas pero subirá la de la energía solar."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El gas, carbón y energía solar son sustitutos del petróleo; si sube su precio, sube la demanda de todos ellos."
+        },
+        {
+            "id": "m11-26",
+            "block": "Oferta y demanda",
+            "question": "Cuando una compañía de gasolina espera que el precio de la gasolina sea mayor el próximo año, ¿qué sucede con la oferta de gasolina de hoy?",
+            "options": [
+                "Crece",
+                "Decrece",
+                "Se mantiene constante",
+                "—"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Si se espera un precio mayor en el futuro, los productores retienen stock, reduciendo la oferta actual."
+        },
+        {
+            "id": "m11-27",
+            "block": "Oferta y demanda",
+            "question": "Imagina que una innovación tecnológica reduce el coste de producción de acero de alta calidad. ¿Qué sucederá con la curva de la oferta del acero?",
+            "options": [
+                "La curva de la oferta se desplazará hacia abajo y/o la derecha.",
+                "La curva de la oferta se desplazará hacia arriba y/o la izquierda.",
+                "La curva de la oferta no variará.",
+                "—"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Una reducción de costes desplaza la curva de oferta hacia la derecha (aumento de oferta)."
+        },
+        {
+            "id": "m11-28",
+            "block": "Formación de precios, Parte 1",
+            "question": "Si el precio en un mercado está por encima del precio de coordinación o equilibrio, ¿crea esto un excedente o una escasez?",
+            "options": [
+                "Excedente",
+                "Escasez"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Un precio por encima del equilibrio genera excedente (oferta > demanda)."
+        },
+        {
+            "id": "m11-29",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando el precio está por encima del precio de coordinación de mercado, ¿la codicia (el egocentrismo) empuja el precio hacia arriba o hacia abajo?",
+            "options": [
+                "Hacia abajo",
+                "Hacia arriba"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El excedente genera competencia entre vendedores que empuja el precio hacia abajo."
+        },
+        {
+            "id": "m11-30",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando la oferta cae, ¿qué sucede con la cantidad demandada en equilibrio?",
+            "options": [
+                "La cantidad demandada se reduce.",
+                "La cantidad demandada aumenta.",
+                "La cantidad demandada se mantiene constante.",
+                "—"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Cuando la oferta cae, el precio sube y la cantidad de equilibrio se reduce."
+        },
+        {
+            "id": "m11-31",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando la demanda aumenta, ¿qué sucede con el precio y cantidad en equilibrio?",
+            "options": [
+                "Precio y cantidad aumentan.",
+                "Precio y cantidad disminuyen.",
+                "Precio aumenta y cantidad disminuye.",
+                "Precio disminuye y cantidad aumenta."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Un aumento de demanda sube tanto el precio como la cantidad de equilibrio."
+        },
+        {
+            "id": "m11-32",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando la oferta aumenta, ¿qué sucede con el precio y cantidad en equilibrio?",
+            "options": [
+                "Precio y cantidad aumentan.",
+                "Precio y cantidad disminuyen.",
+                "Precio aumenta y cantidad disminuye.",
+                "Precio disminuye y cantidad aumenta."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Un aumento de oferta baja el precio y sube la cantidad de equilibrio."
+        },
+        {
+            "id": "m11-33",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando la oferta disminuye, ¿qué sucede con el precio y cantidad en equilibrio?",
+            "options": [
+                "Precio y cantidad aumentan.",
+                "Precio y cantidad disminuyen.",
+                "Precio aumenta y cantidad disminuye.",
+                "Precio disminuye y cantidad aumenta."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Una disminución de oferta sube el precio y reduce la cantidad de equilibrio."
+        },
+        {
+            "id": "m11-34",
+            "block": "Formación de precios, Parte 1",
+            "question": "Cuando la demanda disminuye, ¿qué sucede con el precio y cantidad en equilibrio?",
+            "options": [
+                "Precio y cantidad aumentan.",
+                "Precio y cantidad disminuyen.",
+                "Precio aumenta y cantidad disminuye.",
+                "Precio disminuye y cantidad aumenta."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Una disminución de demanda baja tanto el precio como la cantidad de equilibrio."
+        },
+        {
+            "id": "m11-35",
+            "block": "Formación de precios, Parte 2",
+            "question": "La motivación del intercambio es:",
+            "options": [
+                "en primer lugar, obtener una ventaja.",
+                "en segundo lugar, obtener una ventaja mayor a una menor.",
+                "Ambas son correctas.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El intercambio se motiva tanto por obtener una ventaja como por obtener una ventaja mayor sobre una menor."
+        },
+        {
+            "id": "m11-36",
+            "block": "Formación de precios, Parte 2",
+            "question": "¿Cuál es el papel principal de los precios en una economía de mercado?",
+            "options": [
+                "Los precios son un mecanismo para calcular los ingresos fiscales del gobierno.",
+                "Los precios son una herramienta utilizada exclusivamente para la contabilidad de costos en las empresas.",
+                "Los precios son equivalentes al valor de los bienes.",
+                "Los precios son un mecanismo de revelación de información."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Los precios son el mecanismo central de revelación y transmisión de información en el mercado."
+        },
+        {
+            "id": "m11-37",
+            "block": "Formación de precios, Parte 2",
+            "question": "Compraventa de una vivienda. El vendedor valora en 200.000€ la vivienda y el comprador, en 250.000€. El precio de la vivienda para que tenga lugar el intercambio será:",
+            "options": [
+                "200.000€.",
+                "por encima de 250.000€.",
+                "entre 200.000€ y 250.000€.",
+                "Es imposible que se realice el intercambio."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El precio de intercambio se sitúa entre la valoración mínima del vendedor y la máxima del comprador."
+        },
+        {
+            "id": "m11-38",
+            "block": "Formación de precios, Parte 2",
+            "question": "En competencia unilateral de compradores, el precio de mercado:",
+            "options": [
+                "estará entre la valoración subjetiva mínima y máxima de los compradores.",
+                "será la valoración subjetiva máxima del comprador que más esté dispuesto a pagar.",
+                "estará entre la valoración subjetiva máxima del comprador definitivo y la valoración subjetiva máxima del siguiente potencial comprador (comprador \"fracasado\").",
+                "No es posible el intercambio en esta situación."
+            ],
+            "correctAnswer": 2,
+            "explanation": "En competencia de compradores, el precio se sitúa entre la valoración del comprador ganador y la del perdedor."
+        },
+        {
+            "id": "m11-39",
+            "block": "Formación de precios, Parte 2",
+            "question": "Único comprador y varios proveedores. Mercadona quiere comprar pan de molde a un precio máximo de 1€/barra y tiene 4 posibles proveedores (1, 2, 3 y 4) que valoran subjetivamente el producto a un mínimo valor de 0.55€, 0.60€, 0.65€ y 0.68€ respectivamente.",
+            "options": [
+                "Mercadona comprará el pan de molde a cualquiera de los productores.",
+                "Mercadona comprará solo si le ofrecen un precio de 0.50€/barra.",
+                "Mercadona comprará el producto a cualquiera de los proveedores 2, 3 y 4.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Ninguna de las opciones describe correctamente el mecanismo de formación de precio en este caso."
+        },
+        {
+            "id": "m11-40",
+            "block": "Formación de precios, Parte 2",
+            "question": "En competencia bilateral el precio:",
+            "options": [
+                "Se establece entre los valores subjetivos de los compradores y vendedores \"marginales\".",
+                "El mercado siempre está en desequilibrio.",
+                "Todas son correctas.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 0,
+            "explanation": "En competencia bilateral el precio se fija entre las valoraciones de los agentes marginales."
+        },
+        {
+            "id": "m11-41",
+            "block": "Precios en bienes de producción y tipos de interés",
+            "question": "La productividad marginal no determina el precio máximo que cualquier empresario está dispuesto a pagar por un factor de producción dado.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La productividad marginal SÍ determina el precio máximo que un empresario paga por un factor."
+        },
+        {
+            "id": "m11-42",
+            "block": "Precios en bienes de producción y tipos de interés",
+            "question": "El precio de un factor viene determinado por:",
+            "options": [
+                "Su productividad marginal.",
+                "Su productividad marginal y su escasez económica.",
+                "Su utilidad marginal y su escasez económica.",
+                "Su escasez económica."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El precio de un factor de producción viene determinado por su productividad marginal y su escasez económica."
+        },
+        {
+            "id": "m11-43",
+            "block": "Precios en bienes de producción y tipos de interés",
+            "question": "Los sindicatos pueden elevar el salario de libre mercado.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los sindicatos no pueden elevar el salario de libre mercado de forma sostenida."
+        },
+        {
+            "id": "m11-44",
+            "block": "Precios en bienes de producción y tipos de interés",
+            "question": "El salario es aquel precio en el que se iguala la productividad marginal de los trabajadores con la desutilidad marginal del trabajo.",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El salario de equilibrio iguala la productividad marginal con la desutilidad marginal del trabajo."
+        },
+        {
+            "id": "m11-45",
+            "block": "Precios en bienes de producción y tipos de interés",
+            "question": "Si nos encontramos en el mercado con altos tipos de interés:",
+            "options": [
+                "Las personas valoran más un consumo futuro mayor que un consumo actual más pequeño.",
+                "Las personas prefieren consumir menos en el presente en lugar de más en el futuro.",
+                "Las personas no prefieren consumir menos en el presente en lugar de más en el futuro.",
+                "—"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Con altos tipos de interés, las personas no prefieren sacrificar consumo presente."
+        },
+        {
+            "id": "m11-46",
+            "block": "La elasticidad",
+            "question": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de elasticidad en economía?",
+            "options": [
+                "La elasticidad mide el cambio en el ingreso total de una empresa ante variaciones en la oferta de bienes.",
+                "La elasticidad mide la sensibilidad de una variable ante cambios en otra variable, como la cantidad demandada en respuesta a cambios en el precio.",
+                "La elasticidad se refiere a la capacidad de un mercado para autorregularse sin intervención gubernamental.",
+                "La elasticidad es una medida de la eficiencia con la que una economía utiliza sus recursos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La elasticidad mide la sensibilidad de una variable ante cambios en otra variable, como la cantidad demandada en respuesta a cambios en el precio."
+        },
+        {
+            "id": "m11-47",
+            "block": "La elasticidad",
+            "question": "Una demanda elástica:",
+            "options": [
+                "resulta en un mayor cambio en la cantidad a pequeños cambios en el precio.",
+                "resulta en un escaso cambio en la cantidad a pequeños cambios en el precio.",
+                "no es sensible a cambios de precios sobre el bien.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Una demanda elástica resulta en un mayor cambio en la cantidad a pequeños cambios en el precio."
+        },
+        {
+            "id": "m11-48",
+            "block": "La elasticidad",
+            "question": "Dos bienes con elasticidad cruzada positiva son bienes:",
+            "options": [
+                "independientes.",
+                "sustitutivos.",
+                "complementarios.",
+                "Ninguna de las anteriores."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La elasticidad cruzada positiva indica que los bienes son sustitutivos."
+        },
+        {
+            "id": "m11-49",
+            "block": "La elasticidad",
+            "question": "Si dos bienes son complementarios,",
+            "options": [
+                "el aumento de demanda del primer bien aumenta la demanda del segundo.",
+                "el aumento de demanda del primer bien disminuye la demanda del segundo.",
+                "el aumento de demanda del primer bien no afecta a la demanda del segundo.",
+                "Ninguna de las anteriores."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los bienes complementarios se demandan juntos; si aumenta la demanda de uno, aumenta la del otro."
+        },
+        {
+            "id": "m11-50",
+            "block": "La elasticidad",
+            "question": "La elasticidad de la oferta la determinan",
+            "options": [
+                "los inventarios.",
+                "el exceso de capacidad para el bien.",
+                "la evolución de los costes marginales de producción.",
+                "Todas son correctas."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La elasticidad de la oferta la determinan los inventarios, el exceso de capacidad y la evolución de los costes marginales."
+        },
+        {
+            "id": "m11-51",
+            "block": "El rol de los precios",
+            "question": "El cambio en la oferta y/o la demanda de un bien o servicio",
+            "options": [
+                "puede afectar solo a la oferta de otros bienes y servicios producidos dentro del mismo sector.",
+                "solo afecta al mercado de ese bien o servicio.",
+                "puede afectar a la oferta y la demanda de otros bienes y servicios.",
+                "afecta siempre a la productividad de los trabajadores."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los cambios en la oferta y/o demanda de un bien pueden afectar a otros mercados relacionados."
+        },
+        {
+            "id": "m11-52",
+            "block": "El rol de los precios",
+            "question": "La capacidad humana de descubrir oportunidades, desajustes en el mercado y, posteriormente, encontrar soluciones creativas para coordinarlo, se conoce como",
+            "options": [
+                "relación marginal de sustitución.",
+                "función empresarial.",
+                "productividad marginal del trabajo.",
+                "Todas son correctas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La función empresarial es la capacidad de descubrir y aprovechar oportunidades de mercado."
+        },
+        {
+            "id": "m11-53",
+            "block": "El rol de los precios",
+            "question": "¿Qué necesita hacer el planificador central para resolver el problema del cálculo económico sobre el petróleo?",
+            "options": [
+                "Hacer predicciones sobre el consumo futuro de petróleo.",
+                "Reunir información sobre los costos de extracción y transporte del petróleo.",
+                "Conocer los usos posibles del petróleo, sus sustitutos y los sustitutos de los sustitutos en cada uso.",
+                "Determinar los precios de venta del petróleo en el mercado global."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El planificador central necesita conocer todos los usos posibles, sustitutos y sustitutos de sustitutos."
+        },
+        {
+            "id": "m11-54",
+            "block": "El rol de los precios",
+            "question": "¿Qué implicaría reunir información sobre los sustitutos de los sustitutos del petróleo?",
+            "options": [
+                "Reducir la producción de petróleo para aumentar los precios.",
+                "Conocer solo el costo de producción del petróleo.",
+                "Controlar la oferta y demanda del petróleo en el mercado.",
+                "Entender todas las alternativas posibles para cada uso del petróleo."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Implica comprender toda la cadena de alternativas para cada uso posible."
+        },
+        {
+            "id": "m11-55",
+            "block": "El rol de los precios",
+            "question": "La problemática que plantea la planificación central es",
+            "options": [
+                "de incentivos.",
+                "de información.",
+                "Todas son correctas.",
+                "de cálculo económico."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La planificación central tiene problemas de incentivos, de información y de cálculo económico."
+        },
+        {
+            "id": "m11-56",
+            "block": "El rol de los precios",
+            "question": "Siguiendo el ejemplo del petróleo, el sistema de precios resuelve el problema de los incentivos",
+            "options": [
+                "aumentando el precio de un producto derivado del petróleo (asfalto) para que los consumidores lo demanden menos y recurran a sustitutos (hormigón), liberando así el petróleo para otros usos.",
+                "aumentando el precio de un producto derivado del petróleo (asfalto) para que los consumidores lo demanden aún más, liberando así el petróleo para otros usos.",
+                "disminuyendo el precio de un producto derivado del petróleo (asfalto) para que los consumidores lo demanden aún más, liberando así el petróleo para otros usos.",
+                "aumentando el precio de un producto derivado del petróleo (asfalto) para que los consumidores lo demanden menos y recurran a sustitutos (hormigón), reduciendo aún más la cantidad disponible de petróleo para otros usos."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-57",
+            "block": "El rol de los precios",
+            "question": "Para poder realizar el cálculo económico:",
+            "answers": [
+                "Debe haber libre empresarialidad y precios de mercado que reflejen la información dispersa.",
+                "Solo se necesita conocer los costes de producción.",
+                "El gobierno debe proporcionar toda la información necesaria.",
+                "Es suficiente con tener acceso a estadísticas históricas de precios."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-58",
+            "block": "El rol de los precios",
+            "question": "¿Qué es la especulación económica?",
+            "answers": [
+                "Una actividad siempre perjudicial que genera burbujas de precios.",
+                "La coordinación intertemporal de la oferta y la demanda de los recursos escasos.",
+                "La manipulación de precios por parte de grandes empresas.",
+                "La actividad de los bancos centrales para controlar la inflación."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-59",
+            "block": "La descoordinación de los precios",
+            "question": "Los precios máximos:",
+            "answers": [
+                "Generan excedente siempre y cuando estén por encima del precio de mercado.",
+                "Generan desabastecimiento siempre y cuando estén por debajo del precio de mercado.",
+                "No tienen efecto sobre el mercado.",
+                "Siempre benefician a los consumidores."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-60",
+            "block": "La descoordinación de los precios",
+            "question": "¿Cuáles son las consecuencias típicas de la imposición de precios máximos?",
+            "answers": [
+                "Desabastecimiento, racionamiento y contrabando en el mercado negro.",
+                "Excedente de oferta y reducción de precios.",
+                "Mayor eficiencia en la distribución de recursos.",
+                "Aumento de la calidad de los bienes."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-61",
+            "block": "La descoordinación de los precios",
+            "question": "Los precios mínimos:",
+            "answers": [
+                "Generan desabastecimiento siempre y cuando estén por debajo del precio de mercado.",
+                "No tienen efecto cuando se fijan por debajo del precio de mercado.",
+                "Siempre benefician a los productores sin coste social.",
+                "Generan excedente siempre y cuando estén por encima del precio de mercado."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-62",
+            "block": "La descoordinación de los precios",
+            "question": "El salario mínimo genera:",
+            "answers": [
+                "Solo desempleo entre los trabajadores menos cualificados.",
+                "Solo un aumento del bienestar de todos los trabajadores.",
+                "Ambas son correctas.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-63",
+            "block": "La descoordinación de los precios",
+            "question": "¿Cuáles son las consecuencias típicas de la imposición de precios mínimos?",
+            "answers": [
+                "Excedente no vendido, pérdidas irrecuperables y subsidios para las existencias no vendidas.",
+                "Desabastecimiento y racionamiento.",
+                "Mayor eficiencia productiva y aumento del empleo.",
+                "Reducción de los costes de producción."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-64",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "El primer teorema fundamental de la economía del bienestar establece que:",
+            "answers": [
+                "Los mercados libres son siempre superiores a la planificación central.",
+                "La intervención del Estado es necesaria para alcanzar el óptimo social.",
+                "El equilibrio de mercado maximiza el bienestar solo si no hay externalidades ni bienes públicos.",
+                "Todas son correctas."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-65",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "Las externalidades:",
+            "answers": [
+                "Pueden ser positivas o negativas.",
+                "Son siempre negativas para la sociedad.",
+                "Son siempre positivas para la sociedad.",
+                "No afectan al bienestar social."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-66",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "Las externalidades se consideran fallos de mercado porque no conducen a una coordinación eficiente.",
+            "answers": [
+                "Verdadero.",
+                "Falso."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-67",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "El mercado no es capaz de producir soluciones al problema de las externalidades.",
+            "answers": [
+                "Falso.",
+                "Verdadero."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-68",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "¿Qué condiciones establece el Teorema de Coase para que las partes puedan resolver las externalidades de forma privada?",
+            "answers": [
+                "Que el gobierno intervenga como mediador obligatorio.",
+                "Que los costes de transacción sean elevados para justificar la negociación.",
+                "Que los derechos de propiedad estén bien definidos y los costes de transacción sean bajos.",
+                "Que exista un monopolio que internalice todas las externalidades."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-69",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "Para solventar el problema de las externalidades, el gobierno emplea impuestos y subsidios pigouvianos. Esta afirmación es:",
+            "answers": [
+                "Falsa, el gobierno nunca usa impuestos para corregir externalidades.",
+                "Falsa, solo se usan subsidios, nunca impuestos.",
+                "Verdadera, pero solo funciona perfectamente si el gobierno conoce el coste exacto de la externalidad.",
+                "Todas son correctas."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-70",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "Una empresa de patitos de goma vende 1.200 unidades a 1,10 € cada una. Si el coste total es de 1.200 €, ¿cuál es el beneficio?",
+            "answers": [
+                "120 unidades monetarias.",
+                "1.320 unidades monetarias.",
+                "132 unidades monetarias.",
+                "1.200 unidades monetarias."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-71",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "En un mercado competitivo, ¿cómo se comportan las empresas en relación con el precio?",
+            "answers": [
+                "Son precio-fijadoras.",
+                "Negocian individualmente cada precio con los clientes.",
+                "Son precio-aceptantes.",
+                "Fijan el precio por encima del coste marginal."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-72",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "Las condiciones para que exista un mercado competitivo son:",
+            "answers": [
+                "Producto similar y muchos compradores y vendedores.",
+                "Un único vendedor con muchos compradores.",
+                "Producto diferenciado y pocas empresas.",
+                "Barreras de entrada elevadas y pocos competidores."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-73",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "Un empresario decidirá reducir su producción cuando:",
+            "answers": [
+                "Ingreso marginal < Coste marginal.",
+                "Ingreso marginal > Coste marginal.",
+                "Ingreso marginal = Coste marginal.",
+                "El precio de mercado sube."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-74",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "En el medio plazo, si el precio de mercado está por debajo de los costes variables medios, la empresa debería:",
+            "answers": [
+                "Cerrar y salir lo antes posible.",
+                "Continuar produciendo para cubrir los costes fijos.",
+                "Aumentar la producción para reducir costes medios.",
+                "Solicitar una subvención al gobierno."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-75",
+            "block": "Maximización de los beneficios: La ley de costes",
+            "question": "En el mercado competitivo, las empresas:",
+            "answers": [
+                "Fijan el precio libremente por encima del coste.",
+                "Ignoran los costes de producción al tomar decisiones.",
+                "Determinan el coste medio según el precio.",
+                "Siempre obtienen beneficios extraordinarios a largo plazo."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-76",
+            "block": "Los mercados competitivos",
+            "question": "Una buena definición de competencia sería:",
+            "answers": [
+                "Multitud de personas o empresas con diferentes cualidades tratando de competir unas con otras para lograr alcanzar una meta.",
+                "Multitud de personas o empresas con las mismas características y compitiendo todas ellas de la misma forma.",
+                "Ambas son correctas.",
+                "Ambas son incorrectas."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-77",
+            "block": "Los mercados competitivos",
+            "question": "Competencia significa:",
+            "answers": [
+                "Gran concurrencia de vendedores de forma simultánea.",
+                "Un único vendedor dominante en el mercado.",
+                "Ausencia total de regulación gubernamental.",
+                "Precios fijados por acuerdo entre empresas."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-78",
+            "block": "Los mercados competitivos",
+            "question": "El modelo de competencia perfecta presupone:",
+            "answers": [
+                "Que existen importantes barreras de entrada.",
+                "Que no hay costes de transacción.",
+                "Que las empresas tienen poder para fijar precios.",
+                "Que los productos están altamente diferenciados."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-79",
+            "block": "Los mercados competitivos",
+            "question": "En los mercados disputables, los vendedores:",
+            "answers": [
+                "Tienen incentivos para subir los precios, ya que no hay competencia potencial.",
+                "No tienen incentivos para subir los precios, ya que atraerían nuevos vendedores que, produciendo, bajarían de nuevo el precio.",
+                "No tienen en cuenta los costes de producción al fijar precios.",
+                "Ninguna es correcta."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-80",
+            "block": "Los mercados competitivos",
+            "question": "Un ejemplo de barrera de entrada por diferenciación de producto es:",
+            "answers": [
+                "Coca-Cola.",
+                "Una empresa de servicios públicos con concesión exclusiva.",
+                "Una patente farmacéutica.",
+                "Un arancel de importación."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-81",
+            "block": "Los mercados competitivos",
+            "question": "Las barreras de entrada son:",
+            "answers": [
+                "Siempre creadas artificialmente por el Estado.",
+                "Exclusivamente resultado de las condiciones naturales del mercado.",
+                "Fruto tanto de las condiciones particulares del mercado como de los privilegios legales que otorga el Estado.",
+                "Siempre beneficiosas para los consumidores."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-82",
+            "block": "Los monopolios",
+            "question": "En teoría de juegos, la estrategia que tiene un mayor beneficio que cualquier otra estrategia, independientemente de lo que haga el rival, se denomina:",
+            "answers": [
+                "Estrategia mixta.",
+                "Estrategia dominante.",
+                "Equilibrio de Nash.",
+                "Estrategia cooperativa."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-83",
+            "block": "Los monopolios",
+            "question": "¿Cuál es la estrategia dominante de la finca manzanita amarilla?",
+            "answers": [
+                "Hacer publicidad.",
+                "No hacer publicidad.",
+                "Colaborar con la competencia.",
+                "Reducir el precio."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-84",
+            "block": "Los monopolios",
+            "question": "Dos empresas son los únicos productores en un mercado. Si ninguna tiene estrategia dominante, el resultado más probable es:",
+            "answers": [
+                "Que ambas maximicen producción sin importar al rival.",
+                "Que lleguen a un equilibrio de Nash donde ninguna puede mejorar cambiando unilateralmente su estrategia.",
+                "Que el gobierno fije el precio de mercado.",
+                "Que una empresa abandone el mercado."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-85",
+            "block": "Los oligopolios y los cárteles",
+            "question": "¿Cuál de las siguientes opciones describe mejor una barrera de entrada en un mercado?",
+            "answers": [
+                "Una reducción temporal de los precios por parte de las empresas existentes.",
+                "Un acuerdo voluntario entre empresas para compartir el mercado.",
+                "Una política gubernamental que fomenta la libre competencia.",
+                "Cualquier obstáculo que dificulte o impida la entrada de nuevas empresas en un mercado."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-86",
+            "block": "Los oligopolios y los cárteles",
+            "question": "La innovación disruptiva:",
+            "answers": [
+                "Mejora gradualmente los productos existentes sin alterar el mercado.",
+                "Crea un nuevo mercado y valores que desplaza a empresas y productos existentes.",
+                "Es exclusiva de grandes empresas con muchos recursos.",
+                "Solo ocurre en el sector tecnológico."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-87",
+            "block": "Los oligopolios y los cárteles",
+            "question": "Una forma de introducir una innovación disruptiva es:",
+            "answers": [
+                "Copiar exactamente el modelo de negocio de los líderes del mercado.",
+                "Incrementar el precio de los productos existentes para financiar I+D.",
+                "Ambas son correctas.",
+                "Identificar segmentos desatendidos del mercado y ofrecer soluciones más simples o baratas."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-88",
+            "block": "Los oligopolios y los cárteles",
+            "question": "¿Cuál de las siguientes estrategias es más característica de un innovador disruptivo en un mercado?",
+            "answers": [
+                "Buscar vacíos o ventajas legales para bloquear a sus competidores.",
+                "Imitar los productos de las empresas dominantes.",
+                "Mantener precios altos para maximizar beneficios a corto plazo.",
+                "Evitar la inversión en tecnología para reducir costes."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-89",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "Los bienes rivales en consumo y excluibles en la oferta son:",
+            "answers": [
+                "Privados.",
+                "Públicos.",
+                "Comunes.",
+                "De club."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-90",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "La Wifi, la música digital y el cine son ejemplos de bienes:",
+            "answers": [
+                "Públicos puros.",
+                "Privados.",
+                "No rivales y excluibles.",
+                "Comunes."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-91",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "¿Cuál de las siguientes características describe a los bienes públicos?",
+            "answers": [
+                "Son rivales en consumo y excluibles en la oferta.",
+                "Se consumen simultáneamente y no se puede excluir a nadie de su uso.",
+                "Son producidos exclusivamente por el sector privado.",
+                "Su consumo por una persona reduce la cantidad disponible para otros."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-92",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "Según la definición económica de bien público, ¿cuál de los siguientes ejemplos son bienes públicos?",
+            "answers": [
+                "La sanidad y la educación pública.",
+                "La defensa nacional.",
+                "Las autovías.",
+                "Todas son correctas."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-93",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "¿Qué explica la tragedia de los comunes?",
+            "answers": [
+                "Que los bienes públicos son siempre sobreproducidos.",
+                "Que la propiedad privada lleva inevitablemente a la sobreexplotación.",
+                "Que el Estado debe gestionar todos los recursos naturales.",
+                "Que los recursos de libre acceso tienden a sobreexplotarse porque cada individuo tiene incentivos para usarlos sin considerar el coste para los demás."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-94",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "Un ejemplo de la tragedia de los comunes es:",
+            "answers": [
+                "La sobreexplotación de las calles.",
+                "La producción privada de bienes de lujo.",
+                "La gestión eficiente de un parque nacional.",
+                "La provisión de bienes públicos por el Estado."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-95",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "La tragedia de los anticomunes se produce cuando la propiedad está muy atomizada.",
+            "answers": [
+                "Verdadero.",
+                "Falso."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-96",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "¿Quién paga realmente el impuesto sobre los bienes de consumo?",
+            "answers": [
+                "Siempre el consumidor final.",
+                "Siempre el productor.",
+                "El Estado lo absorbe completamente.",
+                "Ambos, consumidor y productor, y paga más el que tiene una elasticidad relativa menor."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-97",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "Con impuestos, el excedente del consumidor:",
+            "answers": [
+                "Siempre aumenta respecto a la situación sin impuestos.",
+                "Es igual o menor a sin impuestos.",
+                "No se ve afectado por los impuestos.",
+                "Siempre desaparece completamente."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-98",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "¿Qué representa la pérdida irrecuperable de eficiencia causada por un impuesto?",
+            "answers": [
+                "El total de ingresos recaudados por el Estado.",
+                "El beneficio neto para la sociedad derivado del impuesto.",
+                "La reducción del bienestar social que no se compensa con la recaudación fiscal.",
+                "El aumento del excedente del productor tras el impuesto."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-99",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "Si nos situamos a la izquierda de la curva de Laffer, un aumento en el tamaño del impuesto:",
+            "answers": [
+                "Aumentará la recaudación.",
+                "Disminuirá la recaudación.",
+                "No tendrá efecto sobre la recaudación.",
+                "Eliminará completamente la actividad económica gravada."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-100",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "Ante un aumento muy grande de los impuestos (a la derecha de la curva de Laffer), los ingresos fiscales:",
+            "answers": [
+                "Aumentan proporcionalmente al tipo impositivo.",
+                "Disminuyen porque desincentivan la actividad económica.",
+                "Se mantienen estables independientemente del tipo.",
+                "Aumentan porque hay más recaudación por unidad."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-101",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "Ante una demanda elástica, frente a una inelástica, la pérdida irrecuperable de eficiencia causada por un impuesto es:",
+            "answers": [
+                "Mayor, porque la cantidad intercambiada disminuirá más.",
+                "Menor, porque los consumidores absorben mejor el impuesto.",
+                "Igual, la elasticidad no afecta a la pérdida irrecuperable.",
+                "Nula, porque los consumidores buscan sustitutivos."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-102",
+            "block": "Fallos de gobierno: Impuestos y subsidios",
+            "question": "¿Quién se beneficiaría más con un subsidio a la producción de los plátanos de Canarias?",
+            "answers": [
+                "Los consumidores, porque su demanda es más elástica.",
+                "Los productores, porque su oferta es más inelástica.",
+                "El Estado, porque recauda más impuestos.",
+                "Ambos por igual, independientemente de la elasticidad."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-103",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "¿Qué describe la paradoja de Condorcet?",
+            "answers": [
+                "La imposibilidad de agregar preferencias individuales transitivas en una preferencia colectiva consistente mediante votación por mayoría.",
+                "Que la democracia siempre produce los mejores resultados económicos.",
+                "Que los votantes siempre eligen racionalmente la opción más eficiente.",
+                "Que el mercado y la democracia producen siempre los mismos resultados."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-104",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "En decisiones de políticas públicas, si el ingreso marginal del individuo es menor a su coste marginal:",
+            "answers": [
+                "El individuo votará a favor de la política.",
+                "El individuo será indiferente.",
+                "El individuo aumentará su participación política.",
+                "El individuo tiene incentivos para no informarse sobre la política (ignorancia racional)."
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        {
+            "id": "m11-105",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los sesgos de los votantes anti-mercado, anti-extranjero, del trabajo y pesimista son:",
+            "answers": [
+                "Sesgos racionales basados en información correcta.",
+                "Sesgos irracionales."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-106",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los sesgos de los individuos son exclusivos de las elecciones públicas.",
+            "answers": [
+                "Verdadero.",
+                "Falso."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-107",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Seleccione la opción incorrecta:",
+            "answers": [
+                "Los políticos tienen incentivos para maximizar votos, no necesariamente el bienestar social.",
+                "Los grupos de interés pueden influir desproporcionadamente en las decisiones políticas.",
+                "Los burócratas están perfectamente controlados por los ciudadanos y actúan siempre en su interés.",
+                "La ignorancia racional del votante puede llevar a decisiones políticas ineficientes."
+            ],
+            "correctAnswer": 2,
+            "explanation": ""
+        },
+        {
+            "id": "m11-108",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "La libertad de expresión, de pensamiento, de asociación y la descentralización del poder están fuertemente asociados a:",
+            "answers": [
+                "La democracia liberal.",
+                "La planificación central.",
+                "El autoritarismo ilustrado.",
+                "La tecnocracia."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-109",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los países más prósperos del mundo son:",
+            "answers": [
+                "Principalmente autocracias con economías planificadas.",
+                "Democracias.",
+                "Estados con economías completamente cerradas al comercio.",
+                "Países con alta intervención estatal en todos los sectores."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        }
+    ]
+}

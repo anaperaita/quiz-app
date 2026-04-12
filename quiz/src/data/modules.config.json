@@ -34,6 +34,11 @@
       "id": "modulo10",
       "name": "Módulo 10: Análisis Geopolítico para la Inversión",
       "file": "modulo10.json"
+    },
+    {
+      "id": "modulo11",
+      "name": "Módulo 11: Microeconomía",
+      "file": "modulo11.json"
     }
   ]
 }
