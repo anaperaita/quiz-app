@@ -1,7 +1,7 @@
 {
     "module": "Módulo 11",
     "title": "Microeconomía",
-    "totalQuestions": 110,
+    "totalQuestions": 112,
     "questions": [
         {
             "id": "m11-1",
@@ -266,6 +266,23 @@
             "explanation": "El valor de cualquier unidad de un bien se determina por su utilidad marginal."
         },
         {
+            "id": "m11-112",
+            "block": "La acción humana aislada y en sociedad",
+            "question": "Los fines son ____ y ____, y los medios son ____ y ____.",
+            "options": [
+                "Los fines son ilimitados y subjetivos, y los medios son limitados y subjetivos.",
+                "Los fines son ilimitados y subjetivos, y los medios son limitados y objetivos.",
+                "Los fines son ilimitados y objetivos, y los medios son limitados y subjetivos.",
+                "Los fines son ilimitados y objetivos, y los medios son limitados y objetivos.",
+                "Los fines son limitados y subjetivos, y los medios son ilimitados y subjetivos.",
+                "Los fines son limitados y subjetivos, y los medios son ilimitados y objetivos.",
+                "Los fines son limitados y objetivos, y los medios son ilimitados y subjetivos.",
+                "Los fines son limitados y objetivos, y los medios son ilimitados y objetivos."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los fines son ilimitados (siempre deseamos más) y subjetivos (dependen de las preferencias de cada individuo). Los medios son limitados (escasez) y subjetivos (su valor depende del fin al que sirven)."
+        },
+        {
             "id": "m11-23",
             "block": "Oferta y demanda",
             "question": "¿Cuándo van a buscar más intensamente las personas sustitutos del petróleo? ¿Cuándo el precio del petróleo es bajo o es alto?",
@@ -329,6 +346,19 @@
             ],
             "correctAnswer": 0,
             "explanation": "Una reducción de costes desplaza la curva de oferta hacia la derecha (aumento de oferta)."
+        },
+        {
+            "id": "m11-111",
+            "block": "Oferta y demanda",
+            "question": "Cuando el precio de un bien sube, la cantidad demandada, manteniendo el resto de cosas constantes, _____. Cuando el precio de un bien baja, la cantidad demandada, manteniendo el resto de cosas constantes, _____.",
+            "options": [
+                "Baja; sube",
+                "Sube; baja",
+                "Sube; sube",
+                "Baja; baja"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La ley de la demanda establece que existe una relación inversa entre el precio y la cantidad demandada: cuando el precio sube, la cantidad demandada baja, y cuando el precio baja, la cantidad demandada sube (ceteris paribus)."
         },
         {
             "id": "m11-28",
@@ -1372,6 +1402,31 @@
                 "Democracias.",
                 "Estados con economías completamente cerradas al comercio.",
                 "Países con alta intervención estatal en todos los sectores."
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        {
+            "id": "m11-111",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "La contaminación produce una externalidad _______ y el I+D produce una externalidad _______.",
+            "answers": [
+                "Negativa; positiva.",
+                "Positiva; negativa.",
+                "Negativa; negativa.",
+                "Positiva; positiva."
+            ],
+            "correctAnswer": 0,
+            "explanation": ""
+        },
+        {
+            "id": "m11-110",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "Los empresarios buscan convertir bienes que podrían ser públicos (no excluibles y no rivales) en:",
+            "answers": [
+                "Bienes privados.",
+                "Bienes club.",
+                "Recursos comunes."
             ],
             "correctAnswer": 1,
             "explanation": ""
