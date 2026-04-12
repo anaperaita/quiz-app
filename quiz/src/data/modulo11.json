@@ -272,11 +272,7 @@
             "options": [
                 "Los fines son ilimitados y subjetivos, y los medios son limitados y subjetivos.",
                 "Los fines son ilimitados y subjetivos, y los medios son limitados y objetivos.",
-                "Los fines son ilimitados y objetivos, y los medios son limitados y subjetivos.",
-                "Los fines son ilimitados y objetivos, y los medios son limitados y objetivos.",
                 "Los fines son limitados y subjetivos, y los medios son ilimitados y subjetivos.",
-                "Los fines son limitados y subjetivos, y los medios son ilimitados y objetivos.",
-                "Los fines son limitados y objetivos, y los medios son ilimitados y subjetivos.",
                 "Los fines son limitados y objetivos, y los medios son ilimitados y objetivos."
             ],
             "correctAnswer": 0,
