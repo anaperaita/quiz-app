@@ -891,80 +891,80 @@
         {
             "id": "m11-70",
             "block": "Maximización de los beneficios: La ley de costes",
-            "question": "Una empresa de patitos de goma vende 1.200 unidades a 1,10 € cada una. Si el coste total es de 1.200 €, ¿cuál es el beneficio?",
-            "correctAnswer": 1,
-            "explanation": "",
+            "question": "Una empresa de patitos de goma vende 1200 unidades. Su coste medio son 0.40 unidades monetarias (um) y el precio de los patitos es de 1.50 um. ¿Cuál será el beneficio de la empresa?",
             "options": [
-                "120 unidades monetarias.",
-                "1.320 unidades monetarias.",
-                "132 unidades monetarias.",
-                "1.200 unidades monetarias."
-            ]
+                "320 unidades monetarias.",
+                "1320 unidades monetarias.",
+                "2700 unidades monetarias.",
+                "4500 unidades monetarias."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El beneficio se calcula como (Precio − Coste medio) × Cantidad = (1.50 − 0.40) × 1200 = 1.10 × 1200 = 1320 um."
         },
         {
             "id": "m11-71",
             "block": "Maximización de los beneficios: La ley de costes",
-            "question": "En un mercado competitivo, ¿cómo se comportan las empresas en relación con el precio?",
-            "correctAnswer": 2,
-            "explanation": "",
+            "question": "En un mercado competitivo, ¿Cómo se comportan las empresas en relación con el precio de sus productos?",
             "options": [
-                "Son precio-fijadoras.",
-                "Negocian individualmente cada precio con los clientes.",
-                "Son precio-aceptantes.",
-                "Fijan el precio por encima del coste marginal."
-            ]
+                "Las empresas fijan el precio de sus productos de acuerdo con sus costes de producción.",
+                "Las empresas tienen la capacidad de influir en el precio del mercado.",
+                "Las empresas son precio-aceptantes y deben aceptar el precio determinado por el mercado.",
+                "Las empresas establecen precios en función de los precios de sus competidores más cercanos."
+            ],
+            "correctAnswer": 2,
+            "explanation": "En competencia perfecta, ninguna empresa tiene poder de mercado suficiente para influir en el precio. Todas son precio-aceptantes (price-takers) y toman el precio de equilibrio fijado por la oferta y la demanda del mercado."
         },
         {
             "id": "m11-72",
             "block": "Maximización de los beneficios: La ley de costes",
             "question": "Las condiciones para que exista un mercado competitivo son:",
-            "correctAnswer": 0,
-            "explanation": "",
             "options": [
                 "Producto similar y muchos compradores y vendedores.",
-                "Un único vendedor con muchos compradores.",
-                "Producto diferenciado y pocas empresas.",
-                "Barreras de entrada elevadas y pocos competidores."
-            ]
+                "Producto diferenciado y muchos compradores y vendedores.",
+                "Producto similar y pocos compradores y vendedores.",
+                "Producto diferenciado y pocos compradores y vendedores."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La competencia perfecta requiere: (1) producto homogéneo (similar), (2) muchos compradores y vendedores, de modo que ninguno pueda influir individualmente en el precio de mercado."
         },
         {
             "id": "m11-73",
             "block": "Maximización de los beneficios: La ley de costes",
             "question": "Un empresario decidirá reducir su producción cuando:",
-            "correctAnswer": 0,
-            "explanation": "",
             "options": [
-                "Ingreso marginal < Coste marginal.",
-                "Ingreso marginal > Coste marginal.",
-                "Ingreso marginal = Coste marginal.",
-                "El precio de mercado sube."
-            ]
+                "Ingreso marginal < Coste marginal",
+                "Ingreso marginal > Coste marginal",
+                "Ingreso total < Coste total",
+                "Ingreso total > Coste total"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La regla de maximización del beneficio establece producir donde Ingreso marginal = Coste marginal. Si el Ingreso marginal es menor que el Coste marginal, la última unidad producida genera más costes que ingresos, por lo que conviene reducir la producción."
         },
         {
             "id": "m11-74",
             "block": "Maximización de los beneficios: La ley de costes",
             "question": "En el medio plazo, si el precio de mercado está por debajo de los costes variables medios, la empresa debería:",
-            "correctAnswer": 0,
-            "explanation": "",
             "options": [
-                "Cerrar y salir lo antes posible.",
-                "Continuar produciendo para cubrir los costes fijos.",
-                "Aumentar la producción para reducir costes medios.",
-                "Solicitar una subvención al gobierno."
-            ]
+                "cerrar y salir lo antes posible de la industria.",
+                "salir lo antes posible, pero no cerrar, porque es insostenible en el largo plazo.",
+                "permanecer en la industria.",
+                "entrar en la industria."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Si el precio cae por debajo del coste variable medio, la empresa no cubre ni siquiera sus costes variables: cada unidad producida genera pérdidas adicionales. La decisión óptima es cerrar la producción y salir de la industria para minimizar las pérdidas."
         },
         {
             "id": "m11-75",
             "block": "Maximización de los beneficios: La ley de costes",
             "question": "En el mercado competitivo, las empresas:",
-            "correctAnswer": 2,
-            "explanation": "",
             "options": [
-                "Fijan el precio libremente por encima del coste.",
-                "Ignoran los costes de producción al tomar decisiones.",
-                "Determinan el coste medio según el precio.",
-                "Siempre obtienen beneficios extraordinarios a largo plazo."
-            ]
+                "determinan el precio según su coste marginal.",
+                "determinan el precio según su coste medio.",
+                "determinan el coste medio según el precio.",
+                "determinan el ingreso marginal según el precio."
+            ],
+            "correctAnswer": 2,
+            "explanation": "En competencia perfecta el precio es dado por el mercado. La empresa no lo determina; lo que hace es ajustar su nivel de producción (y por tanto su coste medio) en función del precio de mercado para maximizar beneficios."
         },
         {
             "id": "m11-76",
