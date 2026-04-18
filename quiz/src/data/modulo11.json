@@ -1328,117 +1328,116 @@
             ]
         },
         {
-            {
-                "id": "m11-103",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "¿Qué describe la paradoja de Condorcet en el contexto de la teoría de la elección social?",
-                "correctAnswer": 0,
-                "explanation": "",
-                "options": [
-                    "La posibilidad de que no exista una opción que sea preferida por la mayoría en todas las comparaciones uno a uno, a pesar de que cada opción individual sea preferida sobre otras en diferentes combinaciones.",
-                    "La situación en la que un sistema de votación siempre elige la opción que la mayoría prefiere en todas las comparaciones directas.",
-                    "El fenómeno en el que todos los votantes tienen preferencias idénticas, lo que lleva a un consenso perfecto en la elección.",
-                    "La tendencia de los votantes a cambiar sus preferencias con el tiempo, alterando el resultado de la elección."
-                ]
-            },
-            {
-                "id": "m11-104",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "En decisiones de políticas públicas, si el ingreso marginal del individuo es menor a su coste marginal, el individuo",
-                "correctAnswer": 3,
-                "explanation": "",
-                "options": [
-                    "optará racionalmente por emplear tiempo en informarse para votar con conocimiento.",
-                    "optará irracionalmente por emplear tiempo en informarse para votar con conocimiento.",
-                    "optará irracionalmente por no emplear tiempo en informarse para votar con conocimiento.",
-                    "optará racionalmente por no emplear tiempo en informarse para votar con conocimiento."
-                ]
-            },
-            {
-                "id": "m11-105",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "Los sesgos de los votantes anti-mercado, anti-extranjero, del trabajo, pesimista son",
-                "correctAnswer": 1,
-                "explanation": "",
-                "options": [
-                    "sesgos racionales, dado que tienen un fundamento argumental consistente con las evidencias disponibles.",
-                    "sesgos irracionales, dado que tienen un fundamento emocional que no se corresponde con las evidencias disponibles."
-                ]
-            },
-            {
-                "id": "m11-106",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "Los sesgos de los individuos son exclusivos de las elecciones públicas.",
-                "correctAnswer": 1,
-                "explanation": "",
-                "options": [
-                    "Verdadero",
-                    "Falso"
-                ]
-            },
-            {
-                "id": "m11-107",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "Seleccione la opción incorrecta:",
-                "correctAnswer": 2,
-                "explanation": "",
-                "options": [
-                    "Los políticos influyen en las decisiones de los votantes mediante la propaganda y el populismo.",
-                    "Los grupos de interés o lobbies conectan con los reguladores para obtener privilegios políticos y así capturar rentas.",
-                    "Los burócratas están controlados por los ciudadanos, por lo que no corren el riesgo de cometer corrupción ni malversación.",
-                    "No hay ninguna incorrecta."
-                ]
-            },
-            {
-                "id": "m11-108",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "La libertad de expresión, de pensamiento, de asociación y la descentralización del poder están fuertemente asociados a",
-                "correctAnswer": 0,
-                "explanation": "",
-                "options": [
-                    "la democracia liberal",
-                    "los regímenes autoritarios",
-                    "las monarquías",
-                    "las tecnocracias"
-                ]
-            },
-            {
-                "id": "m11-109",
-                "block": "Fallos de gobierno: Los problemas de la democracia",
-                "question": "Los países más prósperos del mundo son",
-                "correctAnswer": 1,
-                "explanation": "",
-                "options": [
-                    "dictaduras",
-                    "democracias",
-                    "tecnocracias",
-                    "teocracias"
-                ]
-            },
-            {
-                "id": "m11-111",
-                "block": "Cuando no funcionan los precios: Las externalidades",
-                "question": "La contaminación produce una externalidad _______ y el I+D produce una externalidad _______.",
-                "correctAnswer": 0,
-                "explanation": "",
-                "options": [
-                    "Negativa; positiva.",
-                    "Positiva; negativa.",
-                    "Negativa; negativa.",
-                    "Positiva; positiva."
-                ]
-            },
-            {
-                "id": "m11-110",
-                "block": "Bienes públicos y la tragedia de los comunes",
-                "question": "Los empresarios buscan convertir bienes que podrían ser públicos (no excluibles y no rivales) en:",
-                "correctAnswer": 1,
-                "explanation": "",
-                "options": [
-                    "Bienes privados.",
-                    "Bienes club.",
-                    "Recursos comunes."
-                ]
-            }
-        ]
-    }
+            "id": "m11-103",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "¿Qué describe la paradoja de Condorcet en el contexto de la teoría de la elección social?",
+            "correctAnswer": 0,
+            "explanation": "",
+            "options": [
+                "La posibilidad de que no exista una opción que sea preferida por la mayoría en todas las comparaciones uno a uno, a pesar de que cada opción individual sea preferida sobre otras en diferentes combinaciones.",
+                "La situación en la que un sistema de votación siempre elige la opción que la mayoría prefiere en todas las comparaciones directas.",
+                "El fenómeno en el que todos los votantes tienen preferencias idénticas, lo que lleva a un consenso perfecto en la elección.",
+                "La tendencia de los votantes a cambiar sus preferencias con el tiempo, alterando el resultado de la elección."
+            ]
+        },
+        {
+            "id": "m11-104",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "En decisiones de políticas públicas, si el ingreso marginal del individuo es menor a su coste marginal, el individuo",
+            "correctAnswer": 3,
+            "explanation": "",
+            "options": [
+                "optará racionalmente por emplear tiempo en informarse para votar con conocimiento.",
+                "optará irracionalmente por emplear tiempo en informarse para votar con conocimiento.",
+                "optará irracionalmente por no emplear tiempo en informarse para votar con conocimiento.",
+                "optará racionalmente por no emplear tiempo en informarse para votar con conocimiento."
+            ]
+        },
+        {
+            "id": "m11-105",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los sesgos de los votantes anti-mercado, anti-extranjero, del trabajo, pesimista son",
+            "correctAnswer": 1,
+            "explanation": "",
+            "options": [
+                "sesgos racionales, dado que tienen un fundamento argumental consistente con las evidencias disponibles.",
+                "sesgos irracionales, dado que tienen un fundamento emocional que no se corresponde con las evidencias disponibles."
+            ]
+        },
+        {
+            "id": "m11-106",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los sesgos de los individuos son exclusivos de las elecciones públicas.",
+            "correctAnswer": 1,
+            "explanation": "",
+            "options": [
+                "Verdadero",
+                "Falso"
+            ]
+        },
+        {
+            "id": "m11-107",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Seleccione la opción incorrecta:",
+            "correctAnswer": 2,
+            "explanation": "",
+            "options": [
+                "Los políticos influyen en las decisiones de los votantes mediante la propaganda y el populismo.",
+                "Los grupos de interés o lobbies conectan con los reguladores para obtener privilegios políticos y así capturar rentas.",
+                "Los burócratas están controlados por los ciudadanos, por lo que no corren el riesgo de cometer corrupción ni malversación.",
+                "No hay ninguna incorrecta."
+            ]
+        },
+        {
+            "id": "m11-108",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "La libertad de expresión, de pensamiento, de asociación y la descentralización del poder están fuertemente asociados a",
+            "correctAnswer": 0,
+            "explanation": "",
+            "options": [
+                "la democracia liberal",
+                "los regímenes autoritarios",
+                "las monarquías",
+                "las tecnocracias"
+            ]
+        },
+        {
+            "id": "m11-109",
+            "block": "Fallos de gobierno: Los problemas de la democracia",
+            "question": "Los países más prósperos del mundo son",
+            "correctAnswer": 1,
+            "explanation": "",
+            "options": [
+                "dictaduras",
+                "democracias",
+                "tecnocracias",
+                "teocracias"
+            ]
+        },
+        {
+            "id": "m11-111",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "La contaminación produce una externalidad _______ y el I+D produce una externalidad _______.",
+            "correctAnswer": 0,
+            "explanation": "",
+            "options": [
+                "Negativa; positiva.",
+                "Positiva; negativa.",
+                "Negativa; negativa.",
+                "Positiva; positiva."
+            ]
+        },
+        {
+            "id": "m11-110",
+            "block": "Bienes públicos y la tragedia de los comunes",
+            "question": "Los empresarios buscan convertir bienes que podrían ser públicos (no excluibles y no rivales) en:",
+            "correctAnswer": 1,
+            "explanation": "",
+            "options": [
+                "Bienes privados.",
+                "Bienes club.",
+                "Recursos comunes."
+            ]
+        }
+    ]
+}
