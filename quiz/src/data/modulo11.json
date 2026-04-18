@@ -817,76 +817,89 @@
         {
             "id": "m11-64",
             "block": "Cuando no funcionan los precios: Las externalidades",
-            "question": "El primer teorema fundamental de la economía del bienestar establece que:",
-            "correctAnswer": 3,
-            "explanation": "",
+            "question": "El primer teorema fundamental de la economía del bienestar",
             "options": [
-                "Los mercados libres son siempre superiores a la planificación central.",
-                "La intervención del Estado es necesaria para alcanzar el óptimo social.",
-                "El equilibrio de mercado maximiza el bienestar solo si no hay externalidades ni bienes públicos.",
+                "asume que existen mercados, que existe competencia perfecta, que los precios transmiten toda la información disponible (información perfecta) y que los consumidores pueden quedar excluidos si no pagan el precio de un bien.",
+                "establece que si una economía es competitiva, logra la eficiencia.",
+                "establece condiciones suficientes para la eficiencia en la economía, no necesarias.",
                 "Todas son correctas."
-            ]
+            ],
+            "correctAnswer": 3,
+            "explanation": "El primer teorema fundamental de la economía del bienestar establece que cualquier equilibrio competitivo es eficiente en el sentido de Pareto. Asume existencia de mercados, competencia perfecta, información perfecta y exclusión por precios. Establece además condiciones suficientes (no necesarias) para la eficiencia. Por tanto, todas las afirmaciones son correctas."
         },
         {
             "id": "m11-65",
             "block": "Cuando no funcionan los precios: Las externalidades",
-            "question": "Las externalidades:",
-            "correctAnswer": 0,
-            "explanation": "",
+            "question": "Las externalidades",
             "options": [
-                "Pueden ser positivas o negativas.",
-                "Son siempre negativas para la sociedad.",
-                "Son siempre positivas para la sociedad.",
-                "No afectan al bienestar social."
-            ]
+                "pueden ser positivas o negativas.",
+                "Todas son incorrectas.",
+                "no provocan ineficiencias en el mercado.",
+                "son siempre negativas, puesto que causan beneficios privados y perjuicios colectivos."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las externalidades son efectos que la actividad de un agente económico genera sobre terceros sin que se refleje en los precios. Pueden ser positivas (como el I+D) o negativas (como la contaminación)."
         },
         {
             "id": "m11-66",
             "block": "Cuando no funcionan los precios: Las externalidades",
             "question": "Las externalidades se consideran fallos de mercado porque no conducen a una coordinación eficiente.",
-            "correctAnswer": 0,
-            "explanation": "",
             "options": [
-                "Verdadero.",
-                "Falso."
-            ]
+                "Falso",
+                "Verdadero"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Verdadero. Las externalidades son un fallo de mercado porque los precios no reflejan todos los costes o beneficios sociales, lo que provoca que el mercado produzca una cantidad ineficiente del bien."
         },
         {
             "id": "m11-67",
             "block": "Cuando no funcionan los precios: Las externalidades",
             "question": "El mercado no es capaz de producir soluciones al problema de las externalidades.",
-            "correctAnswer": 0,
-            "explanation": "",
             "options": [
-                "Falso.",
-                "Verdadero."
-            ]
+                "Falso",
+                "Verdadero"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Falso. El mercado sí puede generar soluciones privadas. El Teorema de Coase establece que si los costes de transacción son bajos y los derechos de propiedad están bien definidos, las partes pueden negociar y alcanzar un resultado eficiente sin intervención pública."
         },
         {
             "id": "m11-68",
             "block": "Cuando no funcionan los precios: Las externalidades",
-            "question": "¿Qué condiciones establece el Teorema de Coase para que las partes puedan resolver las externalidades de forma privada?",
-            "correctAnswer": 2,
-            "explanation": "",
+            "question": "¿Qué condiciones establece el Teorema de Coase para que las negociaciones privadas aseguren un equilibrio de mercado eficiente, incluso en presencia de externalidades?",
             "options": [
-                "Que el gobierno intervenga como mediador obligatorio.",
-                "Que los costes de transacción sean elevados para justificar la negociación.",
-                "Que los derechos de propiedad estén bien definidos y los costes de transacción sean bajos.",
-                "Que exista un monopolio que internalice todas las externalidades."
-            ]
+                "Que el gobierno intervenga directamente para regular las externalidades.",
+                "Que el mercado resuelva todas las externalidades sin necesidad de derechos de propiedad.",
+                "Que los costos de transacción sean bajos y los derechos de propiedad estén claramente definidos.",
+                "Que los costos de transacción sean altos y los derechos de propiedad estén indefinidos."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El Teorema de Coase establece que si los costes de transacción son suficientemente bajos y los derechos de propiedad están bien definidos, las partes llegarán mediante negociación privada a un resultado eficiente, independientemente de la asignación inicial de derechos."
         },
         {
             "id": "m11-69",
             "block": "Cuando no funcionan los precios: Las externalidades",
-            "question": "Para solventar el problema de las externalidades, el gobierno emplea impuestos y subsidios pigouvianos. Esta afirmación es:",
-            "correctAnswer": 3,
-            "explanation": "",
+            "question": "Para solventar el problema de las externalidades, el gobierno emplea impuestos y subsidios pigouvianos, cuyo objetivo es",
             "options": [
-                "Falsa, el gobierno nunca usa impuestos para corregir externalidades.",
-                "Falsa, solo se usan subsidios, nunca impuestos.",
-                "Verdadera, pero solo funciona perfectamente si el gobierno conoce el coste exacto de la externalidad.",
-                "Todas son correctas."
-            ]
+                "reducir la demanda (subsidios) de los bienes que producen externalidades positivas y aumentar la demanda (impuestos) de los bienes que producen externalidades negativas.",
+                "Los impuestos y subsidios pigouvianos no tienen el objetivo de paliar las externalidades.",
+                "que las personas con mayor renta paguen el precio de las externalidades.",
+                "reducir la demanda (impuestos) de los bienes que producen externalidades negativas y aumentar la demanda (subsidios) de los bienes que producen externalidades positivas."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Los impuestos pigouvianos gravan las actividades con externalidades negativas para reducir su producción al nivel socialmente óptimo, mientras que los subsidios pigouvianos incentivan las actividades con externalidades positivas para aumentar su producción hasta el óptimo social."
+        },
+        {
+            "id": "m11-70-a",
+            "block": "Cuando no funcionan los precios: Las externalidades",
+            "question": "La contaminación produce una externalidad _____ y el I+D produce una externalidad _____.",
+            "options": [
+                "positiva / negativa",
+                "negativa / negativa",
+                "negativa / positiva",
+                "positiva / positiva"
+            ],
+            "correctAnswer": 2,
+            "explanation": "La contaminación es el ejemplo paradigmático de externalidad negativa, ya que impone costes a terceros no reflejados en el precio de mercado. El I+D genera una externalidad positiva, puesto que sus beneficios (conocimiento e innovación) se difunden a la sociedad más allá del agente que lo financia."
         },
         {
             "id": "m11-70",
@@ -987,9 +1000,9 @@
             "explanation": "",
             "options": [
                 "Gran concurrencia de vendedores de forma simultánea.",
-                "Un único vendedor dominante en el mercado.",
-                "Ausencia total de regulación gubernamental.",
-                "Precios fijados por acuerdo entre empresas."
+                "Gran divergencia de vendedores de forma simultánea.",
+                "Poca variedad de vendedores de forma simultánea.",
+                "Mucha homogeneidad de vendedores de forma paralela."
             ]
         },
         {
@@ -999,10 +1012,10 @@
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Que existen importantes barreras de entrada.",
+                "Información asimétrica.",
                 "Que no hay costes de transacción.",
-                "Que las empresas tienen poder para fijar precios.",
-                "Que los productos están altamente diferenciados."
+                "Un vendedor posee poder de mercado para fijar el precio.",
+                "Todas son correctas."
             ]
         },
         {
@@ -1012,9 +1025,9 @@
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Tienen incentivos para subir los precios, ya que no hay competencia potencial.",
+                "Tienen incentivos para subir los precios, ya que no son tomadores de precios.",
                 "No tienen incentivos para subir los precios, ya que atraerían nuevos vendedores que, produciendo, bajarían de nuevo el precio.",
-                "No tienen en cuenta los costes de producción al fijar precios.",
+                "No tienen en cuenta los costes de producción, ya que las barreras de entrada evitan que aparezcan nuevos vendedores.",
                 "Ninguna es correcta."
             ]
         },
@@ -1025,10 +1038,10 @@
             "correctAnswer": 0,
             "explanation": "",
             "options": [
-                "Coca-Cola.",
-                "Una empresa de servicios públicos con concesión exclusiva.",
-                "Una patente farmacéutica.",
-                "Un arancel de importación."
+                "Cocacola.",
+                "Inditex.",
+                "Iberia.",
+                "Todas son correctas."
             ]
         },
         {
@@ -1038,15 +1051,15 @@
             "correctAnswer": 2,
             "explanation": "",
             "options": [
-                "Siempre creadas artificialmente por el Estado.",
-                "Exclusivamente resultado de las condiciones naturales del mercado.",
-                "Fruto tanto de las condiciones particulares del mercado como de los privilegios legales que otorga el Estado.",
-                "Siempre beneficiosas para los consumidores."
+                "Siempre fruto de la naturaleza del mercado.",
+                "Siempre fruto de la intervención del Estado mediante la ley.",
+                "Fruto tanto de las condiciones particulares del mercado y de los privilegios legales que otorga el Estado.",
+                "Ninguna de las anteriores."
             ]
         },
         {
             "id": "m11-82",
-            "block": "Los monopolios",
+            "block": "Poder de mercado",
             "question": "En teoría de juegos, la estrategia que tiene un mayor beneficio que cualquier otra estrategia, independientemente de lo que haga el rival, se denomina:",
             "correctAnswer": 1,
             "explanation": "",
@@ -1059,7 +1072,7 @@
         },
         {
             "id": "m11-83",
-            "block": "Los monopolios",
+            "block": "Poder de mercado",
             "question": "¿Cuál es la estrategia dominante de la finca manzanita amarilla?",
             "correctAnswer": 1,
             "explanation": "",
@@ -1072,67 +1085,66 @@
         },
         {
             "id": "m11-84",
-            "block": "Los monopolios",
-            "question": "Dos empresas son los únicos productores en un mercado. Si ninguna tiene estrategia dominante, el resultado más probable es:",
+            "block": "Poder de mercado",
+            "question": "Dos empresas son los únicos productores en un mercado. Cada empresa está tratando de decidir si hace publicidad. Si la empresa B hace publicidad, la empresa A obtiene 2.000 euros de beneficio sin publicidad y 1.800 euros si hace publicidad. (La publicidad aumenta sus costos más que sus ingresos.) Si B no hace publicidad, A obtiene 2.200 euros de ganancias sin publicidad y 2.000 euros si hace publicidad. Si A hace publicidad, B gana 3.000 euros sin publicidad y 2.700 euros si hace publicidad. Si A no hace publicidad, B gana 2.600 euros sin publicidad y 2.400 euros si hace publicidad. ¿Cuál es la estrategia dominante de la empresa B?",
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Que ambas maximicen producción sin importar al rival.",
-                "Que lleguen a un equilibrio de Nash donde ninguna puede mejorar cambiando unilateralmente su estrategia.",
-                "Que el gobierno fije el precio de mercado.",
-                "Que una empresa abandone el mercado."
+                "Hacer publicidad",
+                "No hacer publicidad.",
+                "La empresa B no tiene estrategia dominante."
             ]
         },
         {
             "id": "m11-85",
-            "block": "Los oligopolios y los cárteles",
+            "block": "Una restricción al poder de mercado: Las innovaciones disruptivas",
             "question": "¿Cuál de las siguientes opciones describe mejor una barrera de entrada en un mercado?",
             "correctAnswer": 3,
             "explanation": "",
             "options": [
-                "Una reducción temporal de los precios por parte de las empresas existentes.",
-                "Un acuerdo voluntario entre empresas para compartir el mercado.",
-                "Una política gubernamental que fomenta la libre competencia.",
-                "Cualquier obstáculo que dificulte o impida la entrada de nuevas empresas en un mercado."
+                "Una reducción en el precio de los productos por parte de las empresas existentes para aumentar la competencia.",
+                "Un aumento en la demanda de productos que facilita la entrada de nuevas empresas al mercado.",
+                "La existencia de muchas empresas en el mercado que reducen la necesidad de barreras de entrada.",
+                "Un alto coste inicial o requisitos específicos que dificultan que nuevas empresas ingresen al mercado."
             ]
         },
         {
             "id": "m11-86",
-            "block": "Los oligopolios y los cárteles",
-            "question": "La innovación disruptiva:",
+            "block": "Una restricción al poder de mercado: Las innovaciones disruptivas",
+            "question": "La innovación disruptiva",
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Mejora gradualmente los productos existentes sin alterar el mercado.",
-                "Crea un nuevo mercado y valores que desplaza a empresas y productos existentes.",
-                "Es exclusiva de grandes empresas con muchos recursos.",
-                "Solo ocurre en el sector tecnológico."
+                "no cambia o afecta a los procesos de mercado existentes.",
+                "crea un nuevo mercado y valores que desplaza a empresas y productos existentes.",
+                "supone una mejora en bienes y servicios preexistentes.",
+                "está financiada por el sector público."
             ]
         },
         {
             "id": "m11-87",
-            "block": "Los oligopolios y los cárteles",
-            "question": "Una forma de introducir una innovación disruptiva es:",
+            "block": "Una restricción al poder de mercado: Las innovaciones disruptivas",
+            "question": "Una forma de introducir una innovación disruptiva es",
             "correctAnswer": 2,
             "explanation": "",
             "options": [
-                "Copiar exactamente el modelo de negocio de los líderes del mercado.",
-                "Incrementar el precio de los productos existentes para financiar I+D.",
+                "crear un nuevo mercado, concentrando consumidores atraídos por el producto.",
+                "atender clientes poco exigentes.",
                 "Ambas son correctas.",
-                "Identificar segmentos desatendidos del mercado y ofrecer soluciones más simples o baratas."
+                "Ambas son incorrectas."
             ]
         },
         {
             "id": "m11-88",
-            "block": "Los oligopolios y los cárteles",
+            "block": "Una restricción al poder de mercado: Las innovaciones disruptivas",
             "question": "¿Cuál de las siguientes estrategias es más característica de un innovador disruptivo en un mercado?",
             "correctAnswer": 0,
             "explanation": "",
             "options": [
                 "Buscar vacíos o ventajas legales para bloquear a sus competidores.",
-                "Imitar los productos de las empresas dominantes.",
-                "Mantener precios altos para maximizar beneficios a corto plazo.",
-                "Evitar la inversión en tecnología para reducir costes."
+                "Fijar precios muy altos para maximizar el margen de beneficio inmediato.",
+                "Seguir las prácticas estándar de la industria sin hacer cambios significativos en el producto.",
+                "Asegurar que todos los productos ofrecidos sean idénticos a los de los competidores."
             ]
         },
         {
@@ -1144,7 +1156,7 @@
             "options": [
                 "Privados.",
                 "Públicos.",
-                "Comunes.",
+                "Recursos comunes.",
                 "De club."
             ]
         },
@@ -1155,10 +1167,10 @@
             "correctAnswer": 2,
             "explanation": "",
             "options": [
-                "Públicos puros.",
-                "Privados.",
+                "Rivales y excluibles.",
+                "Rivales y no excluibles.",
                 "No rivales y excluibles.",
-                "Comunes."
+                "No rivales y no excluibles."
             ]
         },
         {
@@ -1168,10 +1180,10 @@
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Son rivales en consumo y excluibles en la oferta.",
+                "Son bienes que solo pueden ser consumidos por individuos que paguen por ellos.",
                 "Se consumen simultáneamente y no se puede excluir a nadie de su uso.",
-                "Son producidos exclusivamente por el sector privado.",
-                "Su consumo por una persona reduce la cantidad disponible para otros."
+                "Son bienes cuyo consumo reduce la cantidad disponible para otros.",
+                "Son producidos exclusivamente por el sector público."
             ]
         },
         {
@@ -1194,10 +1206,10 @@
             "correctAnswer": 3,
             "explanation": "",
             "options": [
-                "Que los bienes públicos son siempre sobreproducidos.",
-                "Que la propiedad privada lleva inevitablemente a la sobreexplotación.",
-                "Que el Estado debe gestionar todos los recursos naturales.",
-                "Que los recursos de libre acceso tienden a sobreexplotarse porque cada individuo tiene incentivos para usarlos sin considerar el coste para los demás."
+                "Que los recursos naturales se gestionan eficientemente cuando son propiedad de una entidad pública.",
+                "Que los recursos privados siempre son gestionados de manera insostenible por los propietarios.",
+                "Que los recursos privados y públicos se mantienen equitativamente cuando se asignan subsidios gubernamentales.",
+                "Que los recursos comunes tienden a ser sobreexplotados y eventualmente se destruyen cuando no existen derechos de propiedad privada asignados y hay libre acceso."
             ]
         },
         {
@@ -1207,10 +1219,10 @@
             "correctAnswer": 0,
             "explanation": "",
             "options": [
-                "La sobreexplotación de las calles.",
-                "La producción privada de bienes de lujo.",
-                "La gestión eficiente de un parque nacional.",
-                "La provisión de bienes públicos por el Estado."
+                "La sobreexplotación de las calles, que genera atascos y falta de aparcamiento.",
+                "La infrautilización de los centros comerciales.",
+                "El abandono de urbanizaciones turísticas por la falta de acuerdo entre los propietarios.",
+                "Todas son correctas."
             ]
         },
         {
@@ -1231,23 +1243,23 @@
             "correctAnswer": 3,
             "explanation": "",
             "options": [
-                "Siempre el consumidor final.",
+                "El que paga el cheque al recaudador, sea consumidor o productor.",
+                "Siempre el consumidor.",
                 "Siempre el productor.",
-                "El Estado lo absorbe completamente.",
-                "Ambos, consumidor y productor, y paga más el que tiene una elasticidad relativa menor."
+                "Ambos, consumidor y productor, pero paga más el que tiene una elasticidad relativa menor."
             ]
         },
         {
             "id": "m11-97",
             "block": "Fallos de gobierno: Impuestos y subsidios",
-            "question": "Con impuestos, el excedente del consumidor:",
+            "question": "Con impuestos, el excedente de consumidor",
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Siempre aumenta respecto a la situación sin impuestos.",
-                "Es igual o menor a sin impuestos.",
-                "No se ve afectado por los impuestos.",
-                "Siempre desaparece completamente."
+                "es igual o mayor a sin impuestos.",
+                "es igual o menor a sin impuestos.",
+                "es igual a sin impuestos.",
+                "No hay datos suficientes para saber si será menor o mayor a sin impuestos."
             ]
         },
         {
@@ -1257,49 +1269,49 @@
             "correctAnswer": 2,
             "explanation": "",
             "options": [
-                "El total de ingresos recaudados por el Estado.",
-                "El beneficio neto para la sociedad derivado del impuesto.",
-                "La reducción del bienestar social que no se compensa con la recaudación fiscal.",
-                "El aumento del excedente del productor tras el impuesto."
+                "Las ganancias adicionales que los consumidores obtienen al comprar bienes con impuestos reducidos.",
+                "La reducción en el bienestar general debido a la transferencia de ingresos entre consumidores y productores.",
+                "Las transacciones que dejan de realizarse porque la disponibilidad a pagar de algunos consumidores es menor que el precio aumentado por el impuesto.",
+                "La mejora en la eficiencia del mercado debido a la redistribución de ingresos entre diferentes grupos."
             ]
         },
         {
             "id": "m11-99",
             "block": "Fallos de gobierno: Impuestos y subsidios",
-            "question": "Si nos situamos a la izquierda de la curva de Laffer, un aumento en el tamaño del impuesto:",
+            "question": "Si nos situamos a la izquierda de la curva de Laffer, un aumento en el tamaño del impuesto",
             "correctAnswer": 0,
             "explanation": "",
             "options": [
-                "Aumentará la recaudación.",
-                "Disminuirá la recaudación.",
-                "No tendrá efecto sobre la recaudación.",
-                "Eliminará completamente la actividad económica gravada."
+                "aumentará la recaudación.",
+                "disminuirá la recaudación.",
+                "mantendrá constante la recaudación.",
+                "La curva de Laffer no hace referencia a la recaudación tributaria."
             ]
         },
         {
             "id": "m11-100",
             "block": "Fallos de gobierno: Impuestos y subsidios",
-            "question": "Ante un aumento muy grande de los impuestos (a la derecha de la curva de Laffer), los ingresos fiscales:",
+            "question": "Ante un aumento muy grande de los impuestos (a la derecha de la curva de Laffer), los ingresos fiscales",
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Aumentan proporcionalmente al tipo impositivo.",
-                "Disminuyen porque desincentivan la actividad económica.",
-                "Se mantienen estables independientemente del tipo.",
-                "Aumentan porque hay más recaudación por unidad."
+                "suben porque cuanto más grande es el impuesto, mayor es la recaudación.",
+                "bajan porque se reduce la demanda del bien ya que el impuesto ha aumentado el precio por encima de la disponibilidad a pagar del consumidor.",
+                "se mantienen constantes.",
+                "No hay suficiente información para determinar qué sucederá con los ingresos fiscales."
             ]
         },
         {
             "id": "m11-101",
             "block": "Fallos de gobierno: Impuestos y subsidios",
-            "question": "Ante una demanda elástica, frente a una inelástica, la pérdida irrecuperable de eficiencia causada por un impuesto es:",
+            "question": "Ante una demanda elástica, frente a una inelástica, la pérdida irrecuperable de eficiencia causada por un impuesto es",
             "correctAnswer": 0,
             "explanation": "",
             "options": [
-                "Mayor, porque la cantidad intercambiada disminuirá más.",
-                "Menor, porque los consumidores absorben mejor el impuesto.",
-                "Igual, la elasticidad no afecta a la pérdida irrecuperable.",
-                "Nula, porque los consumidores buscan sustitutivos."
+                "mayor porque la cantidad intercambiada disminuirá más.",
+                "menor porque la cantidad intercambiada disminuirá menos.",
+                "No hay suficiente información para determinar qué sucederá con la pérdida irrecuperable de eficiencia.",
+                "La elasticidad de la demanda es independiente a la pérdida irrecuperable de eficiencia provocada por los impuestos."
             ]
         },
         {
@@ -1309,123 +1321,124 @@
             "correctAnswer": 1,
             "explanation": "",
             "options": [
-                "Los consumidores, porque su demanda es más elástica.",
-                "Los productores, porque su oferta es más inelástica.",
-                "El Estado, porque recauda más impuestos.",
-                "Ambos por igual, independientemente de la elasticidad."
+                "Los consumidores, porque su demanda es más elástica y, por tanto, absorberán el subsidio.",
+                "Los productores, porque su oferta es más inelástica y, por tanto, absorberán el subsidio.",
+                "Los productores, porque son los que reciben el subsidio por parte del gobierno.",
+                "Ni productores ni consumidores se verán beneficiados."
             ]
         },
         {
-            "id": "m11-103",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "¿Qué describe la paradoja de Condorcet?",
-            "correctAnswer": 0,
-            "explanation": "",
-            "options": [
-                "La imposibilidad de agregar preferencias individuales transitivas en una preferencia colectiva consistente mediante votación por mayoría.",
-                "Que la democracia siempre produce los mejores resultados económicos.",
-                "Que los votantes siempre eligen racionalmente la opción más eficiente.",
-                "Que el mercado y la democracia producen siempre los mismos resultados."
-            ]
-        },
-        {
-            "id": "m11-104",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "En decisiones de políticas públicas, si el ingreso marginal del individuo es menor a su coste marginal:",
-            "correctAnswer": 3,
-            "explanation": "",
-            "options": [
-                "El individuo votará a favor de la política.",
-                "El individuo será indiferente.",
-                "El individuo aumentará su participación política.",
-                "El individuo tiene incentivos para no informarse sobre la política (ignorancia racional)."
-            ]
-        },
-        {
-            "id": "m11-105",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "Los sesgos de los votantes anti-mercado, anti-extranjero, del trabajo y pesimista son:",
-            "correctAnswer": 1,
-            "explanation": "",
-            "options": [
-                "Sesgos racionales basados en información correcta.",
-                "Sesgos irracionales."
-            ]
-        },
-        {
-            "id": "m11-106",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "Los sesgos de los individuos son exclusivos de las elecciones públicas.",
-            "correctAnswer": 1,
-            "explanation": "",
-            "options": [
-                "Verdadero.",
-                "Falso."
-            ]
-        },
-        {
-            "id": "m11-107",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "Seleccione la opción incorrecta:",
-            "correctAnswer": 2,
-            "explanation": "",
-            "options": [
-                "Los políticos tienen incentivos para maximizar votos, no necesariamente el bienestar social.",
-                "Los grupos de interés pueden influir desproporcionadamente en las decisiones políticas.",
-                "Los burócratas están perfectamente controlados por los ciudadanos y actúan siempre en su interés.",
-                "La ignorancia racional del votante puede llevar a decisiones políticas ineficientes."
-            ]
-        },
-        {
-            "id": "m11-108",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "La libertad de expresión, de pensamiento, de asociación y la descentralización del poder están fuertemente asociados a:",
-            "correctAnswer": 0,
-            "explanation": "",
-            "options": [
-                "La democracia liberal.",
-                "La planificación central.",
-                "El autoritarismo ilustrado.",
-                "La tecnocracia."
-            ]
-        },
-        {
-            "id": "m11-109",
-            "block": "Fallos de gobierno: Los problemas de la democracia",
-            "question": "Los países más prósperos del mundo son:",
-            "correctAnswer": 1,
-            "explanation": "",
-            "options": [
-                "Principalmente autocracias con economías planificadas.",
-                "Democracias.",
-                "Estados con economías completamente cerradas al comercio.",
-                "Países con alta intervención estatal en todos los sectores."
-            ]
-        },
-        {
-            "id": "m11-111",
-            "block": "Cuando no funcionan los precios: Las externalidades",
-            "question": "La contaminación produce una externalidad _______ y el I+D produce una externalidad _______.",
-            "correctAnswer": 0,
-            "explanation": "",
-            "options": [
-                "Negativa; positiva.",
-                "Positiva; negativa.",
-                "Negativa; negativa.",
-                "Positiva; positiva."
-            ]
-        },
-        {
-            "id": "m11-110",
-            "block": "Bienes públicos y la tragedia de los comunes",
-            "question": "Los empresarios buscan convertir bienes que podrían ser públicos (no excluibles y no rivales) en:",
-            "correctAnswer": 1,
-            "explanation": "",
-            "options": [
-                "Bienes privados.",
-                "Bienes club.",
-                "Recursos comunes."
-            ]
-        }
-    ]
-}
+            {
+                "id": "m11-103",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "¿Qué describe la paradoja de Condorcet en el contexto de la teoría de la elección social?",
+                "correctAnswer": 0,
+                "explanation": "",
+                "options": [
+                    "La posibilidad de que no exista una opción que sea preferida por la mayoría en todas las comparaciones uno a uno, a pesar de que cada opción individual sea preferida sobre otras en diferentes combinaciones.",
+                    "La situación en la que un sistema de votación siempre elige la opción que la mayoría prefiere en todas las comparaciones directas.",
+                    "El fenómeno en el que todos los votantes tienen preferencias idénticas, lo que lleva a un consenso perfecto en la elección.",
+                    "La tendencia de los votantes a cambiar sus preferencias con el tiempo, alterando el resultado de la elección."
+                ]
+            },
+            {
+                "id": "m11-104",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "En decisiones de políticas públicas, si el ingreso marginal del individuo es menor a su coste marginal, el individuo",
+                "correctAnswer": 3,
+                "explanation": "",
+                "options": [
+                    "optará racionalmente por emplear tiempo en informarse para votar con conocimiento.",
+                    "optará irracionalmente por emplear tiempo en informarse para votar con conocimiento.",
+                    "optará irracionalmente por no emplear tiempo en informarse para votar con conocimiento.",
+                    "optará racionalmente por no emplear tiempo en informarse para votar con conocimiento."
+                ]
+            },
+            {
+                "id": "m11-105",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "Los sesgos de los votantes anti-mercado, anti-extranjero, del trabajo, pesimista son",
+                "correctAnswer": 1,
+                "explanation": "",
+                "options": [
+                    "sesgos racionales, dado que tienen un fundamento argumental consistente con las evidencias disponibles.",
+                    "sesgos irracionales, dado que tienen un fundamento emocional que no se corresponde con las evidencias disponibles."
+                ]
+            },
+            {
+                "id": "m11-106",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "Los sesgos de los individuos son exclusivos de las elecciones públicas.",
+                "correctAnswer": 1,
+                "explanation": "",
+                "options": [
+                    "Verdadero",
+                    "Falso"
+                ]
+            },
+            {
+                "id": "m11-107",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "Seleccione la opción incorrecta:",
+                "correctAnswer": 2,
+                "explanation": "",
+                "options": [
+                    "Los políticos influyen en las decisiones de los votantes mediante la propaganda y el populismo.",
+                    "Los grupos de interés o lobbies conectan con los reguladores para obtener privilegios políticos y así capturar rentas.",
+                    "Los burócratas están controlados por los ciudadanos, por lo que no corren el riesgo de cometer corrupción ni malversación.",
+                    "No hay ninguna incorrecta."
+                ]
+            },
+            {
+                "id": "m11-108",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "La libertad de expresión, de pensamiento, de asociación y la descentralización del poder están fuertemente asociados a",
+                "correctAnswer": 0,
+                "explanation": "",
+                "options": [
+                    "la democracia liberal",
+                    "los regímenes autoritarios",
+                    "las monarquías",
+                    "las tecnocracias"
+                ]
+            },
+            {
+                "id": "m11-109",
+                "block": "Fallos de gobierno: Los problemas de la democracia",
+                "question": "Los países más prósperos del mundo son",
+                "correctAnswer": 1,
+                "explanation": "",
+                "options": [
+                    "dictaduras",
+                    "democracias",
+                    "tecnocracias",
+                    "teocracias"
+                ]
+            },
+            {
+                "id": "m11-111",
+                "block": "Cuando no funcionan los precios: Las externalidades",
+                "question": "La contaminación produce una externalidad _______ y el I+D produce una externalidad _______.",
+                "correctAnswer": 0,
+                "explanation": "",
+                "options": [
+                    "Negativa; positiva.",
+                    "Positiva; negativa.",
+                    "Negativa; negativa.",
+                    "Positiva; positiva."
+                ]
+            },
+            {
+                "id": "m11-110",
+                "block": "Bienes públicos y la tragedia de los comunes",
+                "question": "Los empresarios buscan convertir bienes que podrían ser públicos (no excluibles y no rivales) en:",
+                "correctAnswer": 1,
+                "explanation": "",
+                "options": [
+                    "Bienes privados.",
+                    "Bienes club.",
+                    "Recursos comunes."
+                ]
+            }
+        ]
+    }
